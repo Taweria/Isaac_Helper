@@ -1,0 +1,358 @@
+[
+    {
+        "id": "565",
+        "nom": "Blood Puppy",
+        "description": [
+            "Fait apparaître un familier ver rouge qui pourchasse les ennemis à proximité dans la salle et inflige 2 points de dégâts de contact par tic",
+            "Après avoir tué 15 ennemis, Blood Puppy se transforme en une version agressive qui attaquera également Isaac en lui fonçant dessus. Endommager Blood Puppy agressif le ramènera progressivement à son état normal.",
+            "Lorsqu'il est agressif, Blood Puppy inflige 7,5 points de dégâts et laisse tomber un demi-cœur rouge pour chaque 10 ennemis qu'il tue.",
+            "Après avoir tué 25 ennemis supplémentaires, il se transforme à nouveau en infligeant 15 points de dégâts et en détruisant les obstacles sur son passage. Isaac perd un cœur entier s'il est blessé par Blood Puppy et il laisse tomber un cœur rouge entier pour chaque 10 ennemis qu'il tue."
+        ],
+        "Débloquer": "Débloquez cet objet en vainquant Mother dans le Corpse II en tant que Lilith",
+        "localisation": [
+            "Salle d'objet",
+            "Salle maudite",
+            "Coffre Rouge"
+        ],
+        "type": [
+            "Familier",
+            "Passif"
+        ],
+        "image": "./img/Blood_Puppy.webp"
+    },
+    {
+        "id": "569",
+        "nom": "Blood Oath",
+        "description": [
+            "Poignarde Isaac au début de chaque étage, drainant ses Cœurs Rouges.",
+            "Augmente les dégâts et la vitesse pour l'étage en fonction de la quantité drainée."
+        ],
+        "Débloquer": "",
+        "localisation": [
+            "Salle du diable",
+            "Salle maudite"
+        ],
+        "type": [
+            "Passif"
+        ],
+        "image": "./img/Blood_Oath.webp"
+    },
+    {
+        "id": "571",
+        "nom": "Orphan Socks",
+        "description": [
+            "Empêche les flaques et les pointes du sol de causer des dégâts à Isaac.",
+            "Donne également à Isaac +0,3 de vitesse et 2 cœurs d'âme."
+        ],
+        "Débloquer": "",
+        "localisation": [
+            "Salle Secrète"
+        ],
+        "type": [
+            "Passif"
+        ],
+        "image": "./img/Orphan_Socks.webp"
+    },
+    {
+        "id": "577",
+        "nom": "Damocles",
+        "description": [
+            "Fait apparaître une épée au-dessus de la tête d'Isaac, qui double tous les piédestaux d'objets.",
+            "Après qu'Isaac a subi des dégâts, l'épée peut tomber aléatoirement à n'importe quel moment, le tuant instantanément."
+        ],
+        "Débloquer": "",
+        "localisation": [
+            "Salle du diable"
+        ],
+        "type": [
+            "Actif"
+        ],
+        "image": "./img/Damocles.webp"
+    },
+    {
+        "id": "580",
+        "nom": "Clé Rouge",
+        "description": [
+            "Crée une salle rouge adjacente à un mur viable, indiquée par le contour d'une porte.",
+            "Ces salles ont 10% de chances d'être une salle spéciale."
+        ],
+        "Débloquer": "Unlock this item by opening Mom's Box in the Home floor",
+        "localisation": [
+            "Salle Secrète",
+            "Coffre Rouge",
+            "Salle maudite",
+            "Coffre de maman",
+            "Mendiant des clés"
+        ],
+        "type": [
+            "Actif"
+        ],
+        "image": "./img/Red_Key.webp"
+    },
+    {
+        "id": "",
+        "nom": "",
+        "description": [
+            "",
+            ""
+        ],
+        "Débloquer": "",
+        "localisation": [
+            "",
+            "",
+            ""
+        ],
+        "type": [
+            "",
+            ""
+        ],
+        "image": "./img/"
+    },
+    {
+        "id": "",
+        "nom": "",
+        "description": [
+            "",
+            ""
+        ],
+        "Débloquer": "",
+        "localisation": [
+            "",
+            "",
+            ""
+        ],
+        "type": [
+            "",
+            ""
+        ],
+        "image": "./img/"
+    },
+    {
+        "id": "",
+        "nom": "",
+        "description": [
+            "",
+            ""
+        ],
+        "Débloquer": "",
+        "localisation": [
+            "",
+            "",
+            ""
+        ],
+        "type": [
+            "",
+            ""
+        ],
+        "image": "./img/"
+    },
+    {
+        "id": "",
+        "nom": "",
+        "description": [
+            "",
+            ""
+        ],
+        "Débloquer": "",
+        "localisation": [
+            "",
+            "",
+            ""
+        ],
+        "type": [
+            "",
+            ""
+        ],
+        "image": "./img/"
+    },
+    {
+        "id": "",
+        "nom": "",
+        "description": [
+            "",
+            ""
+        ],
+        "Débloquer": "",
+        "localisation": [
+            "",
+            "",
+            ""
+        ],
+        "type": [
+            "",
+            ""
+        ],
+        "image": "./img/"
+    },
+    {
+        "id": "",
+        "nom": "",
+        "description": [
+            "",
+            ""
+        ],
+        "Débloquer": "",
+        "localisation": [
+            "",
+            "",
+            ""
+        ],
+        "type": [
+            "",
+            ""
+        ],
+        "image": "./img/"
+    },
+    {
+        "id": "",
+        "nom": "",
+        "description": [
+            "",
+            ""
+        ],
+        "Débloquer": "",
+        "localisation": [
+            "",
+            "",
+            ""
+        ],
+        "type": [
+            "",
+            ""
+        ],
+        "image": "./img/"
+    },
+    {
+        "id": "",
+        "nom": "",
+        "description": [
+            "",
+            ""
+        ],
+        "Débloquer": "",
+        "localisation": [
+            "",
+            "",
+            ""
+        ],
+        "type": [
+            "",
+            ""
+        ],
+        "image": "./img/"
+    },
+    {
+        "id": "",
+        "nom": "",
+        "description": [
+            "",
+            ""
+        ],
+        "Débloquer": "",
+        "localisation": [
+            "",
+            "",
+            ""
+        ],
+        "type": [
+            "",
+            ""
+        ],
+        "image": "./img/"
+    },
+    {
+        "id": "",
+        "nom": "",
+        "description": [
+            "",
+            ""
+        ],
+        "Débloquer": "",
+        "localisation": [
+            "",
+            "",
+            ""
+        ],
+        "type": [
+            "",
+            ""
+        ],
+        "image": "./img/"
+    },
+    {
+        "id": "",
+        "nom": "",
+        "description": [
+            "",
+            ""
+        ],
+        "Débloquer": "",
+        "localisation": [
+            "",
+            "",
+            ""
+        ],
+        "type": [
+            "",
+            ""
+        ],
+        "image": "./img/"
+    },
+    {
+        "id": "",
+        "nom": "",
+        "description": [
+            "",
+            ""
+        ],
+        "Débloquer": "",
+        "localisation": [
+            "",
+            "",
+            ""
+        ],
+        "type": [
+            "",
+            ""
+        ],
+        "image": "./img/"
+    },
+    {
+        "id": "",
+        "nom": "",
+        "description": [
+            "",
+            ""
+        ],
+        "Débloquer": "",
+        "localisation": [
+            "",
+            "",
+            ""
+        ],
+        "type": [
+            "",
+            ""
+        ],
+        "image": "./img/"
+    },
+    {
+        "id": "",
+        "nom": "",
+        "description": [
+            "",
+            ""
+        ],
+        "Débloquer": "",
+        "localisation": [
+            "",
+            "",
+            ""
+        ],
+        "type": [
+            "",
+            ""
+        ],
+        "image": "./img/"
+    }
+]
