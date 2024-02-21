@@ -1,23 +1,282 @@
 [
     {
         "id": "57",
-        "nom": "???'s Soul",
+        "name": "???'s Soul",
         "description": "Apparaît un familier qui flotte lentement autour de la pièce selon un motif en zigzag similaire à celui de The Peeper et tire des larmes spectrales et chercheuses.",
-        "Débloquer": "Débloquez cet objet en battant l'agneau en tant que ???.",
+        "unlock": "Débloquez cet objet en battant l'agneau en tant que ???.",
         "image": "./img//trinkets/Blue_Baby_Soul.webp"
     },
     {
         "id": "48",
-        "nom": "A Missing Page",
+        "name": "A Missing Page",
         "description": "5% de chance d'induire l'effet du Necronomicon lorsqu'il subit des dégâts. Ajoute +40 de dégâts aux cœurs noirs et aux effets similaires au Necronomicon.",
-        "Débloquer": "",
+        "unlock": "",
         "image": "./img//trinkets/A_Missing_Page.webp"
     },
     {
         "id": "3",
-        "nom": "AAA Battery",
+        "name": "AAA Battery",
         "description": "Recharge automatiquement la dernière case d'énergie d'un objet activé, réduisant ainsi efficacement les taux de recharge de un.",
-        "Débloquer": "",
+        "unlock": "",
         "image": "./img/trinkets/AAA_Battery.webp"
-    }
+    },
+    {
+        "id": "45",
+        "name": "Ace of Spades",
+        "description": "Augmente la chance que des cartes de tarot ou des cartes à jouer tombent après avoir nettoyé une pièce, ainsi que la chance de trouver des cartes en ouvrant un coffre.",
+        "unlock": "",
+        "image": "./img/trinkets/Ace_of_Spades.webp"
+    },
+    {
+        "id": "18",
+        "name": "Bible Tract",
+        "description": "Augmente la chance d'apparition des Cœurs Éternels.",
+        "unlock": "",
+        "image": "./img/trinkets/Bible_Tract_icon.webp"
+    },
+    {
+        "id": "17",
+        "name": "Black Lipstick",
+        "description": "Augmente la chance d'apparition des Cœurs Noirs.",
+        "unlock": "Débloquez cet objet en battant l'ageneau en tant qu'Eve.",
+        "image": "./img/trinkets/Black_Lipstick_icon.webp"
+    },
+    {
+        "id": "49",
+        "name": "Bloody Penny",
+        "description": "Donne une chance de laisser tomber un demi-cœur rouge lorsqu'une pièce est collectée.",
+        "unlock": "Débloquez cet objet en battant ??? en tant que Samson",
+        "image": "./img/trinkets/Bloody_Penny_icon.webp"
+    },
+    {
+        "id": "28",
+        "name": "Broken Ankh",
+        "description": "Lorsqu'il est en possession, Isaac a 22,22% de chance d'être ressuscité en ??? dans la pièce non hostile la plus récente. Cela peut se produire plusieurs fois au cours de la même partie.",
+        "unlock": "Débloquez cet objet en battant Satan en tant que Lazarus.",
+        "image": "./img/trinkets/Broken_Ankh_icon.webp"
+    },
+    {
+        "id": "6",
+        "name": "Broken Magnet",
+        "description": "Attire les pièces vers Isaac, mais ignore les autres objets ramassables.",
+        "unlock": "",
+        "image": "./img/trinkets/Broken_Magnet_icon.webp"
+    },
+    {
+        "id": "4",
+        "name": "Broken Remote",
+        "description": "Déclenche l'effet Téléport ! chaque fois qu'un objet activable est utilisé.",
+        "unlock": "",
+        "image": "./img/trinkets/Broken_Remote_icon.webp"
+    },
+    {
+        "id": "50",
+        "name": "Burnt Penny",
+        "description": "Donne une chance de laisser tomber une bombe lorsqu'une pièce est collectée.",
+        "unlock": "Débloquez cet objet en terminant le Défi #13 (Haricots !)",
+        "image": "./img/trinkets/Burnt_Penny_icon.webp"
+    },
+    {
+        "id": "24",
+        "name": "Butt Penny",
+        "description": "Isaac pétera lorsqu'il ramassera une pièce. Les pièces ont une plus grande chance de tomber des cacas.",
+        "unlock": "",
+        "image": "./img/trinkets/Butt_Penny_icon.webp"
+    },
+    {
+        "id": "59",
+        "name": "Cain's Eye",
+        "description": "Au début d'un étage, une chance de 25% d'obtenir l'effet de la Boussole pour la durée de l'étage.",
+        "unlock": "Débloquez cet objet en battant le ??? en tant que Cain.",
+        "image": "./img/trinkets/Cains_Eye_icon.webp"
+    },
+    {
+        "id": "14",
+        "name": "Callus",
+        "description": "Empêche les dégâts causés par les effets au sol et les pointes.",
+        "unlock": "",
+        "image": "./img/trinkets/Callus_icon.webp"
+    },
+    {
+        "id": "39",
+        "name": "Cancer",
+        "description": "+1.0 taux de tir.",
+        "unlock": "",
+        "image": "./img/trinkets/Cancer_icon.webp"
+    },
+    {
+        "id": "8",
+        "name": "Cartridge",
+        "description": "Chance de déclencher l'effet The Gamekid lors de la prise de dégâts.",
+        "unlock": "",
+        "image": "./img/trinkets/Cartridge_icon.webp"
+    },
+    {
+        "id": "34",
+        "name": "Child's Heart",
+        "description": "Augmente la chance de voir tomber un cœur après avoir nettoyé une pièce, ainsi que la chance de trouver un cœur en ouvrant un coffre.",
+        "unlock": "",
+        "image": "./img/trinkets/Childs_Heart.webp"
+    },
+    {
+        "id": "52",
+        "name": "Counterfeit Penny",
+        "description": "Accorde une chance de 50% d'augmenter la valeur de chaque ramassage de pièce d'une unité.",
+        "unlock": "Débloquez cet objet en jouant au jeu des gobelets à l'arcade 100 fois.",
+        "image": "./img/trinkets/Counterfeit_Penny.webp"
+    },
+    {
+        "id": "43",
+        "name": "Cursed Skull",
+        "description": "Si Isaac a moins d'un cœur rouge complet après avoir subi des dégâts, il sera immédiatement téléporté dans une pièce aléatoire.",
+        "unlock": "",
+        "image": "./img/trinkets/Cursed_Skull.webp"
+    },
+    {
+        "id": "35",
+        "name": "Curved Horn",
+        "description": "+2 dégâts fixes.",
+        "unlock": "Débloquez cet objet en battant l'agneau en tant que Judas.",
+        "image": "./img/trinkets/Curved_Horn.webp"
+    },
+    {
+        "id": "22",
+        "name": "Daemon's Tail",
+        "description": "La plupart des ramassages de cœurs non spécifiques deviennent des Cœurs Noirs, mais les ramassages de cœurs sont beaucoup moins courants.",
+        "unlock": "Débloquez cet objet en battant Satan en tant qu'Azazel.",
+        "image": "./img/trinkets/Daemos_Tail.webp"
+    },
+    {
+        "id": "60",
+        "name": "Eve's Bird Foot",
+        "description": "5% de chance de faire apparaître un familier Oiseau mort pour la pièce actuelle à chaque fois qu'un ennemi meurt.",
+        "unlock": "Débloquez cet objet en battant le boss Isaac avec Eve.",
+        "image": "./img/trinkets/Eves_Bird_Foot.webp"    
+    },
+    {
+        "id": "29",
+        "name": "Fish Head",
+        "description": "Fait apparaître une Mouche bleue à chaque fois qu'Isaac subit des dégâts.",
+        "unlock": "",
+        "image": "./img/trinkets/Fish_Head.webp"    
+    },
+    {
+        "id": "51",
+        "name": "Flat Penny",
+        "description": "Donne une chance de laisser tomber une clé lorsqu'une pièce est collectée.",
+        "unlock": "",
+        "image": "./img/trinkets/Flat_Penny.webp"    
+    },
+    {
+        "id": "12",
+        "name": "Flat Worm",
+        "description": "Les larmes d'Isaac prennent une forme oblongue. Elles repoussent également les ennemis.",
+        "unlock": "",
+        "image": "./img/trinkets/Flat_Worm.webp"    
+    },
+    {
+        "id": "37",
+        "name": "Goat Hoof",
+        "description": "+0,15 vitesse.",
+        "unlock": "",
+        "image": "./img/trinkets/Goat_Hoof.webp"    
+    },
+    {
+        "id": "26",
+        "name": "Hook Worm",
+        "description": "Les larmes se déplacent de gauche à droite sur un chemin semblable à une onde carrée. +0,4 Larmes, +1,5 Portée (la portée effective est légèrement plus basse).",
+        "unlock": "",
+        "image": "./img/trinkets/Hook_Worm.webp"    
+    },
+    {
+        "id": "46",
+        "name": "Isaac's Fork",
+        "description": "Isaac a une chance de se soigner d'un demi-cœur rouge en nettoyant une pièce.",
+        "unlock": "",
+        "image": "./img/trinkets/Isaas_Fork.webp"    
+    },
+    {
+        "id": "54",
+        "name": "Isaac's Head",
+        "description": "Fait apparaître la tête séparée d'Isaac comme un familier tirant des larmes. Tire des larmes perforantes.",
+        "unlock": "Débloquez cet objet en battant la Ruée des Boss en tant qu'Isaac.",
+        "image": "./img/trinkets/Isaacs_Head.webp"    
+    },
+    {
+        "id": "56",
+        "name": "Judas' Tongue",
+        "description": "Les objets dans la Salle du Diable ne coûtent qu'un seul cœur. Les échanges de cœurs d'âme coûtent toujours 3 cœurs d'âme.",
+        "unlock": "Débloquez cet objet en battant Satan en tant que Judas.",
+        "image": "./img/trinkets/Judas_Tongue.webp"    
+    },
+    {
+        "id": "32",
+        "name": "Liberty Cap",
+        "description": "Ajoute une chance en entrant dans une pièce d'obtenir un objet champignon passif aléatoire pour une pièce.",
+        "unlock": "",
+        "image": "./img/trinkets/Liberty_Cap.webp"    
+    },
+    {
+        "id": "15",
+        "name": "Lucky Rock",
+        "description": "Les rochers et leurs variantes ont une chance de 33% de laisser tomber 1 Penny lorsqu'ils sont détruits.",
+        "unlock": "",
+        "image": "./img/trinkets/Trinket_Lucky_Rock_icon.webp"    
+    },
+    {
+        "id": "42",
+        "name": "Lucky Toe",
+        "description": "+1 Chance.",
+        "unlock": "Débloquez cet objet en faisant exploser 20 gardiens de boutique (cela inclut ceux dans la salle secrète).",
+        "image": "./img/trinkets/Trinket_Lucky_Toe_icon.webp"    
+    },
+    {
+        "id": "",
+        "name": "",
+        "description": "",
+        "unlock": "",
+        "image": "./"    
+    },
+    {
+        "id": "",
+        "name": "",
+        "description": "",
+        "unlock": "",
+        "image": "./"    
+    },
+    {
+        "id": "",
+        "name": "",
+        "description": "",
+        "unlock": "",
+        "image": "./"    
+    },
+    {
+        "id": "",
+        "name": "",
+        "description": "",
+        "unlock": "",
+        "image": "./"    
+    },
+    {
+        "id": "",
+        "name": "",
+        "description": "",
+        "unlock": "",
+        "image": "./"    
+    },
+    {
+        "id": "",
+        "name": "",
+        "description": "",
+        "unlock": "",
+        "image": "./"    
+    },
+    {
+        "id": "",
+        "name": "",
+        "description": "",
+        "unlock": "",
+        "image": "./"    
+    }    
 ]

@@ -18,7 +18,9 @@ const angelButton = document.getElementById('angel');
             }
             return response.json();
         })
-        .then(data => {
+        .then(data => { 
+            // Tri ascendant par rapport à l'id
+            data.sort((a, b) => a.id - b.id);
             const itemsDiv = document.getElementById('items');
             const descriptionDiv = document.getElementById('description');
             itemsDiv.innerHTML = '';
@@ -29,12 +31,12 @@ const angelButton = document.getElementById('angel');
             
             const img = document.createElement('img');
             img.src = item.image;
-            img.alt = item.nom;
+            img.alt = item.name;
             img.classList.add('itemImg');
 
             const descDiv = document.createElement('div');
             descDiv.className = 'description'; 
-            descDiv.innerHTML = `<h2>${item.nom}</h2><p>${item.description}</p>`;
+            descDiv.innerHTML = `<h2>${item.name}</h2><p>Types : ${item.type}</p><p>${item.description}</p><p>Débloquer : ${item.unlock}</p>`;
             descDiv.style.display = 'none';
 
             
@@ -68,6 +70,8 @@ const curseButton = document.getElementById('curse');
             return response.json();
         })
         .then(data => {
+            // Tri ascendant par rapport à l'id
+            data.sort((a, b) => a.id - b.id);
             const itemsDiv = document.getElementById('items');
             const descriptionDiv = document.getElementById('description');
             itemsDiv.innerHTML = '';
@@ -78,12 +82,12 @@ const curseButton = document.getElementById('curse');
             
             const img = document.createElement('img');
             img.src = item.image;
-            img.alt = item.nom;
+            img.alt = item.name;
             img.classList.add('itemImg');
 
             const descDiv = document.createElement('div');
             descDiv.className = 'description'; 
-            descDiv.innerHTML = `<h2>${item.nom}</h2><p>${item.description}</p>`;
+            descDiv.innerHTML = `<h2>${item.name}</h2><p>Types : ${item.type}</p><p>${item.description}</p><p>Débloquer : ${item.unlock}</p>`;
             descDiv.style.display = 'none';
 
             
@@ -116,6 +120,8 @@ const devilButton = document.getElementById('devil');
             return response.json();
         })
         .then(data => {
+            // Tri ascendant par rapport à l'id
+            data.sort((a, b) => a.id - b.id);
             const itemsDiv = document.getElementById('items');
             const descriptionDiv = document.getElementById('description');
             itemsDiv.innerHTML = '';
@@ -126,12 +132,12 @@ const devilButton = document.getElementById('devil');
             
             const img = document.createElement('img');
             img.src = item.image;
-            img.alt = item.nom;
+            img.alt = item.name;
             img.classList.add('itemImg');
 
             const descDiv = document.createElement('div');
             descDiv.className = 'description'; 
-            descDiv.innerHTML = `<h2>${item.nom}</h2><p>${item.description}</p>`;
+            descDiv.innerHTML = `<h2>${item.name}</h2><p>Types : ${item.type}</p><p>${item.description}</p><p>Débloquer : ${item.unlock}</p>`;
             descDiv.style.display = 'none';
 
             
@@ -164,6 +170,8 @@ const itemButton = document.getElementById('item');
             return response.json();
         })
         .then(data => {
+            // Tri ascendant par rapport à l'id
+            data.sort((a, b) => a.id - b.id);
             const itemsDiv = document.getElementById('items');
             const descriptionDiv = document.getElementById('description');
             itemsDiv.innerHTML = '';
@@ -174,12 +182,12 @@ const itemButton = document.getElementById('item');
             
             const img = document.createElement('img');
             img.src = item.image;
-            img.alt = item.nom;
+            img.alt = item.name;
             img.classList.add('itemImg');
 
             const descDiv = document.createElement('div');
             descDiv.className = 'description'; 
-            descDiv.innerHTML = `<h2>${item.nom}</h2><p>${item.description}</p>`;
+            descDiv.innerHTML = `<h2>${item.name}</h2><p>Types : ${item.type}</p><p>${item.description}</p><p>Débloquer : ${item.unlock}</p>`;
             descDiv.style.display = 'none';
 
             
@@ -212,6 +220,8 @@ const planetariumButton = document.getElementById('planet');
             return response.json();
         })
         .then(data => {
+            // Tri ascendant par rapport à l'id
+            data.sort((a, b) => a.id - b.id);
             const itemsDiv = document.getElementById('items');
             const descriptionDiv = document.getElementById('description');
             itemsDiv.innerHTML = '';
@@ -222,12 +232,12 @@ const planetariumButton = document.getElementById('planet');
             
             const img = document.createElement('img');
             img.src = item.image;
-            img.alt = item.nom;
+            img.alt = item.name;
             img.classList.add('itemImg');
 
             const descDiv = document.createElement('div');
             descDiv.className = 'description'; 
-            descDiv.innerHTML = `<h2>${item.nom}</h2><p>${item.description}</p>`;
+            descDiv.innerHTML = `<h2>${item.name}</h2><p>Types : ${item.type}</p><p>${item.description}</p><p>Débloquer : ${item.unlock}</p>`;
             descDiv.style.display = 'none';
 
             
@@ -260,6 +270,8 @@ const trinketsButton = document.getElementById('trinkets');
             return response.json();
         })
         .then(data => {
+            // Tri ascendant par rapport à l'id
+            data.sort((a, b) => a.id - b.id);
             const itemsDiv = document.getElementById('items');
             const descriptionDiv = document.getElementById('description');
             itemsDiv.innerHTML = '';
@@ -270,12 +282,12 @@ const trinketsButton = document.getElementById('trinkets');
             
             const img = document.createElement('img');
             img.src = item.image;
-            img.alt = item.nom;
+            img.alt = item.name;
             img.classList.add('itemImg');
 
             const descDiv = document.createElement('div');
             descDiv.className = 'description'; 
-            descDiv.innerHTML = `<h2>${item.nom}</h2><p>${item.description}</p>`;
+            descDiv.innerHTML = `<h2>${item.name}</h2><p>${item.description}</p>`;
             descDiv.style.display = 'none';
 
             
@@ -308,6 +320,8 @@ const shopButton = document.getElementById('shop');
             return response.json();
         })
         .then(data => {
+            // Tri ascendant par rapport à l'id
+            data.sort((a, b) => a.id - b.id);
             const itemsDiv = document.getElementById('items');
             const descriptionDiv = document.getElementById('description');
             itemsDiv.innerHTML = '';
@@ -318,12 +332,12 @@ const shopButton = document.getElementById('shop');
             
             const img = document.createElement('img');
             img.src = item.image;
-            img.alt = item.nom;
+            img.alt = item.name;
             img.classList.add('itemImg');
 
             const descDiv = document.createElement('div');
             descDiv.className = 'description'; 
-            descDiv.innerHTML = `<h2>${item.nom}</h2><p>${item.description}</p>`;
+            descDiv.innerHTML = `<h2>${item.name}</h2><p>Types : ${item.type}</p><p>${item.description}</p><p>Débloquer : ${item.unlock}</p>`;
             descDiv.style.display = 'none';
 
             
@@ -356,6 +370,8 @@ const secretButton = document.getElementById('secret');
             return response.json();
         })
         .then(data => {
+            // Tri ascendant par rapport à l'id
+            data.sort((a, b) => a.id - b.id);
             const itemsDiv = document.getElementById('items');
             const descriptionDiv = document.getElementById('description');
             itemsDiv.innerHTML = '';
@@ -366,12 +382,12 @@ const secretButton = document.getElementById('secret');
             
             const img = document.createElement('img');
             img.src = item.image;
-            img.alt = item.nom;
+            img.alt = item.name;
             img.classList.add('itemImg');
 
             const descDiv = document.createElement('div');
             descDiv.className = 'description'; 
-            descDiv.innerHTML = `<h2>${item.nom}</h2><p>${item.description}</p>`;
+            descDiv.innerHTML = `<h2>${item.name}</h2><p>Types : ${item.type}</p><p>${item.description}</p><p>Débloquer : ${item.unlock}</p>`;
             descDiv.style.display = 'none';
 
             
@@ -404,6 +420,8 @@ const bossButton = document.getElementById('boss');
             return response.json();
         })
         .then(data => {
+            // Tri ascendant par rapport à l'id
+            data.sort((a, b) => a.id - b.id);
             const itemsDiv = document.getElementById('items');
             const descriptionDiv = document.getElementById('description');
             itemsDiv.innerHTML = '';
@@ -414,12 +432,12 @@ const bossButton = document.getElementById('boss');
             
             const img = document.createElement('img');
             img.src = item.image;
-            img.alt = item.nom;
+            img.alt = item.name;
             img.classList.add('itemImg');
 
             const descDiv = document.createElement('div');
             descDiv.className = 'description'; 
-            descDiv.innerHTML = `<h2>${item.nom}</h2><p>${item.description}</p>`;
+            descDiv.innerHTML = `<h2>${item.name}</h2><p>Types : ${item.type}</p><p>${item.description}</p><p>Débloquer : ${item.unlock}</p>`;
             descDiv.style.display = 'none';
 
             
@@ -452,6 +470,8 @@ const libButton = document.getElementById('library');
             return response.json();
         })
         .then(data => {
+            // Tri ascendant par rapport à l'id
+            data.sort((a, b) => a.id - b.id);
             const itemsDiv = document.getElementById('items');
             const descriptionDiv = document.getElementById('description');
             itemsDiv.innerHTML = '';
@@ -462,12 +482,12 @@ const libButton = document.getElementById('library');
             
             const img = document.createElement('img');
             img.src = item.image;
-            img.alt = item.nom;
+            img.alt = item.name;
             img.classList.add('itemImg');
 
             const descDiv = document.createElement('div');
             descDiv.className = 'description'; 
-            descDiv.innerHTML = `<h2>${item.nom}</h2><p>${item.description}</p>`;
+            descDiv.innerHTML = `<h2>${item.name}</h2><p>Types : ${item.type}</p><p>${item.description}</p><p>Débloquer : ${item.unlock}</p>`;
             descDiv.style.display = 'none';
 
             

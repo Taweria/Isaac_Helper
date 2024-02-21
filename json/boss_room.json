@@ -1,32 +1,26 @@
 [
     {
         "id": "15",
-        "nom": "<3",
+        "name": "<3",
         "description": "Accorde à Isaac un conteneur de cœur rouge et restaure entièrement la santé d'Isaac.",
-        "Débloquer": "",
-        "type": [
-            "Passif"
-        ],
+        "Unlock": "",
+        "type": "Passif",
         "image": "./img/items/Less_Than_Three.webp"
     },
     {
         "id": "22",
-        "nom": "Lunch",
+        "name": "Lunch",
         "description": "Accorde un conteneur de cœur rouge complet. Soigne 1 cœur rouge supplémentaire.",
-        "Débloquer": "",
-        "type": [
-            "Passif"
-        ],
+        "Unlock": "",
+        "type": "Passif",
         "image": "./img/items/Lunch.webp"
     },
     {
         "id": "23",
-        "nom": "Dinner",
+        "name": "Dinner",
         "description": "Accorde un conteneur de cœur rouge complet. Soigne 1 cœur rouge supplémentaire.",
-        "Débloquer": "",
-        "type": [
-            "Passif"
-        ],
+        "Unlock": "",
+        "type": "Passif",
         "image": "./img/items/Dinner.webp"
     }
 ]
