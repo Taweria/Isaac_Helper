@@ -2,9 +2,7 @@
     {
         "id": "574",
         "nom": "Monstrance",
-        "description": [
-            "Isaac gagne une aura qui inflige des dégâts aux ennemis à l'intérieur."
-        ],
+        "description": "Isaac gagne une aura qui inflige des dégâts aux ennemis à l'intérieur.",
         "Débloquer": "",
         "type": [
             "Passif"
@@ -14,10 +12,7 @@
     {
         "id": "567",
         "nom": "Paschal Candle",
-        "description": [
-            "Donne à Isaac un familier qui accorde +0,4 de taux de tir pour chaque salle consécutive qu'il a nettoyée sans subir de dégâts.",
-            "Le bonus s'accumule jusqu'à cinq fois."
-        ],
+        "description": "Donne à Isaac un familier qui accorde +0,4 de taux de tir pour chaque salle consécutive qu'il a nettoyée sans subir de dégâts. Le bonus s'accumule jusqu'à cinq fois.",
         "Débloquer": "",
         "type": [
             "Passif"
@@ -27,11 +22,7 @@
     {
         "id": "573",
         "nom": "Immaculate Heart",
-        "description": [
-            "Ajoute un conteneur de cœur rouge et restaure entièrement la santé.",
-            "Multiplicateur de dégâts x1.2.",
-            "Isaac tirera occasionnellement des larmes supplémentaires qui orbitent autour de lui."
-        ],
+        "description": "Ajoute un conteneur de cœur rouge et restaure entièrement la santé. Multiplicateur de dégâts x1.2. Isaac tirera occasionnellement des larmes supplémentaires qui orbitent autour de lui.",
         "Débloquer": "",
         "type": [
             "Passif"
