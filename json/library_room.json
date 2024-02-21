@@ -1,0 +1,69 @@
+[
+    {
+        "id": "65",
+        "nom": "Anarchist Cookbook",
+        "description": [
+            "Fait apparaître six bombes de troll dans la pièce."
+        ],
+        "Débloquer": "",
+        "type": [
+            "Active",
+            "Livre"
+        ],
+        "image": "./img/items/Anarchist_Cookbook.webp"
+    },
+    {
+        "id": "78",
+        "nom": "Book of Revelations",
+        "description": [
+            "Augmente la chance qu'une salle du Diable / de l'Ange apparaisse tant qu'il est en possession.",
+            "Lors de l'utilisation, accorde un cœur d'âme et remplace le boss de l'étage actuel par un Harbinger si possible."
+        ],
+        "Débloquer": "Débloquez cet objet en battant l'un des boss cavaliers pour la première fois.",
+        "type": [
+            "Active",
+            "Livre"
+        ],
+        "image": "./img/items/Book_of_Revelations.webp"
+    },
+    {
+        "id": "287",
+        "nom": "Book of Secrets",
+        "description": [
+            "Accorde l'effet de Carte au trésor, de la Boussole ou de la Carte bleue pour la durée de l'étage actuel.",
+            "Si tous les effets sont actifs, la Vision X est fournie pour l'étage à la place.",
+            "Met en évidence les rochers teintés et les rochers avec un passage secret dans la pièce."
+        ],
+        "Débloquer": "Débloquez cet objet en battant Satan avec Eden.",
+        "type": [
+            "Active",
+            "Livre"
+        ],
+        "image": "./img/items/Book_of_Secrets.webp"
+    },
+    {
+        "id": "58",
+        "nom": "Book of Shadows",
+        "description": [
+            "Crée un bouclier protecteur, annulant tous les types de dégâts dans la pièce actuelle pendant 10 secondes."
+        ],
+        "Débloquer": "",
+        "type": [
+            "Active",
+            "Livre"
+        ],
+        "image": "./img/items/Book_of_Shadows.webp"
+    },
+    {
+        "id": "",
+        "nom": "",
+        "description": [
+            ""
+        ],
+        "Débloquer": "",
+        "type": [
+            ""
+        ],
+        "image": "./"
+    }
+]

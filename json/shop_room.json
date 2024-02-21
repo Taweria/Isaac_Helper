@@ -10,7 +10,7 @@
         "type": [
             "Passif"
         ],
-        "image": "./img/Dream_Catcher.webp"
+        "image": "./img/items/Dream_Catcher.webp"
     },
     {
         "id": "585",
@@ -23,7 +23,7 @@
         "type": [
             "Actif"
         ],
-        "image": "./img/Alabaster_Box.webp"
+        "image": "./img/items/Alabaster_Box.webp"
     },
     {
         "id": "599",
@@ -36,6 +36,6 @@
         "type": [
             "Passif"
         ],
-        "image": "./img/Voodoo_Head.webp"
+        "image": "./img/items/Voodoo_Head.webp"
     }
 ]

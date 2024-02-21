@@ -10,7 +10,7 @@
         "type": [
             "Passif"
         ],
-        "image": "./img/Luna.webp"
+        "image": "./img/items/Luna.webp"
     },
     {
         "id": "593",
@@ -23,7 +23,7 @@
         "type": [
             "Passif"
         ],
-        "image": "./img/Mars.webp"
+        "image": "./img/items/Mars.webp"
     },
     {
         "id": "590",
@@ -36,6 +36,6 @@
         "type": [
             "Passif"
         ],
-        "image": "./img/Mercurius.webp"
+        "image": "./img/items/Mercurius.webp"
     }
 ]

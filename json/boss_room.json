@@ -9,7 +9,7 @@
         "type": [
             "Passif"
         ],
-        "image": "./img/Less_Than_Three.webp"
+        "image": "./img/items/Less_Than_Three.webp"
     },
     {
         "id": "22",
@@ -22,7 +22,7 @@
         "type": [
             "Passif"
         ],
-        "image": "./img/Lunch.webp"
+        "image": "./img/items/Lunch.webp"
     },
     {
         "id": "23",
@@ -35,6 +35,6 @@
         "type": [
             "Passif"
         ],
-        "image": "./img/Dinner.webp"
+        "image": "./img/items/Dinner.webp"
     }
 ]

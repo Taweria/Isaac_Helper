@@ -9,7 +9,7 @@
         "type": [
             "Passif"
         ],
-        "image": "./img/Mucormycosis.webp"
+        "image": "./img/items/Mucormycosis.webp"
     },
     {
         "id": "559",
@@ -21,7 +21,7 @@
         "type": [
             "Passif"
         ],
-        "image": "./img/120_Volt.webp"
+        "image": "./img/items/120_Volt.webp"
     },
     {
         "id": "558",
@@ -33,6 +33,6 @@
         "type": [
             "Passif"
         ],
-        "image": "./img/Eye_Sore.webp"
+        "image": "./img/items/Eye_Sore.webp"
     }
 ]

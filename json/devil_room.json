@@ -9,7 +9,7 @@
         "type": [
             "Passif"
         ],
-        "image": "./img/2Spooky.webp"
+        "image": "./img/items/2Spooky.webp"
     },
     {
         "id": "556",
@@ -23,7 +23,7 @@
         "type": [
             "Actif"
         ],
-        "image": "./img/Sulfur.webp"
+        "image": "./img/items/Sulfur.webp"
     },
     {
         "id": "118",
@@ -36,6 +36,6 @@
         "type": [
             "Passif"
         ],
-        "image": "./img/Brimstone.webp"
+        "image": "./img/items/Brimstone.webp"
     }
 ]

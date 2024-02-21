@@ -9,7 +9,7 @@
         "type": [
             "Passif"
         ],
-        "image": "./img/Monstrance.webp"
+        "image": "./img/items/Monstrance.webp"
     },
     {
         "id": "567",
@@ -22,7 +22,7 @@
         "type": [
             "Passif"
         ],
-        "image": "./img/Paschal_Candle.webp"
+        "image": "./img/items/Paschal_Candle.webp"
     },
     {
         "id": "573",
@@ -36,6 +36,6 @@
         "type": [
             "Passif"
         ],
-        "image": "./img/Immaculate_Heart.webp"
+        "image": "./img/items/Immaculate_Heart.webp"
     }
 ]

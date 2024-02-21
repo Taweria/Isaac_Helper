@@ -13,7 +13,7 @@
             "Familier",
             "Passif"
         ],
-        "image": "./img/Blood_Puppy.webp"
+        "image": "./img/items/Blood_Puppy.webp"
     },
     {
         "id": "580",
@@ -26,7 +26,7 @@
         "type": [
             "Actif"
         ],
-        "image": "./img/Red_Key.webp"
+        "image": "./img/items/Red_Key.webp"
     },
     {
     "id": "569",
@@ -39,6 +39,6 @@
         "type": [
             "Passif"
         ],
-        "image": "./img/Blood_Oath.webp"
+        "image": "./img/items/Blood_Oath.webp"
     }
 ]
