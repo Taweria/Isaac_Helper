@@ -160,3 +160,25 @@ const shopButton = document.getElementById('shop');
             console.error('There was a problem with the fetch operation:', error);
         });
 });
+///////////////////////////////////////////
+const secretButton = document.getElementById('secret');
+    secretButton.addEventListener('click', () => {
+        fetch(urlSecret)
+        .then(response => {
+            if (!response.ok) {
+            throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(data => {
+            const itemsDiv = document.getElementById('items');
+            itemsDiv.innerHTML = '';
+
+            data.forEach(item => {
+                itemsDiv.innerHTML += `<img src="${item.image}" alt="${item.nom}">`;
+            });
+        })
+        .catch(error => {
+            console.error('There was a problem with the fetch operation:', error);
+        });
+});
