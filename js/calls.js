@@ -30,6 +30,7 @@ const angelButton = document.getElementById('angel');
             const img = document.createElement('img');
             img.src = item.image;
             img.alt = item.nom;
+            img.classList.add('itemImg');
 
             const descDiv = document.createElement('div');
             descDiv.className = 'description'; 
@@ -78,6 +79,7 @@ const curseButton = document.getElementById('curse');
             const img = document.createElement('img');
             img.src = item.image;
             img.alt = item.nom;
+            img.classList.add('itemImg');
 
             const descDiv = document.createElement('div');
             descDiv.className = 'description'; 
@@ -125,6 +127,7 @@ const devilButton = document.getElementById('devil');
             const img = document.createElement('img');
             img.src = item.image;
             img.alt = item.nom;
+            img.classList.add('itemImg');
 
             const descDiv = document.createElement('div');
             descDiv.className = 'description'; 
@@ -172,6 +175,7 @@ const itemButton = document.getElementById('item');
             const img = document.createElement('img');
             img.src = item.image;
             img.alt = item.nom;
+            img.classList.add('itemImg');
 
             const descDiv = document.createElement('div');
             descDiv.className = 'description'; 
@@ -219,6 +223,7 @@ const planetariumButton = document.getElementById('planet');
             const img = document.createElement('img');
             img.src = item.image;
             img.alt = item.nom;
+            img.classList.add('itemImg');
 
             const descDiv = document.createElement('div');
             descDiv.className = 'description'; 
@@ -266,6 +271,7 @@ const trinketsButton = document.getElementById('trinkets');
             const img = document.createElement('img');
             img.src = item.image;
             img.alt = item.nom;
+            img.classList.add('itemImg');
 
             const descDiv = document.createElement('div');
             descDiv.className = 'description'; 
@@ -313,6 +319,7 @@ const shopButton = document.getElementById('shop');
             const img = document.createElement('img');
             img.src = item.image;
             img.alt = item.nom;
+            img.classList.add('itemImg');
 
             const descDiv = document.createElement('div');
             descDiv.className = 'description'; 
@@ -360,6 +367,7 @@ const secretButton = document.getElementById('secret');
             const img = document.createElement('img');
             img.src = item.image;
             img.alt = item.nom;
+            img.classList.add('itemImg');
 
             const descDiv = document.createElement('div');
             descDiv.className = 'description'; 
@@ -407,6 +415,7 @@ const bossButton = document.getElementById('boss');
             const img = document.createElement('img');
             img.src = item.image;
             img.alt = item.nom;
+            img.classList.add('itemImg');
 
             const descDiv = document.createElement('div');
             descDiv.className = 'description'; 
@@ -454,6 +463,7 @@ const libButton = document.getElementById('library');
             const img = document.createElement('img');
             img.src = item.image;
             img.alt = item.nom;
+            img.classList.add('itemImg');
 
             const descDiv = document.createElement('div');
             descDiv.className = 'description'; 

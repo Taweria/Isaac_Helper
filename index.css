@@ -5,4 +5,60 @@ src: url("./assets/OpenDyslexic-Regular.otf");
 
 * {
 font-family: "OpenDyslexic", sans-serif;
+color: #001858;
+}
+
+body{
+    background-color: #fef6e4;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #ffdf93;
+
+}
+
+.roomBtn {
+    width: 70px;
+    height: 60px;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.itemImg {
+    width: 65px;
+    height: 65px;
+    padding: 5px;
+}
+
+#items{
+    width: 70%;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    cursor: pointer;
+}
+
+#description{
+    float: right;
+    width: 30%;
+    height: 100vh;
+    background-color: #fbedcd;
+}
+
+#description h2{
+    text-align: center;
+}
+
+#description p{
+    padding: 0 20px;
 }
