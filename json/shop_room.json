@@ -1,0 +1,41 @@
+[
+    {
+        "id": "566",
+        "nom": "Dream Catcher",
+        "description": [
+            "Pendant la transition entre les étages, le cauchemar d'Isaac montre le contenu de la Salle au trésor du prochain étage, ainsi que le boss de l'étage.",
+            "Accorde un demi-cœur d'âme en entrant dans un nouvel étage."
+        ],
+        "Débloquer": "",
+        "type": [
+            "Passif"
+        ],
+        "image": "./img/Dream_Catcher.webp"
+    },
+    {
+        "id": "585",
+        "nom": "Alabaster Box",
+        "description": [
+            "Apparaît trois cœurs d'âme et deux objets de la Salle de l'ange et est consommé.",
+            "Commence sans charges et ne peut être chargé qu'en ramassant 6 cœurs d'âme."
+        ],
+        "Débloquer": "Débloquez cet objet en battant l'agneau en tant que Bettany.",
+        "type": [
+            "Actif"
+        ],
+        "image": "./img/Alabaster_Box.webp"
+    },
+    {
+        "id": "599",
+        "nom": "Voodoo Head",
+        "description": [
+            "Ajoute une salle de malédiction supplémentaire à chaque étage.",
+            "Les salles de malédiction ont des agencements améliorés."
+        ],
+        "Débloquer": "",
+        "type": [
+            "Passif"
+        ],
+        "image": "./img/Voodoo_Head.webp"
+    }
+]
