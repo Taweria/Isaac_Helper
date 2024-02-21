@@ -14,5 +14,31 @@
             "Passif"
         ],
         "image": "./img/Blood_Puppy.webp"
+    },
+    {
+        "id": "580",
+        "nom": "Red Key",
+        "description": [
+            "Crée une salle rouge adjacente à un mur viable, indiquée par le contour d'une porte.",
+            "Ces salles ont 10% de chances d'être une salle spéciale."
+        ],
+        "Débloquer": "Débloquez cet objet en ouvrant la Boîte de maman au rez-de-chaussée de la maison.",
+        "type": [
+            "Actif"
+        ],
+        "image": "./img/Red_Key.webp"
+    },
+    {
+    "id": "569",
+        "nom": "Blood Oath",
+        "description": [
+            "Poignarde Isaac au début de chaque étage, drainant ses Cœurs Rouges.",
+            "Augmente les dégâts et la vitesse pour l'étage en fonction de la quantité drainée."
+        ],
+        "Débloquer": "",
+        "type": [
+            "Passif"
+        ],
+        "image": "./img/Blood_Oath.webp"
     }
 ]
