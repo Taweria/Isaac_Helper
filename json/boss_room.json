@@ -2,9 +2,7 @@
     {
         "id": "15",
         "nom": "<3",
-        "description": [
-            "Accorde à Isaac un conteneur de cœur rouge et restaure entièrement la santé d'Isaac."
-        ],
+        "description": "Accorde à Isaac un conteneur de cœur rouge et restaure entièrement la santé d'Isaac.",
         "Débloquer": "",
         "type": [
             "Passif"
@@ -14,10 +12,7 @@
     {
         "id": "22",
         "nom": "Lunch",
-        "description": [
-            "Accorde un conteneur de cœur rouge complet.",
-            "Soigne 1 cœur rouge supplémentaire."
-        ],
+        "description": "Accorde un conteneur de cœur rouge complet. Soigne 1 cœur rouge supplémentaire.",
         "Débloquer": "",
         "type": [
             "Passif"
@@ -27,10 +22,7 @@
     {
         "id": "23",
         "nom": "Dinner",
-        "description": [
-            "Accorde un conteneur de cœur rouge complet.",
-            "Soigne 1 cœur rouge supplémentaire."
-        ],
+        "description": "Accorde un conteneur de cœur rouge complet. Soigne 1 cœur rouge supplémentaire.",
         "Débloquer": "",
         "type": [
             "Passif"

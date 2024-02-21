@@ -2,9 +2,7 @@
     {
         "id": "554",
         "nom": "2Spooky",
-        "description": [
-            "Les ennemis à proximité d'Isaac sont affectés par la peur."
-        ],
+        "description": "Les ennemis à proximité d'Isaac sont affectés par la peur.",
         "Débloquer": "",
         "type": [
             "Passif"
@@ -14,11 +12,7 @@
     {
         "id": "556",
         "nom": "Sulfur",
-        "description": [
-            "Accorde Brimstone pour la pièce actuelle.",
-            "Les larmes sont remplacées par un faisceau laser qui traverse tous les ennemis et obstacles sur son chemin et inflige des dégâts élevés.",
-            "Ne peut être tiré qu'après une courte période de charge."
-        ],
+        "description": "Accorde Brimstone pour la pièce actuelle. Les larmes sont remplacées par un faisceau laser qui traverse tous les ennemis et obstacles sur son chemin et inflige des dégâts élevés. Ne peut être tiré qu'après une courte période de charge.",
         "Débloquer": "",
         "type": [
             "Actif"
@@ -28,10 +22,7 @@
     {
         "id": "118",
         "nom": "Brimstone",
-        "description": [
-            "Les larmes sont remplacées par un faisceau laser qui traverse tous les ennemis et obstacles sur son chemin et inflige des dégâts élevés.",
-            "Ne peut être tiré qu'après une courte période de charge."
-        ],
+        "description": "Les larmes sont remplacées par un faisceau laser qui traverse tous les ennemis et obstacles sur son chemin et inflige des dégâts élevés. Ne peut être tiré qu'après une courte période de charge.",
         "Débloquer": "",
         "type": [
             "Passif"

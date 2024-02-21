@@ -2,12 +2,7 @@
     {
         "id": "565",
         "nom": "Blood Puppy",
-        "description": [
-            "Fait apparaître un familier ver rouge qui pourchasse les ennemis à proximité dans la salle et inflige 2 points de dégâts de contact par tic",
-            "Après avoir tué 15 ennemis, Blood Puppy se transforme en une version agressive qui attaquera également Isaac en lui fonçant dessus. Endommager Blood Puppy agressif le ramènera progressivement à son état normal.",
-            "Lorsqu'il est agressif, Blood Puppy inflige 7,5 points de dégâts et laisse tomber un demi-cœur rouge pour chaque 10 ennemis qu'il tue.",
-            "Après avoir tué 25 ennemis supplémentaires, il se transforme à nouveau en infligeant 15 points de dégâts et en détruisant les obstacles sur son passage. Isaac perd un cœur entier s'il est blessé par Blood Puppy et il laisse tomber un cœur rouge entier pour chaque 10 ennemis qu'il tue."
-        ],
+        "description": "Fait apparaître un familier ver rouge qui pourchasse les ennemis à proximité dans la salle et inflige 2 points de dégâts de contact par tic. Après avoir tué 15 ennemis, Blood Puppy se transforme en une version agressive qui attaquera également Isaac en lui fonçant dessus. Endommager Blood Puppy agressif le ramènera progressivement à son état normal. Lorsqu'il est agressif, Blood Puppy inflige 7,5 points de dégâts et laisse tomber un demi-cœur rouge pour chaque 10 ennemis qu'il tue. Après avoir tué 25 ennemis supplémentaires, il se transforme à nouveau en infligeant 15 points de dégâts et en détruisant les obstacles sur son passage. Isaac perd un cœur entier s'il est blessé par Blood Puppy et il laisse tomber un cœur rouge entier pour chaque 10 ennemis qu'il tue.",
         "Débloquer": "Débloquez cet objet en vainquant Mother dans le Corpse II en tant que Lilith",
         "type": [
             "Familier",
@@ -18,10 +13,7 @@
     {
         "id": "580",
         "nom": "Red Key",
-        "description": [
-            "Crée une salle rouge adjacente à un mur viable, indiquée par le contour d'une porte.",
-            "Ces salles ont 10% de chances d'être une salle spéciale."
-        ],
+        "description": "Crée une salle rouge adjacente à un mur viable, indiquée par le contour d'une porte. Ces salles ont 10% de chances d'être une salle spéciale.",
         "Débloquer": "Débloquez cet objet en ouvrant la Boîte de maman au rez-de-chaussée de la maison.",
         "type": [
             "Actif"
@@ -31,10 +23,7 @@
     {
     "id": "569",
         "nom": "Blood Oath",
-        "description": [
-            "Poignarde Isaac au début de chaque étage, drainant ses Cœurs Rouges.",
-            "Augmente les dégâts et la vitesse pour l'étage en fonction de la quantité drainée."
-        ],
+        "description": "Poignarde Isaac au début de chaque étage, drainant ses Cœurs Rouges. Augmente les dégâts et la vitesse pour l'étage en fonction de la quantité drainée.",
         "Débloquer": "",
         "type": [
             "Passif"
