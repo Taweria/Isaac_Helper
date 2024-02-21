@@ -21,7 +21,6 @@ const angelButton = document.getElementById('angel');
         .then(data => {
             const itemsDiv = document.getElementById('items');
             const descriptionDiv = document.getElementById('description');
-            const img = document.getElementById('itemsImg');
             itemsDiv.innerHTML = '';
             descriptionDiv.innerHTML = '';
 
@@ -70,7 +69,6 @@ const curseButton = document.getElementById('curse');
         .then(data => {
             const itemsDiv = document.getElementById('items');
             const descriptionDiv = document.getElementById('description');
-            const img = document.getElementById('itemsImg');
             itemsDiv.innerHTML = '';
             descriptionDiv.innerHTML = '';
 
@@ -118,7 +116,6 @@ const devilButton = document.getElementById('devil');
         .then(data => {
             const itemsDiv = document.getElementById('items');
             const descriptionDiv = document.getElementById('description');
-            const img = document.getElementById('itemsImg');
             itemsDiv.innerHTML = '';
             descriptionDiv.innerHTML = '';
 
@@ -166,7 +163,6 @@ const itemButton = document.getElementById('item');
         .then(data => {
             const itemsDiv = document.getElementById('items');
             const descriptionDiv = document.getElementById('description');
-            const img = document.getElementById('itemsImg');
             itemsDiv.innerHTML = '';
             descriptionDiv.innerHTML = '';
 
@@ -214,7 +210,6 @@ const planetariumButton = document.getElementById('planet');
         .then(data => {
             const itemsDiv = document.getElementById('items');
             const descriptionDiv = document.getElementById('description');
-            const img = document.getElementById('itemsImg');
             itemsDiv.innerHTML = '';
             descriptionDiv.innerHTML = '';
 
@@ -262,7 +257,6 @@ const trinketsButton = document.getElementById('trinkets');
         .then(data => {
             const itemsDiv = document.getElementById('items');
             const descriptionDiv = document.getElementById('description');
-            const img = document.getElementById('itemsImg');
             itemsDiv.innerHTML = '';
             descriptionDiv.innerHTML = '';
 
@@ -310,7 +304,6 @@ const shopButton = document.getElementById('shop');
         .then(data => {
             const itemsDiv = document.getElementById('items');
             const descriptionDiv = document.getElementById('description');
-            const img = document.getElementById('itemsImg');
             itemsDiv.innerHTML = '';
             descriptionDiv.innerHTML = '';
 
@@ -358,7 +351,6 @@ const secretButton = document.getElementById('secret');
         .then(data => {
             const itemsDiv = document.getElementById('items');
             const descriptionDiv = document.getElementById('description');
-            const img = document.getElementById('itemsImg');
             itemsDiv.innerHTML = '';
             descriptionDiv.innerHTML = '';
 
@@ -406,7 +398,6 @@ const bossButton = document.getElementById('boss');
         .then(data => {
             const itemsDiv = document.getElementById('items');
             const descriptionDiv = document.getElementById('description');
-            const img = document.getElementById('itemsImg');
             itemsDiv.innerHTML = '';
             descriptionDiv.innerHTML = '';
 
@@ -454,7 +445,6 @@ const libButton = document.getElementById('library');
         .then(data => {
             const itemsDiv = document.getElementById('items');
             const descriptionDiv = document.getElementById('description');
-            const img = document.getElementById('itemsImg');
             itemsDiv.innerHTML = '';
             descriptionDiv.innerHTML = '';
 
