@@ -1,21 +1,30 @@
 [
     {
-        "id": "",
-        "nom": "",
+        "id": "57",
+        "nom": "???'s Soul",
         "description": [
-            "",
-            ""
+            "Apparaît un familier qui flotte lentement autour de la pièce selon un motif en zigzag similaire à celui de The Peeper et tire des larmes spectrales et chercheuses."
+        ],
+        "Débloquer": "Débloquez cet objet en battant l'agneau en tant que ???.",
+        "image": "./img/Blue_Baby_Soul.webp"
+    },
+    {
+        "id": "48",
+        "nom": "A Missing Page",
+        "description": [
+            "5% de chance d'induire l'effet du Necronomicon lorsqu'il subit des dégâts.",
+            "Ajoute +40 de dégâts aux cœurs noirs et aux effets similaires au Necronomicon."
         ],
         "Débloquer": "",
-        "localisation": [
-            "",
-            "",
-            ""
+        "image": "./img/A_Missing_Page.webp"
+    },
+    {
+        "id": "3",
+        "nom": "AAA Battery",
+        "description": [
+            "Recharge automatiquement la dernière case d'énergie d'un objet activé, réduisant ainsi efficacement les taux de recharge de un."
         ],
-        "type": [
-            "",
-            ""
-        ],
-        "image": "./img/"
+        "Débloquer": "",
+        "image": "./img/AAA_Battery.webp"
     }
 ]
