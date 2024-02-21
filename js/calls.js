@@ -21,13 +21,38 @@ const angelButton = document.getElementById('angel');
         .then(data => {
             const itemsDiv = document.getElementById('items');
             const descriptionDiv = document.getElementById('description');
+            const img = document.getElementById('itemsImg');
             itemsDiv.innerHTML = '';
             descriptionDiv.innerHTML = '';
 
-            data.forEach(item => {
-                itemsDiv.innerHTML += `<img id="itemsImg" src="${item.image}" alt="${item.nom}">`;
+
+        data.forEach(item => {
+            
+            const img = document.createElement('img');
+            img.src = item.image;
+            img.alt = item.nom;
+
+            const descDiv = document.createElement('div');
+            descDiv.className = 'description'; 
+            descDiv.innerHTML = `<h2>${item.nom}</h2><p>${item.description}</p>`;
+            descDiv.style.display = 'none';
+
+            
+            itemsDiv.appendChild(img);
+            descriptionDiv.appendChild(descDiv);
+
+           
+            img.addEventListener('mouseover', () => {
+                descDiv.style.display = 'block'; 
             });
-        })
+
+            img.addEventListener('mouseout', () => {
+                descDiv.style.display = 'none';
+            });
+        });
+
+
+    })
         .catch(error => {
             console.error('There was a problem with the fetch operation:', error);
         });
@@ -44,11 +69,37 @@ const curseButton = document.getElementById('curse');
         })
         .then(data => {
             const itemsDiv = document.getElementById('items');
+            const descriptionDiv = document.getElementById('description');
+            const img = document.getElementById('itemsImg');
             itemsDiv.innerHTML = '';
+            descriptionDiv.innerHTML = '';
 
-            data.forEach(item => {
-                itemsDiv.innerHTML += `<img id="itemsImg" src="${item.image}" alt="${item.nom}">`;
+
+        data.forEach(item => {
+            
+            const img = document.createElement('img');
+            img.src = item.image;
+            img.alt = item.nom;
+
+            const descDiv = document.createElement('div');
+            descDiv.className = 'description'; 
+            descDiv.innerHTML = `<h2>${item.nom}</h2><p>${item.description}</p>`;
+            descDiv.style.display = 'none';
+
+            
+            itemsDiv.appendChild(img);
+            descriptionDiv.appendChild(descDiv);
+
+           
+            img.addEventListener('mouseover', () => {
+                descDiv.style.display = 'block'; 
             });
+
+            img.addEventListener('mouseout', () => {
+                descDiv.style.display = 'none';
+            });
+        });
+
         })
         .catch(error => {
             console.error('There was a problem with the fetch operation:', error);
@@ -66,11 +117,37 @@ const devilButton = document.getElementById('devil');
         })
         .then(data => {
             const itemsDiv = document.getElementById('items');
+            const descriptionDiv = document.getElementById('description');
+            const img = document.getElementById('itemsImg');
             itemsDiv.innerHTML = '';
+            descriptionDiv.innerHTML = '';
 
-            data.forEach(item => {
-                itemsDiv.innerHTML += `<img id="itemsImg" src="${item.image}" alt="${item.nom}">`;
+
+        data.forEach(item => {
+            
+            const img = document.createElement('img');
+            img.src = item.image;
+            img.alt = item.nom;
+
+            const descDiv = document.createElement('div');
+            descDiv.className = 'description'; 
+            descDiv.innerHTML = `<h2>${item.nom}</h2><p>${item.description}</p>`;
+            descDiv.style.display = 'none';
+
+            
+            itemsDiv.appendChild(img);
+            descriptionDiv.appendChild(descDiv);
+
+           
+            img.addEventListener('mouseover', () => {
+                descDiv.style.display = 'block'; 
             });
+
+            img.addEventListener('mouseout', () => {
+                descDiv.style.display = 'none';
+            });
+        });
+
         })
         .catch(error => {
             console.error('There was a problem with the fetch operation:', error);
@@ -88,11 +165,37 @@ const itemButton = document.getElementById('item');
         })
         .then(data => {
             const itemsDiv = document.getElementById('items');
+            const descriptionDiv = document.getElementById('description');
+            const img = document.getElementById('itemsImg');
             itemsDiv.innerHTML = '';
+            descriptionDiv.innerHTML = '';
 
-            data.forEach(item => {
-                itemsDiv.innerHTML += `<img id="itemsImg" src="${item.image}" alt="${item.nom}">`;
+
+        data.forEach(item => {
+            
+            const img = document.createElement('img');
+            img.src = item.image;
+            img.alt = item.nom;
+
+            const descDiv = document.createElement('div');
+            descDiv.className = 'description'; 
+            descDiv.innerHTML = `<h2>${item.nom}</h2><p>${item.description}</p>`;
+            descDiv.style.display = 'none';
+
+            
+            itemsDiv.appendChild(img);
+            descriptionDiv.appendChild(descDiv);
+
+           
+            img.addEventListener('mouseover', () => {
+                descDiv.style.display = 'block'; 
             });
+
+            img.addEventListener('mouseout', () => {
+                descDiv.style.display = 'none';
+            });
+        });
+
         })
         .catch(error => {
             console.error('There was a problem with the fetch operation:', error);
@@ -110,11 +213,37 @@ const planetariumButton = document.getElementById('planet');
         })
         .then(data => {
             const itemsDiv = document.getElementById('items');
+            const descriptionDiv = document.getElementById('description');
+            const img = document.getElementById('itemsImg');
             itemsDiv.innerHTML = '';
+            descriptionDiv.innerHTML = '';
 
-            data.forEach(item => {
-                itemsDiv.innerHTML += `<img id="itemsImg" src="${item.image}" alt="${item.nom}">`;
+
+        data.forEach(item => {
+            
+            const img = document.createElement('img');
+            img.src = item.image;
+            img.alt = item.nom;
+
+            const descDiv = document.createElement('div');
+            descDiv.className = 'description'; 
+            descDiv.innerHTML = `<h2>${item.nom}</h2><p>${item.description}</p>`;
+            descDiv.style.display = 'none';
+
+            
+            itemsDiv.appendChild(img);
+            descriptionDiv.appendChild(descDiv);
+
+           
+            img.addEventListener('mouseover', () => {
+                descDiv.style.display = 'block'; 
             });
+
+            img.addEventListener('mouseout', () => {
+                descDiv.style.display = 'none';
+            });
+        });
+
         })
         .catch(error => {
             console.error('There was a problem with the fetch operation:', error);
@@ -132,11 +261,37 @@ const trinketsButton = document.getElementById('trinkets');
         })
         .then(data => {
             const itemsDiv = document.getElementById('items');
+            const descriptionDiv = document.getElementById('description');
+            const img = document.getElementById('itemsImg');
             itemsDiv.innerHTML = '';
+            descriptionDiv.innerHTML = '';
 
-            data.forEach(item => {
-                itemsDiv.innerHTML += `<img id="itemsImg" src="${item.image}" alt="${item.nom}">`;
+
+        data.forEach(item => {
+            
+            const img = document.createElement('img');
+            img.src = item.image;
+            img.alt = item.nom;
+
+            const descDiv = document.createElement('div');
+            descDiv.className = 'description'; 
+            descDiv.innerHTML = `<h2>${item.nom}</h2><p>${item.description}</p>`;
+            descDiv.style.display = 'none';
+
+            
+            itemsDiv.appendChild(img);
+            descriptionDiv.appendChild(descDiv);
+
+           
+            img.addEventListener('mouseover', () => {
+                descDiv.style.display = 'block'; 
             });
+
+            img.addEventListener('mouseout', () => {
+                descDiv.style.display = 'none';
+            });
+        });
+
         })
         .catch(error => {
             console.error('There was a problem with the fetch operation:', error);
@@ -154,11 +309,37 @@ const shopButton = document.getElementById('shop');
         })
         .then(data => {
             const itemsDiv = document.getElementById('items');
+            const descriptionDiv = document.getElementById('description');
+            const img = document.getElementById('itemsImg');
             itemsDiv.innerHTML = '';
+            descriptionDiv.innerHTML = '';
 
-            data.forEach(item => {
-                itemsDiv.innerHTML += `<img id="itemsImg" src="${item.image}" alt="${item.nom}">`;
+
+        data.forEach(item => {
+            
+            const img = document.createElement('img');
+            img.src = item.image;
+            img.alt = item.nom;
+
+            const descDiv = document.createElement('div');
+            descDiv.className = 'description'; 
+            descDiv.innerHTML = `<h2>${item.nom}</h2><p>${item.description}</p>`;
+            descDiv.style.display = 'none';
+
+            
+            itemsDiv.appendChild(img);
+            descriptionDiv.appendChild(descDiv);
+
+           
+            img.addEventListener('mouseover', () => {
+                descDiv.style.display = 'block'; 
             });
+
+            img.addEventListener('mouseout', () => {
+                descDiv.style.display = 'none';
+            });
+        });
+
         })
         .catch(error => {
             console.error('There was a problem with the fetch operation:', error);
@@ -176,11 +357,37 @@ const secretButton = document.getElementById('secret');
         })
         .then(data => {
             const itemsDiv = document.getElementById('items');
+            const descriptionDiv = document.getElementById('description');
+            const img = document.getElementById('itemsImg');
             itemsDiv.innerHTML = '';
+            descriptionDiv.innerHTML = '';
 
-            data.forEach(item => {
-                itemsDiv.innerHTML += `<img id="itemsImg" src="${item.image}" alt="${item.nom}">`;
+
+        data.forEach(item => {
+            
+            const img = document.createElement('img');
+            img.src = item.image;
+            img.alt = item.nom;
+
+            const descDiv = document.createElement('div');
+            descDiv.className = 'description'; 
+            descDiv.innerHTML = `<h2>${item.nom}</h2><p>${item.description}</p>`;
+            descDiv.style.display = 'none';
+
+            
+            itemsDiv.appendChild(img);
+            descriptionDiv.appendChild(descDiv);
+
+           
+            img.addEventListener('mouseover', () => {
+                descDiv.style.display = 'block'; 
             });
+
+            img.addEventListener('mouseout', () => {
+                descDiv.style.display = 'none';
+            });
+        });
+
         })
         .catch(error => {
             console.error('There was a problem with the fetch operation:', error);
@@ -198,11 +405,37 @@ const bossButton = document.getElementById('boss');
         })
         .then(data => {
             const itemsDiv = document.getElementById('items');
+            const descriptionDiv = document.getElementById('description');
+            const img = document.getElementById('itemsImg');
             itemsDiv.innerHTML = '';
+            descriptionDiv.innerHTML = '';
 
-            data.forEach(item => {
-                itemsDiv.innerHTML += `<img id="itemsImg" src="${item.image}" alt="${item.nom}">`;
+
+        data.forEach(item => {
+            
+            const img = document.createElement('img');
+            img.src = item.image;
+            img.alt = item.nom;
+
+            const descDiv = document.createElement('div');
+            descDiv.className = 'description'; 
+            descDiv.innerHTML = `<h2>${item.nom}</h2><p>${item.description}</p>`;
+            descDiv.style.display = 'none';
+
+            
+            itemsDiv.appendChild(img);
+            descriptionDiv.appendChild(descDiv);
+
+           
+            img.addEventListener('mouseover', () => {
+                descDiv.style.display = 'block'; 
             });
+
+            img.addEventListener('mouseout', () => {
+                descDiv.style.display = 'none';
+            });
+        });
+
         })
         .catch(error => {
             console.error('There was a problem with the fetch operation:', error);
@@ -220,11 +453,37 @@ const libButton = document.getElementById('library');
         })
         .then(data => {
             const itemsDiv = document.getElementById('items');
+            const descriptionDiv = document.getElementById('description');
+            const img = document.getElementById('itemsImg');
             itemsDiv.innerHTML = '';
+            descriptionDiv.innerHTML = '';
 
-            data.forEach(item => {
-                itemsDiv.innerHTML += `<img id="itemsImg" src="${item.image}" alt="${item.nom}">`;
+
+        data.forEach(item => {
+            
+            const img = document.createElement('img');
+            img.src = item.image;
+            img.alt = item.nom;
+
+            const descDiv = document.createElement('div');
+            descDiv.className = 'description'; 
+            descDiv.innerHTML = `<h2>${item.nom}</h2><p>${item.description}</p>`;
+            descDiv.style.display = 'none';
+
+            
+            itemsDiv.appendChild(img);
+            descriptionDiv.appendChild(descDiv);
+
+           
+            img.addEventListener('mouseover', () => {
+                descDiv.style.display = 'block'; 
             });
+
+            img.addEventListener('mouseout', () => {
+                descDiv.style.display = 'none';
+            });
+        });
+
         })
         .catch(error => {
             console.error('There was a problem with the fetch operation:', error);
