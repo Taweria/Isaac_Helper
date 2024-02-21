@@ -1,0 +1,18 @@
+[
+    {
+        "id": "565",
+        "nom": "Blood Puppy",
+        "description": [
+            "Fait apparaître un familier ver rouge qui pourchasse les ennemis à proximité dans la salle et inflige 2 points de dégâts de contact par tic",
+            "Après avoir tué 15 ennemis, Blood Puppy se transforme en une version agressive qui attaquera également Isaac en lui fonçant dessus. Endommager Blood Puppy agressif le ramènera progressivement à son état normal.",
+            "Lorsqu'il est agressif, Blood Puppy inflige 7,5 points de dégâts et laisse tomber un demi-cœur rouge pour chaque 10 ennemis qu'il tue.",
+            "Après avoir tué 25 ennemis supplémentaires, il se transforme à nouveau en infligeant 15 points de dégâts et en détruisant les obstacles sur son passage. Isaac perd un cœur entier s'il est blessé par Blood Puppy et il laisse tomber un cœur rouge entier pour chaque 10 ennemis qu'il tue."
+        ],
+        "Débloquer": "Débloquez cet objet en vainquant Mother dans le Corpse II en tant que Lilith",
+        "type": [
+            "Familier",
+            "Passif"
+        ],
+        "image": "./img/Blood_Puppy.webp"
+    }
+]

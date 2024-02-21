@@ -1,0 +1,41 @@
+[
+    {
+        "id": "589",
+        "nom": "Luna",
+        "description": [
+            "Ajoute une salle secrète supplémentaire ainsi qu'une Super Salle secrète à chaque étage.",
+            "Les Salles secrètes contiennent un rayon de lumière qui augmente le taux de tir pour l'étage en cours et donne un demi-cœur d'âme."
+        ],
+        "Débloquer": "Ce débloque quand on débloque l'accés au planetarium",
+        "type": [
+            "Passif"
+        ],
+        "image": "./img/Luna.webp"
+    },
+    {
+        "id": "593",
+        "nom": "Mars",
+        "description": [
+            "Effectue une esquive en double-tapant sur la touche de déplacement, devenant invincible et infligeant des dégâts aux ennemis.",
+            "Il y a un court temps de recharge avant qu'Isaac puisse esquiver à nouveau."
+        ],
+        "Débloquer": "Ce débloque quand on débloque l'accés au planetarium",
+        "type": [
+            "Passif"
+        ],
+        "image": "./img/Mars.webp"
+    },
+    {
+        "id": "590",
+        "nom": "Mercurius",
+        "description": [
+            "+0,4 vitesse.",
+            "Les portes restent ouvertes après être entré dans une pièce, même dans les pièces avec des ennemis."
+        ],
+        "Débloquer": "Ce débloque quand on débloque l'accés au planetarium",
+        "type": [
+            "Passif"
+        ],
+        "image": "./img/Mercurius.webp"
+    }
+]
