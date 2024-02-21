@@ -1,21 +1,38 @@
 [
     {
-        "id": "",
-        "nom": "",
+        "id": "553",
+        "nom": "Mucormycosis",
         "description": [
-            "",
-            ""
+            "Donne à Isaac la chance de tirer des larmes de spores qui collent aux ennemis et explosent après quelques secondes, infligeant des dégâts et empoisonnant les ennemis à proximité et libérant plus de spores."
         ],
         "Débloquer": "",
-        "localisation": [
-            "",
-            "",
-            ""
-        ],
         "type": [
-            "",
-            ""
+            "Passif"
         ],
-        "image": "./img/"
+        "image": "./img/Mucormycosis.webp"
+    },
+    {
+        "id": "559",
+        "nom": "120 Volt",
+        "description": [
+            "Zappe à plusieurs reprises les ennemis proches d'Isaac."
+        ],
+        "Débloquer": "",
+        "type": [
+            "Passif"
+        ],
+        "image": "./img/120_Volt.webp"
+    },
+    {
+        "id": "558",
+        "nom": "Eye Sore",
+        "description": [
+            "Permet à Isaac de tirer occasionnellement des larmes supplémentaires dans des directions aléatoires pendant qu'il tire."
+        ],
+        "Débloquer": "",
+        "type": [
+            "Passif"
+        ],
+        "image": "./img/Eye_Sore.webp"
     }
 ]
