@@ -28,5 +28,85 @@
             "Passif"
         ],
         "image": "./img/items/Mercurius.webp"
+    },
+    {
+        "id": "588",
+        "nom": "Sol",
+        "description": "Révèle l'emplacement de la salle du boss. Après avoir vaincu un boss, active XIX - Le Soleil, recharge complètement l'objet actif d'Isaac, accorde des dégâts et de la chance bonus pour le reste de l'étage, et supprime les malédictions.",
+        "Débloquer": "Ce débloque quand on débloque l'accés au planetarium",
+        "type": [
+            "Passif"
+        ],
+        "image": "./img/items/Sol.webp"
+    },
+    {
+        "id": "591",
+        "nom": "Venus",
+        "description": "Ajoute un conteneur de cœur rouge. Soigne 1 cœur rouge supplémentaire. Les ennemis près d'Isaac deviennent charmés.",
+        "Débloquer": "Ce débloque quand on débloque l'accés au planetarium",
+        "type": [
+            "Passif"
+        ],
+        "image": "./img/items/Venus.webp"
+    },
+    {
+        "id": "592",
+        "nom": "Terra",
+        "description": "+1 de dégât. Remplace les larmes par des rochers qui infligent des dégâts variables, ont un recul accru et peuvent détruire les obstacles.",
+        "Débloquer": "Ce débloque quand on débloque l'accés au planetarium",
+        "type": [
+            "Passif"
+        ],
+        "image": "./img/items/Terra.webp"
+    },
+    {
+        "id": "594",
+        "nom": "Jupiter",
+        "description": "+2 conteneurs de cœur rouges, -0,3 vitesse. Isaac gagne de la vitesse lorsqu'il est immobile et libère des nuages de gaz empoisonnés lorsqu'il se déplace ensuite.",
+        "Débloquer": "Ce débloque quand on débloque l'accés au planetarium",
+        "type": [
+            "Passif"
+        ],
+        "image": "./img/items/Jupiter.webp"
+    },
+    {
+        "id": "595",
+        "nom": "Saturnus",
+        "description": "À l'entrée dans une pièce, un cercle de larmes orbite autour d'Isaac. Les larmes ennemies ont une chance d'être capturées en orbite, les rendant amicales.",
+        "Débloquer": "Ce débloque quand on débloque l'accés au planetarium",
+        "type": [
+            "Passif"
+        ],
+        "image": "./img/items/Saturnus.webp"
+    },
+    {
+        "id": "596",
+        "nom": "Uranus",
+        "description": "Isaac tire des larmes de glace qui ralentissent les ennemis et gèlent les monstres qu'elles tuent. Les ennemis gelés glissent et explosent en éclats de glace lorsqu'ils sont touchés.",
+        "Débloquer": "Ce débloque quand on débloque l'accés au planetarium",
+        "type": [
+            "Passif"
+        ],
+        "image": "./img/items/Uranus.webp"        
+    },
+    {
+        "id": "597",
+        "nom": "Neptunus",
+        "description": "La bouche d'Isaac se remplit de larmes au fil du temps lorsqu'il ne tire pas, jusqu'à un maximum. En maintenant le bouton de tir enfoncé, toutes les larmes stockées sont libérées en succession rapide.",
+        "Débloquer": "Ce débloque quand on débloque l'accés au planetarium",
+        "type": [
+            "Passif"
+        ],
+        "image": "./img/items/Neptunus.webp"        
+    },
+    {
+        "id": "598",
+        "nom": "Pluto",
+        "description": "+0,7 larmes. Réduit considérablement la taille d'Isaac, lui permettant de se faufiler entre les objets et de faire passer certaines attaques ennemies au-dessus de lui.",
+        "Débloquer": "Ce débloque quand on débloque l'accés au planetarium",
+        "type": [
+            "Passif"
+        ],
+        "image": "./img/items/Pluto.webp"        
     }
 ]
