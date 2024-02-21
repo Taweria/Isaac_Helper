@@ -175,7 +175,7 @@ const secretButton = document.getElementById('secret');
             itemsDiv.innerHTML = '';
 
             data.forEach(item => {
-                itemsDiv.innerHTML += `<img src="${item.image}" alt="${item.nom}">`;
+                itemsDiv.innerHTML += `<img class="itemsImg" src="${item.image}" alt="${item.nom}">`;
             });
         })
         .catch(error => {
