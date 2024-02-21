@@ -6,6 +6,8 @@ const urlPlanetarium = '../json/planetarium_room.json';
 const urlSecret = '../json/secret_room.json';
 const urlTrinkets = '../json/trinkets.json';
 const urlShop = '../json/shop_room.json';
+const urlBoss = '../json/boss_room.json';
+const urlLibrary = '../json/library_room.json';
 
 const angelButton = document.getElementById('angel');
     angelButton.addEventListener('click', () => {
@@ -18,10 +20,12 @@ const angelButton = document.getElementById('angel');
         })
         .then(data => {
             const itemsDiv = document.getElementById('items');
+            const descriptionDiv = document.getElementById('description');
             itemsDiv.innerHTML = '';
+            descriptionDiv.innerHTML = '';
 
             data.forEach(item => {
-                itemsDiv.innerHTML += `<img src="${item.image}" alt="${item.nom}">`;
+                itemsDiv.innerHTML += `<img id="itemsImg" src="${item.image}" alt="${item.nom}">`;
             });
         })
         .catch(error => {
@@ -43,7 +47,7 @@ const curseButton = document.getElementById('curse');
             itemsDiv.innerHTML = '';
 
             data.forEach(item => {
-                itemsDiv.innerHTML += `<img src="${item.image}" alt="${item.nom}">`;
+                itemsDiv.innerHTML += `<img id="itemsImg" src="${item.image}" alt="${item.nom}">`;
             });
         })
         .catch(error => {
@@ -65,7 +69,7 @@ const devilButton = document.getElementById('devil');
             itemsDiv.innerHTML = '';
 
             data.forEach(item => {
-                itemsDiv.innerHTML += `<img src="${item.image}" alt="${item.nom}">`;
+                itemsDiv.innerHTML += `<img id="itemsImg" src="${item.image}" alt="${item.nom}">`;
             });
         })
         .catch(error => {
@@ -87,7 +91,7 @@ const itemButton = document.getElementById('item');
             itemsDiv.innerHTML = '';
 
             data.forEach(item => {
-                itemsDiv.innerHTML += `<img src="${item.image}" alt="${item.nom}">`;
+                itemsDiv.innerHTML += `<img id="itemsImg" src="${item.image}" alt="${item.nom}">`;
             });
         })
         .catch(error => {
@@ -109,7 +113,7 @@ const planetariumButton = document.getElementById('planet');
             itemsDiv.innerHTML = '';
 
             data.forEach(item => {
-                itemsDiv.innerHTML += `<img src="${item.image}" alt="${item.nom}">`;
+                itemsDiv.innerHTML += `<img id="itemsImg" src="${item.image}" alt="${item.nom}">`;
             });
         })
         .catch(error => {
@@ -131,7 +135,7 @@ const trinketsButton = document.getElementById('trinkets');
             itemsDiv.innerHTML = '';
 
             data.forEach(item => {
-                itemsDiv.innerHTML += `<img src="${item.image}" alt="${item.nom}">`;
+                itemsDiv.innerHTML += `<img id="itemsImg" src="${item.image}" alt="${item.nom}">`;
             });
         })
         .catch(error => {
@@ -153,7 +157,7 @@ const shopButton = document.getElementById('shop');
             itemsDiv.innerHTML = '';
 
             data.forEach(item => {
-                itemsDiv.innerHTML += `<img src="${item.image}" alt="${item.nom}">`;
+                itemsDiv.innerHTML += `<img id="itemsImg" src="${item.image}" alt="${item.nom}">`;
             });
         })
         .catch(error => {
@@ -175,7 +179,51 @@ const secretButton = document.getElementById('secret');
             itemsDiv.innerHTML = '';
 
             data.forEach(item => {
-                itemsDiv.innerHTML += `<img class="itemsImg" src="${item.image}" alt="${item.nom}">`;
+                itemsDiv.innerHTML += `<img id="itemsImg" src="${item.image}" alt="${item.nom}">`;
+            });
+        })
+        .catch(error => {
+            console.error('There was a problem with the fetch operation:', error);
+        });
+});
+///////////////////////////////////////////
+const bossButton = document.getElementById('boss');
+    bossButton.addEventListener('click', () => {
+        fetch(urlBoss)
+        .then(response => {
+            if (!response.ok) {
+            throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(data => {
+            const itemsDiv = document.getElementById('items');
+            itemsDiv.innerHTML = '';
+
+            data.forEach(item => {
+                itemsDiv.innerHTML += `<img id="itemsImg" src="${item.image}" alt="${item.nom}">`;
+            });
+        })
+        .catch(error => {
+            console.error('There was a problem with the fetch operation:', error);
+        });
+});
+///////////////////////////////////////////
+const libButton = document.getElementById('library');
+    libButton.addEventListener('click', () => {
+        fetch(urlLibrary)
+        .then(response => {
+            if (!response.ok) {
+            throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(data => {
+            const itemsDiv = document.getElementById('items');
+            itemsDiv.innerHTML = '';
+
+            data.forEach(item => {
+                itemsDiv.innerHTML += `<img id="itemsImg" src="${item.image}" alt="${item.nom}">`;
             });
         })
         .catch(error => {
