@@ -1,11 +1,67 @@
 [
     {
-        "id": "574",
-        "name": "Monstrance",
-        "description": "Isaac gagne une aura qui inflige des dégâts aux ennemis à l'intérieur.",
+        "id": "33",
+        "name": "The Bible",
+        "description": "Lors de son utilisation, Isaac obtient la capacité de voler pour la pièce actuelle. Tue instantanément Maman, le Cœur de Maman et le bébé lorsqu'il est activé, mais tue Isaac lorsqu'il est utilisé sur Satan.",
         "unlock": "De base",
-        "type": "Passif",
-        "image": "./img/items/Monstrance.webp"
+        "type": "Activable & Livre",
+        "image": "./img/items/The_Bible.webp"
+    },
+    {
+        "id": "78",
+        "name": "Book of Revelations",
+        "description": "Augmente la chance qu'une salle du Diable / de l'Ange apparaisse tant qu'il est en possession. Lors de l'utilisation, accorde un cœur d'âme et remplace le boss de l'étage actuel par un Harbinger si possible.",
+        "unlock": "Débloquez cet objet en battant l'un des boss cavaliers pour la première fois.",
+        "type": "Activable & Livre",
+        "image": "./img/items/Book_of_Revelations.webp"
+    },
+    {
+        "id": "124",
+        "name": "Dead Sea Scrolls",
+        "description": "Déclenche l'effet d'un objet activable aléatoire parmi une liste d'options possibles (tous les objets activables ne sont pas inclus).",
+        "unlock": "",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Dead_Sea_Scrolls_icon.webp"
+    },
+    {
+        "id": "146",
+        "name": "Prayer Card",
+        "description": "Donne un Cœur Éternel par utilisation.",
+        "unlock": "",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Prayer_Card_icon.webp"
+    },
+    {
+        "id": "326",
+        "name": "Breath of Life",
+        "description": "Isaac crée des faisceaux de lumière lorsqu'il touche des ennemis tout en étant invulnérable, et crée un puissant faisceau en forme de croix si le blocage de dégâts commence exactement au moment où l'invincibilité commence.",
+        "unlock": "",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Breath_of_Life_icon.webp"
+    },
+    {
+        "id": "477",
+        "name": "Void",
+        "description": "Consomme tous les objets sur un piédestal dans la pièce. Les objets actifs auront leurs effets ajoutés à Void, et les objets passifs accorderont des améliorations de statistiques aléatoires.",
+        "unlock": "",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Void_icon.webp"
+    },
+    {
+        "id": "490",
+        "name": "Eden's Soul",
+        "description": "Fait apparaître deux piédestaux d'objets puis est consommé. Commence sans charges.",
+        "unlock": "",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Edens_Soul_icon.webp"
+    },
+    {
+        "id": "510",
+        "name": "Delirious",
+        "description": "Fait apparaître Délirium en tant que boss amical aléatoire qui se bat pour Isaac.",
+        "unlock": "",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Delirious_icon.webp"
     },
     {
         "id": "567",
@@ -22,5 +78,133 @@
         "unlock": "De base",
         "type": "Passif",
         "image": "./img/items/Immaculate_Heart.webp"
+    },
+    {
+        "id": "574",
+        "name": "Monstrance",
+        "description": "Isaac gagne une aura qui inflige des dégâts aux ennemis à l'intérieur.",
+        "unlock": "De base",
+        "type": "Passif",
+        "image": "./img/items/Monstrance.webp"
+    },
+    {
+        "id": "622",
+        "name": "Genesis",
+        "description": "Supprime tous les objets et les ramassables d'Isaac et l'amène dans une Chambre unique avec quelques ramassables et coffres, ainsi qu'un trou-trappe vers l'étage suivant. Pour chaque objet perdu par Isaac, il peut prendre un objet parmi un ensemble de trois.",
+        "unlock": "",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Genesis_icon.webp"
+    },
+    {
+        "id": "640",
+        "name": "Urn of Souls",
+        "description": "Projette un flux de flammes endommageantes. Gagne des Charges d'Âme à chaque fois qu'un ennemi meurt, qui sont utilisées pour alimenter l'urne.",
+        "unlock": "",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Urn_of_Souls_icon.webp"
+    },
+    {
+        "id": "653",
+        "name": "Vade Retro",
+        "description": "Lorsqu'il est tenu, les ennemis laissent derrière eux des fantômes à leur mort. Les ennemis plus forts laissent de plus gros fantômes. Utiliser l'objet provoque l'explosion des fantômes et inflige des dégâts aux ennemis à proximité, et tue instantanément tous les ennemis fantômes ayant moins de 50 % de PV.",
+        "unlock": "",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Vade_Retro_icon.webp"
+    },
+    {
+        "id": "685",
+        "name": "Jar of Wisps",
+        "description": "Fait apparaître des feux follets aléatoires qui tirent diverses larmes, bloquent les tirs et infligent des dégâts au contact. Le nombre de feux follets augmentent à chaque utilisation du pot.",
+        "unlock": "",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Jar_of_Wisps_icon.webp"
+    },
+    {
+        "id": "",
+        "name": "",
+        "description": "",
+        "unlock": "",
+        "type": "",
+        "image": "./"
+    },
+    {
+        "id": "",
+        "name": "",
+        "description": "",
+        "unlock": "",
+        "type": "",
+        "image": "./"
+    },
+    {
+        "id": "",
+        "name": "",
+        "description": "",
+        "unlock": "",
+        "type": "",
+        "image": "./"
+    },
+    {
+        "id": "",
+        "name": "",
+        "description": "",
+        "unlock": "",
+        "type": "",
+        "image": "./"
+    },
+    {
+        "id": "",
+        "name": "",
+        "description": "",
+        "unlock": "",
+        "type": "",
+        "image": "./"
+    },
+    {
+        "id": "",
+        "name": "",
+        "description": "",
+        "unlock": "",
+        "type": "",
+        "image": "./"
+    },
+    {
+        "id": "",
+        "name": "",
+        "description": "",
+        "unlock": "",
+        "type": "",
+        "image": "./"
+    },
+    {
+        "id": "",
+        "name": "",
+        "description": "",
+        "unlock": "",
+        "type": "",
+        "image": "./"
+    },
+    {
+        "id": "",
+        "name": "",
+        "description": "",
+        "unlock": "",
+        "type": "",
+        "image": "./"
+    },
+    {
+        "id": "",
+        "name": "",
+        "description": "",
+        "unlock": "",
+        "type": "",
+        "image": "./"
+    },
+    {
+        "id": "",
+        "name": "",
+        "description": "",
+        "unlock": "",
+        "type": "",
+        "image": "./"
     }
 ]

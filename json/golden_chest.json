@@ -82,7 +82,7 @@
     {
         "id": "74",
         "name": "A Quarter",
-        "description": "Gives Isaac 25 coins.",
+        "description": "Donne a Isaac 25 pièces.",
         "unlock": "Débloquez cet objet en battant le Cœur de Maman 8 fois.",
         "type": "Passif",
         "image": "./img/items/Collectible_A_Quarter_icon.webp"
