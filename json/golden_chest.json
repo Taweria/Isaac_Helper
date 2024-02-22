@@ -1,0 +1,130 @@
+[
+    {
+        "id": "4",
+        "name": "Cricket's Head",
+        "description": "Augmente les dégâts de 0,5 et multiplie le multiplicateur de dégâts par x1,5.",
+        "unlock": "De base",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Crickets_Head_icon.webp"
+    },
+    {
+        "id": "28",
+        "name": "The Belt",
+        "description": "Augmente la vitesse de 0,3.",
+        "unlock": "De base",
+        "type": "Passif",
+        "image": "./img/items/Collectible_The_Belt_icon.webp"
+    },
+    {
+        "id": "29",
+        "name": "Mom's Underwear",
+        "description": "+2,5 de portée. Fait apparaître de 3 à 6 Mouches Bleues à la prise de l'objet.",
+        "unlock": "De base",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Moms_Underwear_icon.webp"
+    },
+    {
+        "id": "32",
+        "name": "Wire Coat Hanger",
+        "description": "Augmente les larmes de 0,7.",
+        "unlock": "Débloquez cet objet en vainquant le coeur de Maman 4 fois",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Wire_Coat_Hanger_icon.webp"
+    },
+    {
+        "id": "38",
+        "name": "Tammy's Head",
+        "description": "Tire 10 larmes en cercle autour d'Isaac, qui conservent les dégâts, la portée, la vitesse de tir et les effets spéciaux (comme le poison) des larmes d'Isaac. Les larmes de cet objet ont un bonus de dégâts plat de +25.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Tammys_Head_icon.webp"
+    },
+    {
+        "id": "42",
+        "name": "Bob's Rotten Head",
+        "description": "À l'utilisation, Isaac tient une bombe empoisonnée qui peut être lancée dans les directions cardinales et explose à l'impact.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Bobs_Rotten_Head_icon.webp"
+    },
+    {
+        "id": "50",
+        "name": "Steven",
+        "description": "+1 dégât.",
+        "unlock": "Débloquez cet objet en battant le sous-sol 40 fois et en vainquant le boss Steven.",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Steven_icon.webp"
+    },
+    {
+        "id": "74",
+        "name": "A Quarter",
+        "description": "Gives Isaac 25 coins.",
+        "unlock": "Débloquez cet objet en battant le Cœur de Maman 8 fois.",
+        "type": "Passif",
+        "image": "./img/items/Collectible_A_Quarter_icon.webp"
+    },
+    {
+        "id": "135",
+        "name": "IV Bag",
+        "description": "À l'utilisation, Isaac perd la moitié d'un cœur de santé (ou un cœur entier à partir du Chapitre 4) pour un montant aléatoire de pièces, similaire à une Machine à Don de Sang.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_IV_Bag_icon.webp"
+    },
+    {
+        "id": "145",
+        "name": "Guppy's Head",
+        "description": "Fait apparaître 2 à 4 Mouches Bleues amicales qui infligent des dégâts aux ennemis.",
+        "unlock": "De base",
+        "type": "Activable & Guppy",
+        "image": "./img/items/Collectible_Guppys_Head_icon.webp"
+    },
+    {
+        "id": "",
+        "name": "",
+        "description": "",
+        "unlock": "",
+        "type": "",
+        "image": "./"
+    },
+    {
+        "id": "",
+        "name": "",
+        "description": "",
+        "unlock": "",
+        "type": "",
+        "image": "./"
+    },
+    {
+        "id": "",
+        "name": "",
+        "description": "",
+        "unlock": "",
+        "type": "",
+        "image": "./"
+    },
+    {
+        "id": "",
+        "name": "",
+        "description": "",
+        "unlock": "",
+        "type": "",
+        "image": "./"
+    },
+    {
+        "id": "",
+        "name": "",
+        "description": "",
+        "unlock": "",
+        "type": "",
+        "image": "./"
+    },
+    {
+        "id": "",
+        "name": "",
+        "description": "",
+        "unlock": "",
+        "type": "",
+        "image": "./"
+    }
+]

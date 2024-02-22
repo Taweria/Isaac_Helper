@@ -1,0 +1,130 @@
+[
+    {
+        "id": "81",
+        "name": "Dead Cat",
+        "description": "Définit les conteneurs de cœur rouge d'Isaac à 1, mais accorde 9 vies supplémentaires. Après être mort, Isaac réapparaît avec 1 conteneur de cœur rouge.",
+        "unlock": "De base",
+        "type": "Passif & Guppy",
+        "image": "./img/items/Collectible_Dead_Cat_icon.webp"
+    },
+    {
+        "id": "133",
+        "name": "Guppy's Paw",
+        "description": "À l'utilisation, convertit un conteneur de cœur rouge en trois cœurs d'âme.",
+        "unlock": "De base",
+        "type": "Activable & Guppy",
+        "image": "./img/items/Collectible_Guppys_Paw_icon.webp"
+    },
+    {
+        "id": "134",
+        "name": "Guppy's Tail",
+        "description": "Les récompenses de nettoyage de pièce ont 1/3 de chances d'être remplacées par un coffre et 2/9 de chances d'être remplacées par rien.",
+        "unlock": "De base",
+        "type": "Passif & Guppy",
+        "image": "./img/items/Collectible_Guppys_Tail_icon.webp"
+    },
+    {
+        "id": "140",
+        "name": "Bob's Curse",
+        "description": "+5 Bombes. Accorde aux bombes d'Isaac un effet de poison. (dans Repentance) Elles laissent également un nuage de poison persistant, et Isaac devient immunisé au poison.",
+        "unlock": "De base",
+        "type": "Passif & Bombe",
+        "image": "./img/items/Collectible_Bobs_Curse_icon.webp"
+    },
+    {
+        "id": "145",
+        "name": "Guppy's Head",
+        "description": "Fait apparaître 2 à 4 Mouches Bleues amicales qui infligent des dégâts aux ennemis.",
+        "unlock": "De base",
+        "type": "Activable & Guppy",
+        "image": "./img/items/Collectible_Guppys_Head_icon.webp"
+    },
+    {
+        "id": "212",
+        "name": "Guppy's Collar",
+        "description": "Accorde une chance permanente de 50% de réapparaître avec 1/2 cœur rouge après la mort.",
+        "unlock": "De base",
+        "type": "Passif & Guppy",
+        "image": "./img/items/Collectible_Guppys_Collar_icon.webp"
+    },
+    {
+        "id": "215",
+        "name": "Goat Head",
+        "description": "Une Salle du Diable / de l'Ange apparaîtra toujours après chaque combat de boss, à l'exception du premier étage et des étages après le Chapitre 4.",
+        "unlock": "De base",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Goat_Head_icon.webp"
+    },
+    {
+        "id": "297",
+        "name": "Pandora's Box",
+        "description": "À l'utilisation, fait apparaître des ramassables ou des objets spécifiques en fonction de l'étage sur lequel il est utilisé. Disparaît après utilisation.",
+        "unlock": "Débloquez cet objet en vainquant l'Agneau dans la salle noir en tant que Lazarus",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Pandoras_Box_icon.webp"
+    },
+    {
+        "id": "316",
+        "name": "Cursed Eye",
+        "description": "Accorde des larmes chargées pouvant être tirées en rafale serrée. Se faire toucher en chargeant téléportera Isaac dans une autre pièce.",
+        "unlock": "De base",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Cursed_Eye_icon.webp"
+    },
+    {
+        "id": "371",
+        "name": "Curse of the Tower",
+        "description": "En prenant des dégâts, fait apparaître six bombes de troll autour de la pièce, similaire à l'effet de XVI - La Tour.",
+        "unlock": "De base",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Curse_of_the_Tower_icon.webp"
+    },
+    {
+        "id": "475",
+        "name": "Plan C",
+        "description": "Tue tous les ennemis dans la pièce, puis tue Isaac trois secondes plus tard.",
+        "unlock": "Débloquez cet objet en vainquant Greedier en tant que Lazarus",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Plan_C_icon.webp"
+    },
+    {
+        "id": "565",
+        "name": "Blood Puppy",
+        "description": "Fait apparaître un familier qui poursuit les ennemis. Après avoir tué suffisamment d'ennemis, il devient plus puissant mais essaiera également de blesser Isaac. L'attaquer le ramène à la normale.",
+        "unlock": "Débloquez cet objet en vainquant Mother dans le Corpse II en tant que Lilith",
+        "type": "Familier & Passif",
+        "image": "./img/items/Blood_Puppy.webp"
+    },
+    {
+        "id": "580",
+        "name": "Red Key",
+        "description": "Crée une salle rouge adjacente à un mur viable, indiquée par le contour d'une porte. Ces salles ont 10% de chances d'être une salle spéciale.",
+        "unlock": "Débloquez cet objet en ouvrant la Boîte de maman au rez-de-chaussée de la maison.",
+        "type": "Activable",
+        "image": "./img/items/Red_Key.webp"
+    },
+    {
+        "id": "642",
+        "name": "Magic Skin",
+        "description": "Consomme un conteneur de cœur ou deux cœurs d'âme pour faire apparaître un objet et donne à Isaac un conteneur de cœur brisé qui ne peut jamais être rempli. Si Magic Skin n'est pas conservé après utilisation, il est très probable qu'il remplace tous les futurs objets.",
+        "unlock": "Débloquez cet objet en vainquant Mother dans le Corpse II en tant que Jacob et Esaü",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Magic_Skin_icon.webp"
+    },
+    {
+        "id": "654",
+        "name": "False PHD",
+        "description": "Convertit les bonnes pilules en mauvaises pilules et identifie toutes les pilules. Les mauvaises pilules ont désormais des effets secondaires positifs. Accorde un Cœur Noir.",
+        "unlock": "De base",
+        "type": "Passif",
+        "image": "./img/items/Collectible_False_PHD_icon.webp"
+    },
+    {
+        "id": "665",
+        "name": "Guppy's Eye",
+        "description": "Affiche le contenu des coffres, des Feux de Camp, des Sacs à Butin et des Boutiquiers avant qu'ils ne soient ouverts / détruits.",
+        "unlock": "Débloquez cet objet en vainquant Mother dans le Corpse II en tant que Cain",
+        "type": "Passif & Guppy",
+        "image": "./img/items/Collectible_Guppys_Eye_icon.webp"
+    }
+]

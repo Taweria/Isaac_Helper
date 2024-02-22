@@ -1,5 +1,13 @@
 [
     {
+        "id": "588",
+        "name": "Sol",
+        "description": "Révèle l'emplacement de la salle du boss. Après avoir vaincu un boss, active XIX - Le Soleil, recharge complètement l'objet actif d'Isaac, accorde des dégâts et de la chance bonus pour le reste de l'étage, et supprime les malédictions.",
+        "unlock": "Ce débloque quand on débloque l'accés au planetarium",
+        "type": "Passif",
+        "image": "./img/items/Sol.webp"
+    },
+    {
         "id": "589",
         "name": "Luna",
         "description": "Ajoute une salle secrète supplémentaire ainsi qu'une Super Salle secrète à chaque étage. Les Salles secrètes contiennent un rayon de lumière qui augmente le taux de tir pour l'étage en cours et donne un demi-cœur d'âme.",
@@ -8,28 +16,12 @@
         "image": "./img/items/Luna.webp"
     },
     {
-        "id": "593",
-        "name": "Mars",
-        "description": "Effectue une esquive en double-tapant sur la touche de déplacement, devenant invincible et infligeant des dégâts aux ennemis. Il y a un court temps de recharge avant qu'Isaac puisse esquiver à nouveau.",
-        "unlock": "Ce débloque quand on débloque l'accés au planetarium",
-        "type": "Passif",
-        "image": "./img/items/Mars.webp"
-    },
-    {
         "id": "590",
         "name": "Mercurius",
         "description": "+0,4 vitesse. Les portes restent ouvertes après être entré dans une pièce, même dans les pièces avec des ennemis.",
         "unlock": "Ce débloque quand on débloque l'accés au planetarium",
         "type": "Passif",
         "image": "./img/items/Mercurius.webp"
-    },
-    {
-        "id": "588",
-        "name": "Sol",
-        "description": "Révèle l'emplacement de la salle du boss. Après avoir vaincu un boss, active XIX - Le Soleil, recharge complètement l'objet actif d'Isaac, accorde des dégâts et de la chance bonus pour le reste de l'étage, et supprime les malédictions.",
-        "unlock": "Ce débloque quand on débloque l'accés au planetarium",
-        "type": "Passif",
-        "image": "./img/items/Sol.webp"
     },
     {
         "id": "591",
@@ -46,6 +38,14 @@
         "unlock": "Ce débloque quand on débloque l'accés au planetarium",
         "type": "Passif",
         "image": "./img/items/Terra.webp"
+    },
+    {
+        "id": "593",
+        "name": "Mars",
+        "description": "Effectue une esquive en double-tapant sur la touche de déplacement, devenant invincible et infligeant des dégâts aux ennemis. Il y a un court temps de recharge avant qu'Isaac puisse esquiver à nouveau.",
+        "unlock": "Ce débloque quand on débloque l'accés au planetarium",
+        "type": "Passif",
+        "image": "./img/items/Mars.webp"
     },
     {
         "id": "594",
@@ -69,7 +69,7 @@
         "description": "Isaac tire des larmes de glace qui ralentissent les ennemis et gèlent les monstres qu'elles tuent. Les ennemis gelés glissent et explosent en éclats de glace lorsqu'ils sont touchés.",
         "unlock": "Ce débloque quand on débloque l'accés au planetarium",
         "type": "Passif",
-        "image": "./img/items/Uranus.webp"        
+        "image": "./img/items/Uranus.webp"
     },
     {
         "id": "597",
@@ -77,7 +77,7 @@
         "description": "La bouche d'Isaac se remplit de larmes au fil du temps lorsqu'il ne tire pas, jusqu'à un maximum. En maintenant le bouton de tir enfoncé, toutes les larmes stockées sont libérées en succession rapide.",
         "unlock": "Ce débloque quand on débloque l'accés au planetarium",
         "type": "Passif",
-        "image": "./img/items/Neptunus.webp"        
+        "image": "./img/items/Neptunus.webp"
     },
     {
         "id": "598",
@@ -85,6 +85,6 @@
         "description": "+0,7 larmes. Réduit considérablement la taille d'Isaac, lui permettant de se faufiler entre les objets et de faire passer certaines attaques ennemies au-dessus de lui.",
         "unlock": "Ce débloque quand on débloque l'accés au planetarium",
         "type": "Passif",
-        "image": "./img/items/Pluto.webp"        
+        "image": "./img/items/Pluto.webp"
     }
 ]
