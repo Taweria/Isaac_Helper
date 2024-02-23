@@ -1,37 +1,5 @@
 [
     {
-        "id": "126",
-        "name": "Razor Blade",
-        "description": "Perd un cœur de santé et accorde +1.2 de dégâts pour la pièce actuelle. Les utilisations répétées dans la même pièce ne coûtent qu'un demi-cœur.",
-        "unlock": "Feature comming soon",
-        "type": "Activable",
-        "image": "./img/items/Collectible_Razor_Blade_icon.webp"
-    },
-    {
-        "id": "133",
-        "name": "Guppy's Paw",
-        "description": "À l'utilisation, convertit un conteneur de cœur rouge en trois cœurs d'âme.",
-        "unlock": "De base",
-        "type": "Activable & Guppy",
-        "image": "./img/items/Collectible_Guppys_Paw_icon.webp"
-    },
-    {
-        "id": "145",
-        "name": "Guppy's Head",
-        "description": "Fait apparaître 2 à 4 Mouches Bleues amicales qui infligent des dégâts aux ennemis.",
-        "unlock": "De base",
-        "type": "Activable & Guppy",
-        "image": "./img/items/Collectible_Guppys_Head_icon.webp"
-    },
-    {
-        "id": "475",
-        "name": "Plan C",
-        "description": "Tue tous les ennemis dans la pièce, puis tue Isaac trois secondes plus tard.",
-        "unlock": "Débloquez cet objet en vainquant Greedier en tant que Lazarus",
-        "type": "Activable",
-        "image": "./img/items/Collectible_Plan_C_icon.webp"
-    },
-    {
         "id": "51",
         "name": "Pentagram",
         "description": "+1 de dégât, augmente la chance d'une salle du Diable / de l'Ange de 10 %.",
@@ -62,6 +30,30 @@
         "unlock": "De base",
         "type": "Passif & Guppy",
         "image": "./img/items/Collectible_Dead_Cat_icon.webp"
+    },
+    {
+        "id": "126",
+        "name": "Razor Blade",
+        "description": "Perd un cœur de santé et accorde +1.2 de dégâts pour la pièce actuelle. Les utilisations répétées dans la même pièce ne coûtent qu'un demi-cœur.",
+        "unlock": "Feature comming soon",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Razor_Blade_icon.webp"
+    },
+    {
+        "id": "133",
+        "name": "Guppy's Paw",
+        "description": "À l'utilisation, convertit un conteneur de cœur rouge en trois cœurs d'âme.",
+        "unlock": "De base",
+        "type": "Activable & Guppy",
+        "image": "./img/items/Collectible_Guppys_Paw_icon.webp"
+    },
+    {
+        "id": "145",
+        "name": "Guppy's Head",
+        "description": "Fait apparaître 2 à 4 Mouches Bleues amicales qui infligent des dégâts aux ennemis.",
+        "unlock": "De base",
+        "type": "Activable & Guppy",
+        "image": "./img/items/Collectible_Guppys_Head_icon.webp"
     },
     {
         "id": "134",
@@ -158,6 +150,14 @@
         "unlock": "Feature comming soon",
         "type": "Passif & Familier",
         "image": "./img/items/Collectible_Shade_icon.webp"
+    },
+    {
+        "id": "475",
+        "name": "Plan C",
+        "description": "Tue tous les ennemis dans la pièce, puis tue Isaac trois secondes plus tard.",
+        "unlock": "Débloquez cet objet en vainquant Greedier en tant que Lazarus",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Plan_C_icon.webp"
     },
     {
         "id": "496",
