@@ -88,6 +88,14 @@
         "image": "./img/items/Book_of_Secrets.webp"
     },
     {
+        "id": "292",
+        "name": "Satanic Bible",
+        "description": "Elle donne un cœur noir et remplace l'objet de la salle du boss sur l'étage actuel par une offre du Diable.",
+        "unlock": "Débloquez cet objet en battant Isaac avec Azazel.",
+        "type": "Activable & Livre",
+        "image": "./img/items/Collectible_Satanic_Bible_icon.webp"
+    },
+    {
         "id": "545",
         "name": "Book of the Dead",
         "description": "Crée un squelette amical, un Squelette Noir, une Mouche d'os, un Revenant, ou un os orbital pour chaque ennemi tué dans la pièce actuelle.",

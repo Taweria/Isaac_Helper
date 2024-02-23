@@ -1,5 +1,149 @@
 [
     {
+        "id": "34",
+        "name": "The Book of Belial",
+        "description": "+2 de dégâts pour la pièce actuelle. Garantit passivement qu'une Salle du Diable ou une Salle de l'Ange apparaîtra tant qu'il est en possession.",
+        "unlock": "De base",
+        "type": "Activable & Livre",
+        "image": "./img/items/The_Book_of_Belial.webp"
+    },
+    {
+        "id": "35",
+        "name": "The Necronomicon",
+        "description": "Inflige 40 dégâts à chaque ennemi dans la pièce.",
+        "unlock": "De base",
+        "type": "Activable & Livre",
+        "image": "./img/items/The_Necronomicon.webp"
+    },
+    {
+        "id": "83",
+        "name": "The Nail",
+        "description": "Accorde la moitié d'un Cœur Noir. Pour la salle actuelle : +2 de dégâts, -0,18 de vitesse. Isaac casse les rochers et inflige des dégâts de contact.",
+        "unlock": "",
+        "type": "Activable",
+        "image": "./img/items/Collectible_The_Nail_icon.webp"
+    },
+    {
+        "id": "84",
+        "name": "We Need to Go Deeper!",
+        "description": "Crée une trappe pour passer à l'étage suivant. Une fois par étage, en l'utilisant sur des tuiles avec des graphismes spéciaux, cela créera plutôt un Passage Clandestin.",
+        "unlock": "",
+        "type": "Activable",
+        "image": "./img/items/Collectible_We_Need_to_Go_Deeper_icon.webp"
+    },
+    {
+        "id": "97",
+        "name": "The Book of Sin",
+        "description": "Génère un objet aléatoire ramassable, une pilule, une carte ou une rune.",
+        "unlock": "Débloquez cet objet en battant chacun des sept péchés une fois.",
+        "type": "Activable & Livre",
+        "image": "./img/items/The_Book_of_Sin.webp"
+    },
+    {
+        "id": "118",
+        "name": "Brimstone",
+        "description": "Les larmes sont remplacées par un faisceau laser qui traverse tous les ennemis et obstacles sur son chemin et inflige des dégâts élevés. Ne peut être tiré qu'après une courte période de charge.",
+        "unlock": "De base",
+        "type": "Passif",
+        "image": "./img/items/Brimstone.webp"
+    },
+    {
+        "id": "123",
+        "name": "Monster Manual",
+        "description": "Fait apparaître un familier parmi une sélection spécifique pour l'étage actuel.",
+        "unlock": "De base",
+        "type": "Activable & Livre",
+        "image": "./img/items/Monster_Manual.webp"
+    },
+    {
+        "id": "126",
+        "name": "Razor Blade",
+        "description": "Perd un cœur de santé et accorde +1.2 de dégâts pour la pièce actuelle. Les utilisations répétées dans la même pièce ne coûtent qu'un demi-cœur.",
+        "unlock": "Feature comming soon",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Razor_Blade_icon.webp"
+    },
+    {
+        "id": "127",
+        "name": "Forget Me Now",
+        "description": "Lorsqu'il est utilisé, il régénère le sol actuel avec une nouvelle disposition. Isaac perd Forget Me Now, mais conserve les autres objets et consommables ramassés sur le sol original.",
+        "unlock": "",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Forget_Me_Now_icon.webp"
+    },
+    {
+        "id": "133",
+        "name": "Guppy's Paw",
+        "description": "À l'utilisation, convertit un conteneur de cœur rouge en trois cœurs d'âme.",
+        "unlock": "De base",
+        "type": "Activable & Guppy",
+        "image": "./img/items/Collectible_Guppys_Paw_icon.webp"
+    },
+    {
+        "id": "145",
+        "name": "Guppy's Head",
+        "description": "Fait apparaître 2 à 4 Mouches Bleues amicales qui infligent des dégâts aux ennemis.",
+        "unlock": "De base",
+        "type": "Activable & Guppy",
+        "image": "./img/items/Collectible_Guppys_Head_icon.webp"
+    },
+    {
+        "id": "186",
+        "name": "Blood Rights",
+        "description": "Lorsqu'il est utilisé, Isaac perd un cœur entier de santé et inflige 40 points de dégâts à tous les ennemis dans la pièce. Les utilisations répétées dans la même pièce ne coûtent qu'un demi-cœur de santé.",
+        "unlock": "",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Blood_Rights_icon.webp"
+    },
+    {
+        "id": "292",
+        "name": "Satanic Bible",
+        "description": "Elle donne un cœur noir et remplace l'objet de la salle du boss sur l'étage actuel par une offre du Diable.",
+        "unlock": "Débloquez cet objet en battant Isaac avec Azazel.",
+        "type": "Activable & Livre",
+        "image": "./img/items/Collectible_Satanic_Bible_icon.webp"
+    },
+    {
+        "id": "441",
+        "name": "Mega Blast",
+        "description": "Lorsqu'il est utilisé, fait tirer à Isaac un laser similaire à celui utilisé par Méga Satan. Ce laser inflige des dégâts massifs, dure environ 15 secondes et persiste entre les pièces. Pendant que le laser est actif, Isaac est repoussé en arrière par la force du laser.",
+        "unlock": "Feature comming soon",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Mega_Blast_icon.webp"
+    },
+    {
+        "id": "475",
+        "name": "Plan C",
+        "description": "Tue tous les ennemis dans la pièce, puis tue Isaac trois secondes plus tard.",
+        "unlock": "Débloquez cet objet en vainquant Greedier en tant que Lazarus",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Plan_C_icon.webp"
+    },
+    {
+        "id": "477",
+        "name": "Void",
+        "description": "Consomme tous les objets sur un piédestal dans la pièce. Les objets actifs auront leurs effets ajoutés à Void, et les objets passifs accorderont des améliorations de statistiques aléatoires.",
+        "unlock": "Feature coming soon",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Void_icon.webp"
+    },
+    {
+        "id": "536",
+        "name": "Sacrificial Altar",
+        "description": "Lorsqu'il est utilisé, il sacrifie jusqu'à 2 familiers et fait apparaître un objet pour chaque familier sacrifié. De plus, il convertit toutes les araignées et mouches amicales en pièces.",
+        "unlock": "Feature comming soon",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Sacrificial_Altar_icon.webp"
+    },
+    {
+        "id": "545",
+        "name": "Book of the Dead",
+        "description": "Crée un squelette amical, un Squelette Noir, une Mouche d'os, un Revenant, ou un os orbital pour chaque ennemi tué dans la pièce actuelle.",
+        "unlock": "Débloquez cet objet en vainquant Délirium en tant que L'Oublié.",
+        "type": "Activable & Livre",
+        "image": "./img/items/Book_of_the_Dead.webp"
+    },
+    {
         "id": "554",
         "name": "2Spooky",
         "description": "Les ennemis à proximité d'Isaac sont affectés par la peur.",
@@ -16,11 +160,75 @@
         "image": "./img/items/Sulfur.webp"
     },
     {
-        "id": "118",
-        "name": "Brimstone",
-        "description": "Les larmes sont remplacées par un faisceau laser qui traverse tous les ennemis et obstacles sur son chemin et inflige des dégâts élevés. Ne peut être tiré qu'après une courte période de charge.",
-        "unlock": "De base",
-        "type": "Passif",
-        "image": "./img/items/Brimstone.webp"
+        "id": "577",
+        "name": "Damocles",
+        "description": "Fait apparaître une épée au-dessus de la tête d'Isaac, doublant tous les piédestaux d'objets. Après qu'Isaac a subi des dégâts, l'épée peut tomber aléatoirement à n'importe quel moment, le tuant instantanément.",
+        "unlock": "Feature comming soon",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Damocles_icon.webp"
+    },
+    {
+        "id": "704",
+        "name": "Berserk!",
+        "description": " Fait entrer Isaac en état de fureur pendant 5 secondes, augmentant considérablement sa vitesse, ses larmes et ses dégâts, mais le contraignant à utiliser une arme de mêlée au lieu de ses larmes. Cet objet se recharge en infligeant des dégâts aux ennemis plutôt qu'en nettoyant les salles.",
+        "unlock": "Feature comming soon",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Berserk_icon.webp"
+    },
+    {
+        "id": "705",
+        "name": "Dark Arts",
+        "description": "Accorde brièvement +1 vitesse à Isaac et le rend invulnérable et intangible. Lorsque l'effet prend fin, il détruit tous les projectiles et inflige des dégâts à tous les ennemis qu'Isaac a traversés.",
+        "unlock": "Feature comming soon",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Dark_Arts_icon.webp"
+    },
+    {
+        "id": "706",
+        "name": "Abyss",
+        "description": "Détruit tous les objets dans la pièce et donne à Isaac un familier unique de sauterelle pour chaque objet détruit. Certains objets génèrent des sauterelles avec des effets spéciaux.",
+        "unlock": "Feature comming soon",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Abyss_icon.webp"
+    },
+    {
+        "id": "712",
+        "name": "Lemegeton",
+        "description": "Fait apparaître un esprit représentant un objet passif aléatoire, qui orbite autour d'Isaac mais peut être détruit. Tant que l'esprit est vivant, Isaac bénéficie des effets de cet objet. La génération utilise 25% du temps le pool d'objets de la salle actuelle, sinon un pool aléatoire.",
+        "unlock": "Débloquez cet objet en vainquant Délirium en tant que Bethany altérée.",
+        "type": "Activable & Livre",
+        "image": "./img/items/Lemegeton.webp"
+    },      
+    {
+        "id": "728",
+        "name": "Gello",
+        "description": "Fait apparaître un familier démon qui est attaché à Isaac et se déplace et tire dans la direction où Isaac tire, en utilisant les dégâts, les larmes, la portée, la vitesse de tir et les effets de larmes spéciaux d'Isaac.",
+        "unlock": "Feature comming soon",
+        "type": "Activable & Familier",
+        "image": "./img/items/Collectible_Gello_icon.webp"
+    },
+    {
+        "id": "",
+        "name": "",
+        "description": "",
+        "unlock": "Feature comming soon",
+        "type": "",
+        "image": "./"
+    },
+    {
+        "id": "",
+        "name": "",
+        "description": "",
+        "unlock": "Feature comming soon",
+        "type": "",
+        "image": "./"
+    },
+    {
+        "id": "",
+        "name": "",
+        "description": "",
+        "unlock": "Feature comming soon",
+        "type": "",
+        "image": "./"
     }
 ]
