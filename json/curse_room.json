@@ -1,11 +1,203 @@
 [
     {
+        "id": "126",
+        "name": "Razor Blade",
+        "description": "Perd un cœur de santé et accorde +1.2 de dégâts pour la pièce actuelle. Les utilisations répétées dans la même pièce ne coûtent qu'un demi-cœur.",
+        "unlock": "",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Razor_Blade_icon.webp"
+    },
+    {
+        "id": "133",
+        "name": "Guppy's Paw",
+        "description": "À l'utilisation, convertit un conteneur de cœur rouge en trois cœurs d'âme.",
+        "unlock": "De base",
+        "type": "Activable & Guppy",
+        "image": "./img/items/Collectible_Guppys_Paw_icon.webp"
+    },
+    {
+        "id": "145",
+        "name": "Guppy's Head",
+        "description": "Fait apparaître 2 à 4 Mouches Bleues amicales qui infligent des dégâts aux ennemis.",
+        "unlock": "De base",
+        "type": "Activable & Guppy",
+        "image": "./img/items/Collectible_Guppys_Head_icon.webp"
+    },
+    {
+        "id": "475",
+        "name": "Plan C",
+        "description": "Tue tous les ennemis dans la pièce, puis tue Isaac trois secondes plus tard.",
+        "unlock": "Débloquez cet objet en vainquant Greedier en tant que Lazarus",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Plan_C_icon.webp"
+    },
+    {
+        "id": "51",
+        "name": "Pentagram",
+        "description": "+1 de dégât, augmente la chance d'une salle du Diable / de l'Ange de 10 %.",
+        "unlock": "",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Pentagram_icon.webp"
+    },
+    {
+        "id": "79",
+        "name": "The Mark",
+        "description": "Accorde un Cœur Noir, +1 de dégât et +0,2 de vitesse.",
+        "unlock": "",
+        "type": "Passif",
+        "image": "./img/items/Collectible_The_Mark_icon.webp"
+    },
+    {
+        "id": "80",
+        "name": "The Pact",
+        "description": "Accorde deux Cœurs Noirs, +0,5 de dégât et +0,7 de larmes.",
+        "unlock": "",
+        "type": "Passif",
+        "image": "./img/items/Collectible_The_Pact_icon.webp"
+    },
+    {
+        "id": "81",
+        "name": "Dead Cat",
+        "description": "Définit les conteneurs de cœur rouge d'Isaac à 1, mais accorde 9 vies supplémentaires. Après être mort, Isaac réapparaît avec 1 conteneur de cœur rouge.",
+        "unlock": "De base",
+        "type": "Passif & Guppy",
+        "image": "./img/items/Collectible_Dead_Cat_icon.webp"
+    },
+    {
+        "id": "134",
+        "name": "Guppy's Tail",
+        "description": "Les récompenses de nettoyage de pièce ont 1/3 de chances d'être remplacées par un coffre et 2/9 de chances d'être remplacées par rien.",
+        "unlock": "De base",
+        "type": "Passif & Guppy",
+        "image": "./img/items/Collectible_Guppys_Tail_icon.webp"
+    },
+    {
+        "id": "212",
+        "name": "Guppy's Collar",
+        "description": "Accorde une chance permanente de 50% de réapparaître avec 1/2 cœur rouge après la mort.",
+        "unlock": "De base",
+        "type": "Passif & Guppy",
+        "image": "./img/items/Collectible_Guppys_Collar_icon.webp"
+    },
+    {
+        "id": "215",
+        "name": "Goat Head",
+        "description": "Une Salle du Diable / de l'Ange apparaîtra toujours après chaque combat de boss, à l'exception du premier étage et des étages après le Chapitre 4.",
+        "unlock": "De base",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Goat_Head_icon.webp"
+    },
+    {
+        "id": "216",
+        "name": "Ceremonial Robes",
+        "description": "Accorde 3 Cœurs Noirs et +1 de dégâts.",
+        "unlock": "",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Ceremonial_Robes_icon.webp"
+    },
+    {
+        "id": "225",
+        "name": "Gimpy",
+        "description": "Augmente les chances de faire apparaître un Cœur d'Âme lors de la prise de dégâts. Les ennemis ont une chance de laisser tomber un Demi-Cœur Rouge après avoir été tués.",
+        "unlock": "",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Gimpy_icon.webp"
+    },
+    {
+        "id": "241",
+        "name": "Contract From Below",
+        "description": "Double le nombre de récompenses obtenues dans la plupart des salles, mais réduit de 1/3 les chances globales d'en obtenir une.",
+        "unlock": "",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Contract_From_Below_icon.webp"
+    },
+    {
+        "id": "260",
+        "name": "Black Candle",
+        "description": "Prévient les malédictions. Accorde un Cœur Noir. Augmente les chances d'apparition d'une Salle du Diable ou d'une Salle de l'Ange.",
+        "unlock": "",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Black_Candle_icon.webp"
+    },
+    {
+        "id": "371",
+        "name": "Curse of the Tower",
+        "description": "En prenant des dégâts, fait apparaître six bombes de troll autour de la pièce, similaire à l'effet de XVI - La Tour.",
+        "unlock": "De base",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Curse_of_the_Tower_icon.webp"
+    },
+    {
+        "id": "408",
+        "name": "Athame",
+        "description": "Après qu'Isaac tue un ennemi, ajoute une chance basée sur la chance de faire apparaître un anneau noir endommageant autour d'eux.",
+        "unlock": "",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Athame_icon.webp"
+    },
+    {
+        "id": "442",
+        "name": "Dark Prince's Crown",
+        "description": "Lorsqu'il reste exactement un Cœur Rouge, augmente la vitesse de tir, la portée et la vitesse de tir.",
+        "unlock": "",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Dark_Princes_Crown_icon.webp"
+    },
+    {
+        "id": "451",
+        "name": "Tarot Cloth",
+        "description": "Lâche une carte ou une rune aléatoire. Double les effets des cartes de tarot.",
+        "unlock": "",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Tarot_Cloth_icon.webp"
+    },
+    {
+        "id": "468",
+        "name": "Shade",
+        "description": "Fait apparaître un familier d'ombre qui suit les mouvements d'Isaac avec un délai d'une seconde et inflige des dégâts de contact aux ennemis. Après avoir infligé suffisamment de dégâts, il est absorbé par Isaac et fait apparaître des Chargeurs amicaux.",
+        "unlock": "",
+        "type": "Passif & Familier",
+        "image": "./img/items/Collectible_Shade_icon.webp"
+    },
+    {
+        "id": "496",
+        "name": "Euthanasia",
+        "description": "Ajoute une chance de tirer des aiguilles qui tuent instantanément les ennemis de base et infligent des dégâts triples aux boss. Si une aiguille tue un ennemi, elle éclate en plus de larmes/aiguilles.",
+        "unlock": "",
+        "type": "Passif & Aiguille",
+        "image": "./img/items/Collectible_Euthanasia_icon.webp"
+    },
+    {
+        "id": "503",
+        "name": "Little Horn",
+        "description": "Ajoute une chance de tirer une larme qui invoque la main de Gros Cornu pour écraser le premier ennemi touché, tuant instantanément les monstres ou infligeant de gros dégâts aux boss.",
+        "unlock": "",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Little_Horn_icon.webp"
+    },
+    {
+        "id": "508",
+        "name": "Mom's Razor",
+        "description": "Fait apparaître un rasoir en orbite qui inflige des dégâts de contact et inflige des saignements aux ennemis, les faisant lentement subir des dégâts au fil du temps.",
+        "unlock": "",
+        "type": "Passif & Familier",
+        "image": "./img/items/Collectible_Moms_Razor_icon.webp"
+    },
+    {
         "id": "565",
         "name": "Blood Puppy",
         "description": "Fait apparaître un familier qui poursuit les ennemis. Après avoir tué suffisamment d'ennemis, il devient plus puissant mais essaiera également de blesser Isaac. L'attaquer le ramène à la normale.",
         "unlock": "Débloquez cet objet en vainquant Mother dans le Corpse II en tant que Lilith",
-        "type": "Familier & Passif",
+        "type": "Passif & Familier",
         "image": "./img/items/Blood_Puppy.webp"
+    },
+    {
+        "id": "569",
+        "name": "Blood Oath",
+        "description": "Poignarde Isaac au début de chaque étage, drainant ses Cœurs Rouges. Augmente les dégâts et la vitesse pour l'étage en fonction de la quantité drainée.",
+        "unlock": "",
+        "type": "Passif",
+        "image": "./img/items/Blood_Oath.webp"
     },
     {
         "id": "580",
@@ -16,11 +208,67 @@
         "image": "./img/items/Red_Key.webp"
     },
     {
-    "id": "569",
-        "name": "Blood Oath",
-        "description": "Poignarde Isaac au début de chaque étage, drainant ses Cœurs Rouges. Augmente les dégâts et la vitesse pour l'étage en fonction de la quantité drainée.",
+        "id": "642",
+        "name": "Magic Skin",
+        "description": "Consomme un conteneur de cœur ou deux cœurs d'âme pour faire apparaître un objet et donne à Isaac un conteneur de cœur brisé qui ne peut jamais être rempli. Si Magic Skin n'est pas conservé après utilisation, il est très probable qu'il remplace tous les futurs objets.",
+        "unlock": "Débloquez cet objet en vainquant Mother dans le Corpse II en tant que Jacob et Esaü",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Magic_Skin_icon.webp"
+    },
+    {
+        "id": "654",
+        "name": "False PHD",
+        "description": "Convertit les bonnes pilules en mauvaises pilules et identifie toutes les pilules. Les mauvaises pilules ont désormais des effets secondaires positifs. Accorde un Cœur Noir.",
+        "unlock": "De base",
+        "type": "Passif",
+        "image": "./img/items/Collectible_False_PHD_icon.webp"
+    },
+    {
+        "id": "665",
+        "name": "Guppy's Eye",
+        "description": "Affiche le contenu des coffres, des Feux de Camp, des Sacs à Butin et des Boutiquiers avant qu'ils ne soient ouverts / détruits.",
+        "unlock": "Débloquez cet objet en vainquant Mother dans le Corpse II en tant que Cain",
+        "type": "Passif & Guppy",
+        "image": "./img/items/Collectible_Guppys_Eye_icon.webp"
+    },
+    {
+        "id": "692",
+        "name": "Sanguine Bond",
+        "description": "Fait apparaître un ensemble spécial de pointes dans la salle du Diable. Prendre des dégâts des pointes a une chance d'accorder une récompense.",
         "unlock": "",
         "type": "Passif",
-        "image": "./img/items/Blood_Oath.webp"
+        "image": "./img/items/Collectible_Sanguine_Bond_icon.webp"
+    },
+    {
+        "id": "694",
+        "name": "Heartbreak",
+        "description": "Accorde 3 cœurs brisés et +0,25 de dégâts pour chaque cœur brisé qu'Isaac a. Chaque coup fatal autrement ajoutera 2 de plus jusqu'à ce qu'Isaac n'ait plus que des cœurs brisés.",
+        "unlock": "",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Heartbreak_icon.webp"
+    },
+    {
+        "id": "697",
+        "name": "Vanishing Twin",
+        "description": "Fait apparaître un familier qui devient un clone du boss de l'étage lorsqu'il entre dans la salle du boss. Le vaincre laisse tomber un objet supplémentaire.",
+        "unlock": "",
+        "type": "Passif & Familier",
+        "image": "./img/items/Collectible_Vanishing_Twin_icon.webp"
+    },
+    {
+        "id": "702",
+        "name": "Vengeful Spirit",
+        "description": "Après avoir subi des dégâts, fait apparaître un esprit orbital qui dure pendant tout l'étage, jusqu'à un maximum de six. Ils tirent des larmes mais ne bloquent pas les tirs.",
+        "unlock": "",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Vengeful_Spirit_icon.webp"
+    },
+    {
+        "id": "711",
+        "name": "Flip",
+        "description": "Les piédestaux d'objets ont un deuxième objet fantomatique non interactif derrière eux. L'activation fera basculer les objets réels et fantomatiques. Si vous jouez en tant que Lazarus Corrompu, cela basculera également entre eux et Lazarus Corrompu Mort.",
+        "unlock": "",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Flip_icon.webp"
     }
 ]
