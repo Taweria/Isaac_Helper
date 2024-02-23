@@ -59,7 +59,7 @@
         "id": "94",
         "name": "Sack of Pennies",
         "description": "Fait apparaître un familier qui laisse tomber une pièce toutes les 2 salles.",
-        "unlock": "",
+        "unlock": "Feature coming soon",
         "type": "Passif & Familier",
         "image": "./img/items/Collectible_Sack_of_Pennies_icon.webp"
     },
@@ -67,7 +67,7 @@
         "id": "119",
         "name": "Blood Bag",
         "description": "Accorde un conteneur de cœur rouge rempli, restaure 4 cœurs rouges et augmente la vitesse de 0,3.",
-        "unlock": "",
+        "unlock": "Feature coming soon",
         "type": "Passif",
         "image": "./img/items/Collectible_Blood_Bag_icon.webp"
     },
@@ -75,7 +75,7 @@
         "id": "131",
         "name": "Bomb Bag",
         "description": "Fait apparaître un familier qui laisse tomber une bombe toutes les 3 salles.",
-        "unlock": "",
+        "unlock": "Feature coming soon",
         "type": "Passif & Familier",
         "image": "./img/items/Collectible_Bomb_Bag_icon.webp"
     },
@@ -107,7 +107,7 @@
         "id": "179",
         "name": "Fate",
         "description": "Accorde le vol et un Cœur Éternel.",
-        "unlock": "",
+        "unlock": "Feature coming soon",
         "type": "Passif",
         "image": "./img/items/Collectible_Fate_icon.webp"
     },
@@ -115,7 +115,7 @@
         "id": "188",
         "name": "Abel",
         "description": "Fait apparaître un familier qui reproduit les mouvements d'Isaac et tire vers lui",
-        "unlock": "",
+        "unlock": "Feature coming soon",
         "type": "Passif & Familier",
         "image": "./img/items/Collectible_Abel_icon.webp"
     },
@@ -123,7 +123,7 @@
         "id": "194",
         "name": "Magic 8 Ball",
         "description": "+0,16 vitesse de tir, fait apparaître une carte tarot aléatoire. Augmente la chance de trouver un Planetarium.",
-        "unlock": "",
+        "unlock": "Feature coming soon",
         "type": "Passif",
         "image": "./img/items/Collectible_Magic_8_Ball_icon.webp"
     },
@@ -131,7 +131,7 @@
         "id": "196",
         "name": "Squeezy",
         "description": "Augmente les larmes de 0,4, fait apparaître 2 Cœurs d'Âme.",
-        "unlock": "",
+        "unlock": "Feature coming soon",
         "type": "Passif",
         "image": "./img/items/Collectible_Squeezy_icon.webp"
     },
@@ -147,7 +147,7 @@
         "id": "242",
         "name": "Infamy",
         "description": "Donne à Isaac 50% de chances de bloquer les projectiles venant de n'importe quelle direction.",
-        "unlock": "",
+        "unlock": "Feature coming soon",
         "type": "Passif",
         "image": "./img/items/Collectible_Infamy_icon.webp"
     },
@@ -155,7 +155,7 @@
         "id": "252",
         "name": "Little Baggy",
         "description": "Isaac peut porter 2 pilules à la fois et toutes les cartes et runes sont remplacées par des pilules.",
-        "unlock": "",
+        "unlock": "Feature coming soon",
         "type": "Passif",
         "image": "./img/items/Collectible_Little_Baggy_icon.webp"
     },
@@ -163,7 +163,7 @@
         "id": "255",
         "name": "Screw",
         "description": "+0,5 larmes, +0,2 vitesse de tir.",
-        "unlock": "",
+        "unlock": "Feature coming soon",
         "type": "Passif",
         "image": "./img/items/Collectible_Screw_icon.webp"
     },
@@ -171,7 +171,7 @@
         "id": "271",
         "name": "Mystery Sack",
         "description": "Fait apparaître un familier qui laisse tomber un cœur, une pièce, une bombe ou une clé toutes les 5-6 salles.",
-        "unlock": "",
+        "unlock": "Feature coming soon",
         "type": "Passif & Familier",
         "image": "./img/items/Collectible_Mystery_Sack_icon.webp"
     },
@@ -179,7 +179,7 @@
         "id": "273",
         "name": "Bob's Brain",
         "description": "Fait apparaître un familier qui fonce vers l'avant en tirant des larmes et explose au contact avec un ennemi, les endommageant et les empoisonnant. Le familier réapparaît après quelques secondes.",
-        "unlock": "",
+        "unlock": "Feature coming soon",
         "type": "Passif & Familier",
         "image": "./img/items/Collectible_Bobs_Brain_icon.webp"
     },
@@ -187,7 +187,7 @@
         "id": "341",
         "name": "Torn Photo",
         "description": "+0,7 larmes, +0,16 vitesse de tir.",
-        "unlock": "",
+        "unlock": "Feature coming soon",
         "type": "Passif",
         "image": "./img/items/Collectible_Torn_Photo_icon.webp"
     },
@@ -195,7 +195,7 @@
         "id": "343",
         "name": "Latch Key",
         "description": "Accorde 1 Cœur d'Âme et +1 chance. Fait apparaître 2 clés.",
-        "unlock": "",
+        "unlock": "Feature coming soon",
         "type": "Passif",
         "image": "./img/items/Collectible_Latch_Key_icon.webp"
     },
@@ -203,7 +203,7 @@
         "id": "344",
         "name": "Match Book",
         "description": "Accorde à Isaac un Cœur Noir, fait apparaître deux ou trois bombes.",
-        "unlock": "",
+        "unlock": "Feature coming soon",
         "type": "Passif",
         "image": "./img/items/Collectible_Match_Book_icon.webp"
     },
@@ -211,7 +211,7 @@
         "id": "354",
         "name": "Crack Jacks",
         "description": "Accorde un conteneur de cœur rouge complet et laisse tomber un objet fétiche aléatoire.",
-        "unlock": "",
+        "unlock": "Feature coming soon",
         "type": "Passif",
         "image": "./img/items/Collectible_Crack_Jacks_icon.webp"
     },
@@ -219,7 +219,7 @@
         "id": "355",
         "name": "Mom's Pearls",
         "description": "+2,5 de portée, +1 chance. Accorde un Cœur d'Âme.",
-        "unlock": "",
+        "unlock": "Feature coming soon",
         "type": "Passif",
         "image": "./img/items/Collectible_Moms_Pearls_icon.webp"
     },
@@ -227,7 +227,7 @@
         "id": "361",
         "name": "Fate's Reward",
         "description": "Un familier à tête bleue qui suivra Isaac et tirera des larmes en copiant ses effets de larmes et ses dégâts.",
-        "unlock": "",
+        "unlock": "Feature coming soon",
         "type": "Passif",
         "image": "./img/items/Collectible_Fates_Reward_icon.webp"
     },
@@ -235,7 +235,7 @@
         "id": "370",
         "name": "Mr. Dolly",
         "description": "+0,7 larmes, +2,5 de portée, fait apparaître 3 types de cœurs aléatoires sur le sol lorsqu'il est ramassé.",
-        "unlock": "",
+        "unlock": "Feature coming soon",
         "type": "Passif",
         "image": "./img/items/Collectible_Mr._Dolly_icon.webp"
     },
@@ -243,7 +243,7 @@
         "id": "389",
         "name": "Rune Bag",
         "description": "Fait apparaître un familier qui laisse tomber une rune aléatoire après avoir nettoyé suffisamment de salles.",
-        "unlock": "",
+        "unlock": "Feature coming soon",
         "type": "Passif & Familier",
         "image": "./img/items/Collectible_Rune_Bag_icon.webp"
     },
@@ -251,7 +251,7 @@
         "id": "428",
         "name": "PJs",
         "description": "Accorde 4 Cœurs d'Âme et restaure entièrement la santé d'Isaac.",
-        "unlock": "",
+        "unlock": "Feature coming soon",
         "type": "Passif",
         "image": "./img/items/Collectible_PJs_icon.webp"
     },
@@ -259,7 +259,7 @@
         "id": "429",
         "name": "Head of the Keeper",
         "description": "Les larmes d'Isaac deviennent des pièces et ont désormais une chance de laisser tomber des centimes sur le sol en touchant avec succès un ennemi.",
-        "unlock": "",
+        "unlock": "Feature coming soon",
         "type": "Passif",
         "image": "./img/items/Collectible_Head_of_the_Keeper_icon.webp"
     },
@@ -267,7 +267,7 @@
         "id": "438",
         "name": "Binky",
         "description": "Accorde un Cœur d'Âme, +0,75 larmes et réduit la taille d'Isaac.",
-        "unlock": "",
+        "unlock": "Feature coming soon",
         "type": "Passif",
         "image": "./img/items/Collectible_Binky_icon.webp"
     },
@@ -275,7 +275,7 @@
         "id": "444",
         "name": "Lead Pencil",
         "description": "Après chaque 15 larmes tirées, Isaac tirera un groupe de larmes à haut dégât.",
-        "unlock": "",
+        "unlock": "Feature coming soon",
         "type": "Passif",
         "image": "./img/items/Collectible_Lead_Pencil_icon.webp"
     },
@@ -283,7 +283,7 @@
         "id": "455",
         "name": "Dad's Lost Coin",
         "description": "+2,5 de portée. Laisse tomber un Penny Chanceux.",
-        "unlock": "",
+        "unlock": "Feature coming soon",
         "type": "Passif",
         "image": "./img/items/Collectible_Dads_Lost_Coin_icon.webp"
     },
@@ -291,7 +291,7 @@
         "id": "456",
         "name": "Midnight Snack",
         "description": "Accorde un conteneur de cœur rouge complet. (dans Repentance) Soigne 1 cœur rouge supplémentaire.",
-        "unlock": "",
+        "unlock": "Feature coming soon",
         "type": "Passif",
         "image": "./img/items/Collectible_Midnight_Snack_icon.webp"
     },
@@ -299,7 +299,7 @@
         "id": "500",
         "name": "Sack of Sacks",
         "description": "Fait apparaître un familier qui laisse tomber un Grab Bag toutes les 5-6 salles nettoyées.",
-        "unlock": "",
+        "unlock": "Feature coming soon",
         "type": "Passif & Familier",
         "image": "./img/items/Collectible_Sack_of_Sacks_icon.webp"
     },
@@ -307,7 +307,7 @@
         "id": "534",
         "name": "Schoolbag",
         "description": "Permet à Isaac de porter deux objets actifs.",
-        "unlock": "",
+        "unlock": "Feature coming soon",
         "type": "Passif",
         "image": "img/items/Collectible_Schoolbag_icon.webp"
     },
@@ -323,7 +323,7 @@
         "id": "644",
         "name": "Consolation Prize",
         "description": "Augmente la statistique la plus basse d'Isaac et laisse tomber soit 3 Pièces, 1 Bombe ou 1 Clé en fonction de ce dont Isaac a le moins.",
-        "unlock": "",
+        "unlock": "Feature coming soon",
         "type": "Passif",
         "image": "./img/items/Collectible_Consolation_Prize_icon.webp"
     },
@@ -331,7 +331,7 @@
         "id": "708",
         "name": "Stapler",
         "description": "+1 de dégâts. Empêche Isaac de tirer des larmes depuis son œil gauche, comme Cain.",
-        "unlock": "",
+        "unlock": "Feature coming soon",
         "type": "Passif",
         "image": "./img/items/Collectible_Stapler_icon.webp"
     },
@@ -339,7 +339,7 @@
         "id": "730",
         "name": "Glass Eye",
         "description": "+0,75 de dégâts, +1 de chance.",
-        "unlock": "",
+        "unlock": "Feature coming soon",
         "type": "Passif",
         "image": "./img/items/Collectible_Glass_Eye_icon.webp"
     },
@@ -347,7 +347,7 @@
         "id": "732",
         "name": "Mom's Ring",
         "description": "+1 de dégâts. Laisse tomber une Rune ou une Pierre d'Âme aléatoire lors de la récupération.",
-        "unlock": "",
+        "unlock": "Feature coming soon",
         "type": "Passif",
         "image": "./img/items/Collectible_Moms_Ring_icon.webp"
     }

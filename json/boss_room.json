@@ -1,9 +1,25 @@
 [
     {
+        "id": "12",
+        "name": "Magic Mushroom",
+        "description": "Rend Isaac plus grand. Ajoute un conteneur de cœur rouge, +0,3 de dégâts, un multiplicateur de dégâts x1,5, +2,5 de portée et +0,3 de vitesse, et restaure toute la santé.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Champignon",
+        "image": "./img/items/Collectible_Magic_Mushroom_icon.webp"
+    },
+    {
+        "id": "14",
+        "name": "Roid Rage",
+        "description": "+0,3 de vitesse, +2,5 de portée.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Aiguille",
+        "image": "./img/items/Collectible_Roid_Rage_icon.webp"
+    },
+    {
         "id": "15",
         "name": "<3",
         "description": "Accorde à Isaac un conteneur de cœur rouge et restaure entièrement la santé d'Isaac.",
-        "Unlock": "",
+        "Unlock": "Feature coming soon",
         "type": "Passif",
         "image": "./img/items/Less_Than_Three.webp"
     },
@@ -11,7 +27,7 @@
         "id": "22",
         "name": "Lunch",
         "description": "Accorde un conteneur de cœur rouge complet. Soigne 1 cœur rouge supplémentaire.",
-        "Unlock": "",
+        "Unlock": "Feature coming soon",
         "type": "Passif",
         "image": "./img/items/Lunch.webp"
     },
@@ -19,8 +35,528 @@
         "id": "23",
         "name": "Dinner",
         "description": "Accorde un conteneur de cœur rouge complet. Soigne 1 cœur rouge supplémentaire.",
-        "Unlock": "",
+        "Unlock": "Feature coming soon",
         "type": "Passif",
         "image": "./img/items/Dinner.webp"
+    },
+    {
+        "id": "24",
+        "name": "Dessert",
+        "description": "Accorde un conteneur de cœur rouge complet. Soigne 1 cœur rouge supplémentaire.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Dessert_icon.webp"
+    },
+    {
+        "id": "25",
+        "name": "Breakfast",
+        "description": "Accorde un conteneur de cœur rouge complet. Soigne 1 cœur rouge supplémentaire.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Breakfast_icon.webp"
+    },
+    {
+        "id": "26",
+        "name": "Rotten Meat",
+        "description": "Accorde un conteneur de cœur rouge complet. Soigne 1 cœur rouge supplémentaire.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Rotten_Meat_icon.webp"
+    },
+    {
+        "id": "28",
+        "name": "The Spoon",
+        "description": "Augmente la vitesse de 0,3.",
+        "unlock": "De base",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Wooden_Spoon_icon.webp"
+    },
+    {
+        "id": "28",
+        "name": "The Belt",
+        "description": "Augmente la vitesse de 0,3.",
+        "unlock": "De base",
+        "type": "Passif",
+        "image": "./img/items/Collectible_The_Belt_icon.webp"
+    },
+    {
+        "id": "29",
+        "name": "Mom's Underwear",
+        "description": "+2,5 de portée. Fait apparaître de 3 à 6 Mouches Bleues à la prise de l'objet.",
+        "unlock": "De base",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Moms_Underwear_icon.webp"
+    },
+    {
+        "id": "30",
+        "name": "Mom's Heels",
+        "description": "+2,5 de portée, les ennemis qui touchent Isaac subissent 12 points de dégâts.",
+        "unlock": "De base",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Moms_Heels_icon.webp"
+    },
+    {
+        "id": "31",
+        "name": "Mom's Lipstick",
+        "description": "+3,75 de portée. Fait apparaître un Cœur lors de la prise.",
+        "unlock": "De base",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Moms_Lipstick_icon.webp"
+    },
+    {
+        "id": "32",
+        "name": "Wire Coat Hanger",
+        "description": "Augmente les larmes de 0,7.",
+        "unlock": "Débloquez cet objet en vainquant le coeur de Maman 4 fois",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Wire_Coat_Hanger_icon.webp"
+    },
+    {
+        "id": "50",
+        "name": "Steven",
+        "description": "+1 dégât.",
+        "unlock": "Débloquez cet objet en battant le sous-sol 40 fois et en vainquant le boss Steven.",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Steven_icon.webp"
+    },
+    {
+        "id": "51",
+        "name": "Pentagram",
+        "description": "+1 de dégât, augmente la chance d'une salle du Diable / de l'Ange de 10 %.",
+        "unlock": "Feature comming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Pentagram_icon.webp"
+    },
+    {
+        "id": "70",
+        "name": "Growth Hormones",
+        "description": "+1 de dégâts, +0,2 de vitesse.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Aiguille",
+        "image": "./img/items/Collectible_Growth_Hormones_icon.webp"
+    },
+    {
+        "id": "73",
+        "name": "Cube of Meat",
+        "description": "Crée un familier orbital. Collecter des exemplaires supplémentaires lui donne la capacité de tirer des larmes, puis de pourchasser les ennemis pour infliger des dégâts de contact, puis de infliger encore plus de dégâts de contact.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Familier",
+        "image": "./img/items/Collectible_Cube_of_Meat_icon.webp"
+    },
+    {
+        "id": "92",
+        "name": "Super Bandage",
+        "description": "Accorde un conteneur complet de Cœur Rouge et 2 Cœurs d'Âme.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Super_Bandage_icon.webp"
+    },
+    {
+        "id": "100",
+        "name": "Little Steven",
+        "description": "Crée un familier qui suit Isaac et tire des larmes traqueuses.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Familier",
+        "image": "./img/items/Collectible_Little_Steven_icon.webp"
+    },
+    {
+        "id": "101",
+        "name": "The Halo",
+        "description": "Accorde un conteneur de Cœur Rouge complet, +0,3 de dégâts, +0,2 larmes, +1,5 de portée et +0,3 de vitesse. Soigne 1 Cœur Rouge supplémentaire.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_The_Halo_icon.webp"
+    },
+    {
+        "id": "130",
+        "name": "A Pony",
+        "description": "Accorde passivement le vol et augmente la vitesse à 1.5. Lors de l'utilisation, Isaac charge dans la direction vers laquelle le poney est orienté, accordant une invulnérabilité pendant la charge et infligeant des dégâts aux ennemis touchés.",
+        "unlock": "Feature coming soon",
+        "type": "Activable",
+        "image": "./img/items/Collectible_A_Pony_icon.webp"
+    },
+    {
+        "id": "141",
+        "name": "Pageant Boy",
+        "description": "Crée sept pièces aléatoires autour d'Isaac.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Pageant_Boy_icon.webp"
+    },
+    {
+        "id": "143",
+        "name": "Speed Ball",
+        "description": "+0,3 de vitesse, +0,2 de vitesse de tir.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Aiguille",
+        "image": "./img/items/Collectible_Speed_Ball_icon.webp"
+    },
+    {
+        "id": "165",
+        "name": "Cat-O-Nine-Tails",
+        "description": "+1 de dégâts, +0,23 de vitesse de tir.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Cat-O-Nine-Tails_icon.webp"
+    },
+    {
+        "id": "176",
+        "name": "Stem Cells",
+        "description": "Accorde un conteneur complet de Cœur Rouge et +0,16 de vitesse de tir. Soigne 1 Cœur Rouge supplémentaire.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Stem_Cells_icon.webp"
+    },
+    {
+        "id": "181",
+        "name": "White Pony",
+        "description": "Accorde passivement le vol et augmente la vitesse à 1.5. Lors de l'utilisation, Isaac charge dans la direction vers laquelle le poney est orienté, accordant une invulnérabilité pendant la charge tout en créant des faisceaux de lumière endommageants.",
+        "unlock": "Feature coming soon",
+        "type": "Activable",
+        "image": "./img/items/Collectible_White_Pony_icon.webp"
+    },
+    {
+        "id": "183",
+        "name": "Tooth Picks",
+        "description": "+0,7 de larmes, +0,16 de vitesse de tir.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Tooth_Picks_icon.webp"
+    },
+    {
+        "id": "193",
+        "name": "MEAT!",
+        "description": "Accorde un conteneur complet de Cœur Rouge et +0,3 de dégâts. Soigne 1 Cœur Rouge supplémentaire.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_MEAT_icon.webp"
+    },
+    {
+        "id": "194",
+        "name": "Magic 8 Ball",
+        "description": "+0,16 vitesse de tir, fait apparaître une carte tarot aléatoire. Augmente la chance de trouver un Planetarium.",
+        "unlock": "",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Magic_8_Ball_icon.webp"
+    },
+    {
+        "id": "195",
+        "name": "Mom's Coin Purse",
+        "description": "Crée 4 pilules aléatoires près d'Isaac.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Moms_Coin_Purse_icon.webp"
+    },
+    {
+        "id": "196",
+        "name": "Squeezy",
+        "description": "Augmente les larmes de 0,4, fait apparaître 2 Cœurs d'Âme.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Squeezy_icon.webp"
+    },
+    {
+        "id": "197",
+        "name": "Jesus Juice",
+        "description": "+0,5 de dégâts, +1,5 de portée.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Jesus_Juice_icon.webp"
+    },
+    {
+        "id": "198",
+        "name": "Box",
+        "description": "Crée divers objets : 1 pièce, 1 clé, 1 bombe, 1 cœur, 1 carte/rune, 1 pilule et 1 breloque.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Box_icon.webp"
+    },
+    {
+        "id": "207",
+        "name": "Ball of Bandages",
+        "description": "Crée un familier orbital. Collecter des exemplaires supplémentaires lui donne la capacité de tirer des larmes de Charme, puis de pourchasser les ennemis pour infliger des dégâts de contact, puis de infliger encore plus de dégâts de contact.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Familier",
+        "image": "./img/items/Collectible_Ball_of_Bandages_icon.webp"
+    },
+    {
+        "id": "218",
+        "name": "Placenta",
+        "description": "Accorde un conteneur complet de Cœur Rouge, et une chance de régénérer un demi-cœur de santé toutes les minutes de jeu.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Placenta_icon.webp"
+    },
+    {
+        "id": "219",
+        "name": "Old Bandage",
+        "description": "Accorde un conteneur de Cœur Rouge vide. Ajoute une chance de laisser tomber un Cœur Rouge après avoir subi des dégâts.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Old_Bandage_icon.webp"
+    },
+    {
+        "id": "240",
+        "name": "Experimental Treatment",
+        "description": "Augmente quatre statistiques aléatoires et diminue les deux autres.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Aiguille",
+        "image": "./img/items/Collectible_Experimental_Treatment_icon.webp"
+    },
+    {
+        "id": "253",
+        "name": "Magic Scab",
+        "description": "Accorde un conteneur complet de Cœur Rouge et +1 de chance. (dans Repentance) Soigne 1 Cœur Rouge supplémentaire.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Magic_Scab_icon.webp"
+    },
+    {
+        "id": "254",
+        "name": "Blood Clot",
+        "description": "Les larmes tirées depuis l'œil gauche ont +1 de dégâts fixes et +2,75 de portée.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Blood_Clot_icon.webp"
+    },
+    {
+        "id": "255",
+        "name": "Screw",
+        "description": "+0,5 larmes, +0,2 vitesse de tir.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Screw_icon.webp"
+    },
+    {
+        "id": "339",
+        "name": "Safety Pin",
+        "description": "Accorde un Cœur Noir, +2,5 de portée, +0,16 de vitesse de tir.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Safety_Pin_icon.webp"
+    },
+    {
+        "id": "340",
+        "name": "Caffeine Pill",
+        "description": "Accorde +0,3 de vitesse, réduit la taille du personnage et donne une pilule aléatoire.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Caffeine_Pill_icon.webp"
+    },
+    {
+        "id": "341",
+        "name": "Torn Photo",
+        "description": "+0,7 larmes, +0,16 vitesse de tir.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Torn_Photo_icon.webp"
+    },
+    {
+        "id": "342",
+        "name": "Blue Cap",
+        "description": "Accorde un conteneur complet de Cœur Rouge, +0,7 de larmes et -0,16 de vitesse de tir. Soigne 1 Cœur Rouge supplémentaire.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Champignon",
+        "image": "./img/items/Collectible_Blue_Cap_icon.webp"
+    },
+    {
+        "id": "343",
+        "name": "Latch Key",
+        "description": "Accorde 1 Cœur d'Âme et +1 chance. Fait apparaître 2 clés.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Latch_Key_icon.webp"
+    },
+    {
+        "id": "344",
+        "name": "Match Book",
+        "description": "Accorde à Isaac un Cœur Noir, fait apparaître deux ou trois bombes.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Match_Book_icon.webp"
+    },
+    {
+        "id": "345",
+        "name": "Synthoil",
+        "description": "+1 de dégâts, +2,5 de portée.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Aiguille",
+        "image": "./img/items/Collectible_Synthoil_icon.webp"
+    },
+    {
+        "id": "346",
+        "name": "A Snack",
+        "description": "Accorde un conteneur complet de Cœur Rouge. Soigne 1 Cœur Rouge supplémentaire.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_A_Snack_icon.webp"
+    },
+    {
+        "id": "354",
+        "name": "Crack Jacks",
+        "description": "Accorde un conteneur de cœur rouge complet et laisse tomber un objet fétiche aléatoire.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Crack_Jacks_icon.webp"
+    },
+    {
+        "id": "355",
+        "name": "Mom's Pearls",
+        "description": "+2,5 de portée, +1 chance. Accorde un Cœur d'Âme.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Moms_Pearls_icon.webp"
+    },
+    {
+        "id": "370",
+        "name": "Mr. Dolly",
+        "description": "+0,7 larmes, +2,5 de portée, fait apparaître 3 types de cœurs aléatoires sur le sol lorsqu'il est ramassé.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Mr._Dolly_icon.webp"
+    },
+    {
+        "id": "428",
+        "name": "PJs",
+        "description": "Accorde 4 Cœurs d'Âme et restaure entièrement la santé d'Isaac.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_PJs_icon.webp"
+    },
+    {
+        "id": "438",
+        "name": "Binky",
+        "description": "Accorde un Cœur d'Âme, +0,75 larmes et réduit la taille d'Isaac.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Binky_icon.webp"
+    },
+    {
+        "id": "454",
+        "name": "Polydactyly",
+        "description": "Permet à Isaac de transporter deux cartes, pilules ou une combinaison des deux. Fait apparaître une carte, rune ou pilule aléatoire.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Polydactyly_icon.webp"
+    },
+    {
+        "id": "455",
+        "name": "Dad's Lost Coin",
+        "description": "+2,5 de portée. Laisse tomber un Penny Chanceux.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Dads_Lost_Coin_icon.webp"
+    },
+    {
+        "id": "456",
+        "name": "Midnight Snack",
+        "description": "Accorde un conteneur de cœur rouge complet. (dans Repentance) Soigne 1 cœur rouge supplémentaire.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Midnight_Snack_icon.webp"
+    },
+    {
+        "id": "458",
+        "name": "Belly Button",
+        "description": "fait apparraitre une breloque aléatoire. Accorde un deuxième emplacement de breloque.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Belly_Button_icon.webp"
+    },
+    {
+        "id": "538",
+        "name": "Marbles",
+        "description": "Apparaît avec 3 breloques aléatoires. Subir des dégâts a une chance de 5% d'avaler la breloque actuellement détenue par Isaac, en obtenant son effet de manière permanente.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Marbles_icon.webp"
+    },
+    {
+        "id": "541",
+        "name": "Marrow",
+        "description": "Accorde un Cœur d'Os et fait apparaître trois Cœurs Rouges.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Marrow_icon.webp"
+    },
+    {
+        "id": "547",
+        "name": "Divorce Papers",
+        "description": "Accorde un Cœur d'Os, +0,7 de larmes, fait apparaître un Parchemin Mystérieux.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Divorce_Papers_icon.webp"
+    },
+    {
+        "id": "564",
+        "name": "A Bar of Soap",
+        "description": "Donne à Isaac +0,5 de larmes et +0,2 de vitesse de tir.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_A_Bar_of_Soap_icon.webp"
+    },
+    {
+        "id": "600",
+        "name": "Eye Drops",
+        "description": "Augmente la cadence de tir dans l'œil gauche d'Isaac, ce qui fait que ses yeux tirent à des vitesses différentes.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Eye_Drops_icon.webp"
+    },
+    {
+        "id": "624",
+        "name": "Booster Pack",
+        "description": "Fait apparaitre 5 cartes aléatoires.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Booster_Pack_icon.webp"
+    },
+    {
+        "id": "644",
+        "name": "Consolation Prize",
+        "description": "Augmente la statistique la plus basse d'Isaac et laisse tomber soit 3 Pièces, 1 Bombe ou 1 Clé en fonction de ce dont Isaac a le moins.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Consolation_Prize_icon.webp"
+    },
+    {
+        "id": "659",
+        "name": "Tropicamide",
+        "description": "+2,5 de portée, Augmente la taille des larmes.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Tropicamide_icon.webp"
+    },
+    {
+        "id": "707",
+        "name": "Supper",
+        "description": "Accorde un conteneur complet de Cœur Rouge. Soigne 1 Cœur Rouge supplémentaire.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Supper_icon.webp"
+    },
+    {
+        "id": "708",
+        "name": "Stapler",
+        "description": "+1 de dégâts. Empêche Isaac de tirer des larmes depuis son œil gauche, comme Cain.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Stapler_icon.webp"
+    },
+    {
+        "id": "730",
+        "name": "Glass Eye",
+        "description": "+0,75 de dégâts, +1 de chance.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Glass_Eye_icon.webp"
+    },
+    {
+        "id": "731",
+        "name": "Stye",
+        "description": "Les larmes tirées depuis l'œil droit d'Isaac ont +28% de dégâts, +6,5 de portée et -0,3 de vitesse de tir.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Stye_icon.webp"
     }
 ]
