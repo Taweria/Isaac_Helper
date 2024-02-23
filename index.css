@@ -62,3 +62,22 @@ body{
 #description p{
     padding: 0 20px;
 }
+
+@media (max-width: 768px) {
+    .buttons{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #items {
+        width: 100vw;
+        height: 70%;
+        float: top;
+    }
+
+    #description {
+        width: 100vw;
+        height: 30%;
+        float: bottom;
+    }
+}
