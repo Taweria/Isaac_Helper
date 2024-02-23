@@ -2,7 +2,7 @@
     {
         "id": "565",
         "name": "Blood Puppy",
-        "description": "C'est un famillier qui fait des dégats mais qui peut finir par attaquer Isaac. Il faut l'attaquer pour le calmer",
+        "description": "Fait apparaître un familier qui poursuit les ennemis. Après avoir tué suffisamment d'ennemis, il devient plus puissant mais essaiera également de blesser Isaac. L'attaquer le ramène à la normale.",
         "unlock": "Débloquez cet objet en vainquant Mother dans le Corpse II en tant que Lilith",
         "type": "Familier & Passif",
         "image": "./img/items/Blood_Puppy.webp"

@@ -1,11 +1,387 @@
 [
     {
-        "id": "574",
-        "name": "Monstrance",
-        "description": "Isaac gagne une aura qui inflige des dégâts aux ennemis à l'intérieur.",
-        "unlock": "De base",
+        "id": "7",
+        "name": "Blood of the Martyr",
+        "description": "+1 de dégâts. Isaac tire des larmes de sang.",
+        "unlock": "Feature coming soon",
         "type": "Passif",
-        "image": "./img/items/Monstrance.webp"
+        "image": "./img/items/Collectible_Blood_of_the_Martyr_icon.webp"
+    },
+    {
+        "id": "33",
+        "name": "The Bible",
+        "description": "Lors de son utilisation, Isaac obtient la capacité de voler pour la pièce actuelle. Tue instantanément Maman, le Cœur de Maman et le bébé lorsqu'il est activé, mais tue Isaac lorsqu'il est utilisé sur Satan.",
+        "unlock": "De base",
+        "type": "Activable & Livre",
+        "image": "./img/items/The_Bible.webp"
+    },
+    {
+        "id": "72",
+        "name": "Rosary",
+        "description": "Accorde 3 Cœurs d'Âme. Fait apparaître la Bible dans n'importe quelle pool d'objets. +0,5 larmes.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Rosary_icon.webp"
+    },
+    {
+        "id": "78",
+        "name": "Book of Revelations",
+        "description": "Augmente la chance qu'une salle du Diable / de l'Ange apparaisse tant qu'il est en possession. Lors de l'utilisation, accorde un cœur d'âme et remplace le boss de l'étage actuel par un Harbinger si possible.",
+        "unlock": "Débloquez cet objet en battant l'un des boss cavaliers pour la première fois.",
+        "type": "Activable & Livre",
+        "image": "./img/items/Book_of_Revelations.webp"
+    },
+    {
+        "id": "98",
+        "name": "The Relic",
+        "description": "Fait apparaître un familier en forme de croix qui laisse tomber un Cœur d'Âme après avoir nettoyé suffisamment de salles.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Familier",
+        "image": "./img/items/Collectible_The_Relic_icon.webp"
+    },
+    {
+        "id": "101",
+        "name": "The Halo",
+        "description": "Accorde un conteneur de Cœur Rouge complet, +0,3 de dégâts, +0,2 larmes, +1,5 de portée et +0,3 de vitesse. Soigne 1 Cœur Rouge supplémentaire.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_The_Halo_icon.webp"
+    },
+    {
+        "id": "108",
+        "name": "The Wafer",
+        "description": "La plupart des sources de dégâts qui causeraient plus d'un demi-cœur de dégâts sont réduites à un demi-cœur.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_The_Wafer_icon.webp"
+    },
+    {
+        "id": "112",
+        "name": "Guardian Angel",
+        "description": "Fait apparaître un familier orbital qui bloque les tirs ennemis, inflige 52,5 points de dégâts par seconde aux ennemis et augmente la vitesse de tous les familiers orbitaux.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Familier",
+        "image": "./img/items/Collectible_Guardian_Angel_icon.webp"
+    },
+    {
+        "id": "124",
+        "name": "Dead Sea Scrolls",
+        "description": "Déclenche l'effet d'un objet activable aléatoire parmi une liste d'options possibles (tous les objets activables ne sont pas inclus).",
+        "unlock": "Feature coming soon",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Dead_Sea_Scrolls_icon.webp"
+    },
+    {
+        "id": "138",
+        "name": "Stigmata",
+        "description": "+0,3 de dégâts, accorde un conteneur de Cœur Rouge complet. Soigne 1 Cœur Rouge supplémentaire.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Stigmata_icon.webp"
+    },
+    {
+        "id": "142",
+        "name": "Scapular",
+        "description": "Une fois par salle, lorsque Isaac est réduit à son dernier demi-cœur, il se voit accorder un Cœur d'Âme.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Scapular_icon.webp"
+    },
+    {
+        "id": "146",
+        "name": "Prayer Card",
+        "description": "Donne un Cœur Éternel par utilisation.",
+        "unlock": "Feature coming soon",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Prayer_Card_icon.webp"
+    },
+    {
+        "id": "156",
+        "name": "Habit",
+        "description": "Lorsqu'Isaac est touché, son objet actif gagne la charge d'une salle.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Habit_icon.webp"
+    },
+    {
+        "id": "162",
+        "name": "Celtic Cross",
+        "description": "Accorde une chance de déclencher l'effet du Livre des Ombres lorsqu'Isaac subit des dégâts, créant un bouclier qui annule tous les types de dégâts pendant 7 secondes.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Celtic_Cross_icon.webp"
+    },
+    {
+        "id": "173",
+        "name": "Mitre",
+        "description": "Accorde une chance de convertir tout ramassage de Cœur Rouge en Cœurs d'Âme à la place.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Mitre_icon.webp"
+    },
+    {
+        "id": "178",
+        "name": "Holy Water",
+        "description": "Un familier en bouteille qui vole vers l'avant lorsque Isaac tire. Il se brise lorsqu'il touche un ennemi, laissant une flaque de liquide bleu qui pétrifie les ennemis.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Familier",
+        "image": "./img/items/Collectible_Holy_Water_icon.webp"
+    },
+    {
+        "id": "182",
+        "name": "Sacred Heart",
+        "description": "Ajoute un conteneur de Cœur Rouge. Accorde des larmes suivant la cible, un multiplicateur de dégâts x 2,3, +1 de dégâts brut, -0,4 larmes et -0,25 vitesse de tir.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Sacred_Heart_icon.webp"
+    },
+    {
+        "id": "184",
+        "name": "Holy Grail",
+        "description": "Accorde le vol et un conteneur de Cœur Rouge. Soigne 1 Cœur Rouge supplémentaire.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Holy_Grail_icon.webp"
+    },
+    {
+        "id": "185",
+        "name": "Dead Dove",
+        "description": "Accorde des larmes spectrales et le vol.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Dead_Dove_icon.webp"
+    },
+    {
+        "id": "197",
+        "name": "Jesus Juice",
+        "description": "+0,5 de dégâts, +1,5 de portée.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Jesus_Juice_icon.webp"
+    },
+    {
+        "id": "243",
+        "name": "Trinity Shield",
+        "description": "Isaac obtient un bouclier qui le protège des tirs ennemis. Il vise dans la direction à partir de laquelle Isaac tire.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Trinity_Shield_icon.webp"
+    },
+    {
+        "id": "313",
+        "name": "Holy Mantle",
+        "description": "Accorde un bouclier qui annule la première instance de dégâts subis, une fois par salle. Ne s'applique pas ou ne nie pas les dégâts auto-infligés (machines de don de sang, etc.).",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Holy_Mantle_icon.webp"
+    },
+    {
+        "id": "326",
+        "name": "Breath of Life",
+        "description": "Isaac crée des faisceaux de lumière lorsqu'il touche des ennemis tout en étant invulnérable, et crée un puissant faisceau en forme de croix si le blocage de dégâts commence exactement au moment où l'invincibilité commence.",
+        "unlock": "Feature coming soon",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Breath_of_Life_icon.webp"
+    },
+    {
+        "id": "331",
+        "name": "Godhead",
+        "description": "Accorde des larmes homing avec un halo endommageant. +0,5 de dégâts, -0,3 larmes et -0,3 vitesse de tir.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Godhead_icon.webp"
+    },
+    {
+        "id": "332",
+        "name": "Lazarus' Rags",
+        "description": "À la mort, ressuscite en tant que Lazare ressuscité dans la salle actuelle avec un conteneur de Cœur Rouge en moins, Anémique et +0,5 de dégâts. Se transforme en Lazare en atteignant l'étage suivant.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Lazarus_Rags_icon.webp"
+    },
+    {
+        "id": "333",
+        "name": "The Mind",
+        "description": "Révèle la carte entière, y compris toutes les salles spéciales et les Salles Secrètes.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_The_Mind_icon.webp"
+    },
+    {
+        "id": "334",
+        "name": "The Body",
+        "description": "Ajoute 3 Conteneurs de Cœurs Rouges.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_The_Body_icon.webp"
+    },
+    {
+        "id": "335",
+        "name": "The Soul",
+        "description": "Accorde deux Cœurs d'Âme. Isaac obtient une aura pulsante qui repousse les ennemis et les projectiles.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_The_Soul_icon.webp"
+    },
+    {
+        "id": "363",
+        "name": "Sworn Protector",
+        "description": "Fait apparaître un familier orbital qui inflige 105 dégâts par seconde et attire et bloque les tirs ennemis. Après avoir bloqué 10 tirs dans une salle, il laisse tomber un Cœur Éternel.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Sworn_Protector_icon.webp"
+    },
+    {
+        "id": "374",
+        "name": "Holy Light",
+        "description": "Ajoute une chance de tirer des larmes sacrées, qui créent un faisceau de lumière endommageant dans la zone si elles touchent un ennemi.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Holy_Light_icon.webp"
+    },
+    {
+        "id": "387",
+        "name": "Censer",
+        "description": "Fait apparaître un familier qui crée une aura circulaire qui ralentit les ennemis et les tirs ennemis à l'intérieur.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Familier",
+        "image": "./img/items/Collectible_Censer_icon.webp"
+    },
+    {
+        "id": "390",
+        "name": "Seraphim",
+        "description": "Fait apparaître un familier d'ange qui suit Isaac et tire des larmes homing qui infligent 10 dégâts et ont 75% de vitesse de tir.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Familier",
+        "image": "./img/items/Collectible_Seraphim_icon.webp"
+    },
+    {
+        "id": "400",
+        "name": "Spear of Destiny",
+        "description": "En plus des larmes, Isaac tient une lance devant lui qui inflige des dégâts de contact égaux à 2x ses dégâts de larmes et inflige occasionnellement la peur.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Spear_of_Destiny_icon.webp"
+    },
+    {
+        "id": "407",
+        "name": "Purity",
+        "description": "Améliore l'une des statistiques d'Isaac en fonction de la couleur de l'aura autour de lui. L'aura disparaît lorsqu'il subit des dégâts et réapparaît avec une couleur aléatoire en entrant dans une nouvelle salle. Le rouge augmente les dégâts, le bleu augmente les larmes, le jaune augmente la vitesse et l'orange augmente la portée.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Purity_icon.webp"
+    },
+    {
+        "id": "413",
+        "name": "Immaculate Conception",
+        "description": "En ramassant une certaine quantité de santé, fait apparaître un familier angélique permanent.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Immaculate_Conception_icon.webp"
+    },
+    {
+        "id": "415",
+        "name": "Crown of Light",
+        "description": "+2 Cœurs d'Âme. Lorsqu'Isaac n'a aucun cœur rouge vide, accorde 2x de dégâts, une portée accrue et -0,3 de vitesse de tir. Indépendamment de la santé, la couronne se désactive pour la salle actuelle lorsque Isaac subit des dégâts.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Crown_of_Light_icon.webp"
+    },
+    {
+        "id": "423",
+        "name": "Circle of Protection",
+        "description": "Entoure Isaac d'un grand halo blanc qui inflige occasionnellement des dégâts de larmes d'Isaac aux ennemis à l'intérieur et peut convertir les tirs ennemis en larmes amicales homing.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Circle_of_Protection_icon.webp"
+    },
+    {
+        "id": "464",
+        "name": "Glyph of Balance",
+        "description": "Accorde 2 Cœurs d'Âme et modifie les gouttes des monstres champions en fonction de certaines conditions. Modifie également les gouttes de salles vides.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Glyph_of_Balance_icon.webp"
+    },
+    {
+        "id": "477",
+        "name": "Void",
+        "description": "Consomme tous les objets sur un piédestal dans la pièce. Les objets actifs auront leurs effets ajoutés à Void, et les objets passifs accorderont des améliorations de statistiques aléatoires.",
+        "unlock": "Feature coming soon",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Void_icon.webp"
+    },
+    {
+        "id": "490",
+        "name": "Eden's Soul",
+        "description": "Fait apparaître deux piédestaux d'objets puis est consommé. Commence sans charges.",
+        "unlock": "Feature coming soon",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Edens_Soul_icon.webp"
+    },
+    {
+        "id": "498",
+        "name": "Duality",
+        "description": "Chaque fois qu'une Salle du Diable ou une Salle de l'Ange apparaîtrait après avoir vaincu un boss, les deux salles apparaissent. Seule l'une peut être entrée.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Duality_icon.webp"
+    },
+    {
+        "id": "499",
+        "name": "Eucharist",
+        "description": "Une porte de Salle de l'Ange apparaîtra toujours après chaque combat contre un boss, à l'exception du premier étage et des étages après Womb II/Utero II/Scarred Womb II.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Eucharist_icon.webp"
+    },
+    {
+        "id": "510",
+        "name": "Delirious",
+        "description": "Fait apparaître Délirium en tant que boss amical aléatoire qui se bat pour Isaac.",
+        "unlock": "Feature coming soon",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Delirious_icon.webp"
+    },
+    {
+        "id": "519",
+        "name": "Lil Delirium",
+        "description": "Fait apparaître un familier qui se transforme en un autre familier aléatoire toutes les 10 secondes.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Lil_Delirium_icon.webp"
+    },
+    {
+        "id": "526",
+        "name": "7 Seals",
+        "description": "Fait apparaître un familier Cavalier aléatoire qui change toutes les 10 secondes. Les Cavaliers ont des comportements différents et font apparaître des Locustes à thème.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Familier",
+        "image": "./img/items/Collectible_7_Seals_icon.webp"
+    },
+    {
+        "id": "528",
+        "name": "Angelic Prism",
+        "description": "Fait apparaître un familier orbital avec un grand rayon orbital. Les larmes qui traversent le prisme se divisent en quatre larmes multicolores.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Familier",
+        "image": "./img/items/Collectible_Angelic_Prism_icon.webp"
+    },
+    {
+        "id": "533",
+        "name": "Trisagion",
+        "description": "Les larmes sont remplacées par des rafales de lumière blanche perçantes qui infligent moins de dégâts mais peuvent endommager le même ennemi plusieurs fois.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Trisagion_icon.webp"
+    },
+    {
+        "id": "543",
+        "name": "Hallowed Ground",
+        "description": "Fait apparaître un familier en caca blanc, qui se transforme en Caca Blanc lorsque Isaac est blessé. Le caca blanc a une aura qui augmente le taux de tir des larmes et peut bloquer les tirs ennemis. L'aura augmente également les dégâts de 20% et donne l'homéomorphie.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Hallowed_Ground_icon.webp"
     },
     {
         "id": "567",
@@ -16,11 +392,140 @@
         "image": "./img/items/Paschal_Candle.webp"
     },
     {
+        "id": "568",
+        "name": "Divine Intervention",
+        "description": "L'appui double sur une touche de tir crée un bouclier qui repousse les ennemis et renvoie les projectiles et les lasers ennemis.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Divine_Intervention_icon.webp"
+    },
+    {
         "id": "573",
         "name": "Immaculate Heart",
         "description": "Ajoute un conteneur de cœur rouge et restaure entièrement la santé. Multiplicateur de dégâts x1.2. Isaac tirera occasionnellement des larmes supplémentaires qui orbitent autour de lui.",
         "unlock": "De base",
         "type": "Passif",
         "image": "./img/items/Immaculate_Heart.webp"
+    },
+    {
+        "id": "574",
+        "name": "Monstrance",
+        "description": "Isaac gagne une aura qui inflige des dégâts aux ennemis à l'intérieur.",
+        "unlock": "De base",
+        "type": "Passif",
+        "image": "./img/items/Monstrance.webp"
+    },
+    {
+        "id": "579",
+        "name": "Spirit Sword",
+        "description": "Au lieu de larmes, Isaac brandit une épée. En chargeant, il effectue une attaque tournoyante et tire un projectile, et parfois un projectile est tiré avec des coups normaux si Isaac n'a pas de conteneurs de cœur rouges vides.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Spirit_Sword_icon.webp"
+    },
+    {
+        "id": "584",
+        "name": "Book of Virtues",
+        "description": "Lors de son utilisation, fait apparaître un feu follet qui tire des larmes et inflige des dégâts au contact.Agit également comme un objet passif qui fait apparaître des esprits thématiques lors de l'utilisation d'autres objets actifs.",
+        "unlock": "Débloquez cet objet en vainquant Isaac en tant que Bethany.",
+        "type": "Activable & Livre",
+        "image": "./img/items/Book_of_Virtues.webp"
+    },
+    {
+        "id": "586",
+        "name": "The Stairway",
+        "description": "Génère une échelle au début de chaque étage menant à une boutique unique de la Salle des Anges.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_The_Stairway_icon.webp"
+    },
+    {
+        "id": "601",
+        "name": "Act of Contrition",
+        "description": "Augmente les larmes et octroie un Cœur Éternel. Permet aux Salles des Anges de paraître même si une Offre du Diable a été acceptée auparavant. Réduit la pénalité de chance de voir une salle du Diable ou de l'Ange en cas de dégâts aux cœurs rouges.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Act_of_Contrition_icon.webp"
+    },
+    {
+        "id": "622",
+        "name": "Genesis",
+        "description": "Supprime tous les objets et les ramassables d'Isaac et l'amène dans une Chambre unique avec quelques ramassables et coffres, ainsi qu'un trou-trappe vers l'étage suivant. Pour chaque objet perdu par Isaac, il peut prendre un objet parmi un ensemble de trois.",
+        "unlock": "Feature coming soon",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Genesis_icon.webp"
+    },
+    {
+        "id": "634",
+        "name": "Purgatory",
+        "description": "Quand Isaac est dans une pièce avec des ennemis, génère des fissures sur le sol. En marchant sur ces fissures, des fantômes apparaissent et se lancent sur les ennemis pour exploser.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Purgatory_icon.webp"
+    },
+    {
+        "id": "640",
+        "name": "Urn of Souls",
+        "description": "Projette un flux de flammes endommageantes. Gagne des Charges d'Âme à chaque fois qu'un ennemi meurt, qui sont utilisées pour alimenter l'urne.",
+        "unlock": "Feature coming soon",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Urn_of_Souls_icon.webp"
+    },
+    {
+        "id": "643",
+        "name": "Revelation",
+        "description": "Accorde le vol et deux Cœurs d'Âme. En plus des larmes, Isaac peut charger et tirer un puissant laser saint.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Revelation_icon.webp"
+    },
+    {
+        "id": "651",
+        "name": "Star of Bethlehem",
+        "description": "Fait apparaître un familier en forme d'étoile qui se déplace lentement vers la salle du boss, donnant une aura qui augmente les dégâts et les larmes et accorde des larmes traqueuses.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Familier",
+        "image": "./img/items/Collectible_Star_of_Bethlehem_icon.webp"
+    },
+    {
+        "id": "653",
+        "name": "Vade Retro",
+        "description": "Lorsqu'il est tenu, les ennemis laissent derrière eux des fantômes à leur mort. Les ennemis plus forts laissent de plus gros fantômes. Utiliser l'objet provoque l'explosion des fantômes et inflige des dégâts aux ennemis à proximité, et tue instantanément tous les ennemis fantômes ayant moins de 50 % de PV.",
+        "unlock": "Feature coming soon",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Vade_Retro_icon.webp"
+    },
+    {
+        "id": "685",
+        "name": "Jar of Wisps",
+        "description": "Fait apparaître des feux follets aléatoires qui tirent diverses larmes, bloquent les tirs et infligent des dégâts au contact. Le nombre de feux follets augmentent à chaque utilisation du pot.",
+        "unlock": "Feature coming soon",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Jar_of_Wisps_icon.webp"
+    },
+    
+    {
+        "id": "686",
+        "name": "Soul Locket",
+        "description": "Accorde à Isaac une amélioration permanente des statistiques chaque fois qu'il ramasse un cœur d'âme.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Soul_Locket_icon.webp"
+    },
+    {
+        "id": "691",
+        "name": "Sacred Orb",
+        "description": "Empêche les objets de qualité 0 à 1 de paraître, et les objets de qualité 2 de paraître 33 % du temps, augmentant considérablement la qualité des objets obtenus dans tous les pools d'objets. Les objets de quête ne sont pas affectés.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Sacred_Orb_icon.webp"
+    },
+    {
+        "id": "696",
+        "name": "Salvation",
+        "description": "Accorde à Isaac un halo qui invoque des faisceaux de lumière sur les ennemis à l'intérieur. Le halo devient de plus en plus grand à chaque fois qu'Isaac subit des dégâts pendant ce niveau.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Salvation_icon.webp"
     }
 ]

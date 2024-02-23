@@ -8,6 +8,8 @@ const urlTrinkets = './json/trinkets.json';
 const urlShop = './json/shop_room.json';
 const urlBoss = './json/boss_room.json';
 const urlLibrary = './json/library_room.json';
+const urlRedChest = './json/red_chest.json';
+const urlGoldChest = './json/golden_chest.json';
 
 const angelButton = document.getElementById('angel');
     angelButton.addEventListener('click', () => {
@@ -505,6 +507,108 @@ const libButton = document.getElementById('library');
         });
 
         })
+        .catch(error => {
+            console.error('There was a problem with the fetch operation:', error);
+        });
+});
+///////////////////////////////////////////
+const red_chestButton = document.getElementById('red_chest');
+        red_chestButton.addEventListener('click', () => {
+        fetch(urlRedChest)
+        .then(response => {
+            if (!response.ok) {
+            throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(data => { 
+            // Tri ascendant par rapport à l'id
+            data.sort((a, b) => a.id - b.id);
+            const itemsDiv = document.getElementById('items');
+            const descriptionDiv = document.getElementById('description');
+            itemsDiv.innerHTML = '';
+            descriptionDiv.innerHTML = '';
+
+
+        data.forEach(item => {
+            
+            const img = document.createElement('img');
+            img.src = item.image;
+            img.alt = item.name;
+            img.classList.add('itemImg');
+
+            const descDiv = document.createElement('div');
+            descDiv.className = 'description'; 
+            descDiv.innerHTML = `<h2>${item.name}</h2><p>Types : ${item.type}</p><p>${item.description}</p><p>Débloquer : ${item.unlock}</p>`;
+            descDiv.style.display = 'none';
+
+            
+            itemsDiv.appendChild(img);
+            descriptionDiv.appendChild(descDiv);
+
+           
+            img.addEventListener('mouseover', () => {
+                descDiv.style.display = 'block'; 
+            });
+
+            img.addEventListener('mouseout', () => {
+                descDiv.style.display = 'none';
+            });
+        });
+
+
+    })
+        .catch(error => {
+            console.error('There was a problem with the fetch operation:', error);
+        });
+});
+///////////////////////////////////////////
+const golden_chestButton = document.getElementById('golden_chest');
+        golden_chestButton.addEventListener('click', () => {
+        fetch(urlGoldChest)
+        .then(response => {
+            if (!response.ok) {
+            throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(data => { 
+            // Tri ascendant par rapport à l'id
+            data.sort((a, b) => a.id - b.id);
+            const itemsDiv = document.getElementById('items');
+            const descriptionDiv = document.getElementById('description');
+            itemsDiv.innerHTML = '';
+            descriptionDiv.innerHTML = '';
+
+
+        data.forEach(item => {
+            
+            const img = document.createElement('img');
+            img.src = item.image;
+            img.alt = item.name;
+            img.classList.add('itemImg');
+
+            const descDiv = document.createElement('div');
+            descDiv.className = 'description'; 
+            descDiv.innerHTML = `<h2>${item.name}</h2><p>Types : ${item.type}</p><p>${item.description}</p><p>Débloquer : ${item.unlock}</p>`;
+            descDiv.style.display = 'none';
+
+            
+            itemsDiv.appendChild(img);
+            descriptionDiv.appendChild(descDiv);
+
+           
+            img.addEventListener('mouseover', () => {
+                descDiv.style.display = 'block'; 
+            });
+
+            img.addEventListener('mouseout', () => {
+                descDiv.style.display = 'none';
+            });
+        });
+
+
+    })
         .catch(error => {
             console.error('There was a problem with the fetch operation:', error);
         });
