@@ -152,6 +152,14 @@
         "image": "./img/items/Collectible_Super_Bandage_icon.webp"
     },
     {
+        "id": "96",
+        "name": "Little C.H.A.D.",
+        "description": "Fait apparaître un familier qui laisse tomber un demi-cœur rouge tous les 3 salles.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Familier",
+        "image": "./img/items/Collectible_Robo-Baby_icon.webp"
+    },
+    {
         "id": "100",
         "name": "Little Steven",
         "description": "Crée un familier qui suit Isaac et tire des larmes traqueuses.",
