@@ -35,7 +35,7 @@
         "id": "126",
         "name": "Razor Blade",
         "description": "Perd un cœur de santé et accorde +1.2 de dégâts pour la pièce actuelle. Les utilisations répétées dans la même pièce ne coûtent qu'un demi-cœur.",
-        "unlock": "Feature comming soon",
+        "unlock": "Débloquez cet objet en vainquant Satan en enfer en tant que Eve",
         "type": "Activable",
         "image": "./img/items/Collectible_Razor_Blade_icon.webp"
     },

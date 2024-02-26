@@ -1,11 +1,667 @@
 [
     {
+        "id": "36",
+        "name": "The Poop",
+        "description": "Crée un tas de caca à l'endroit où Isaac se tient et repousse les ennemis à proximité. Peut produire des récompenses comme un caca normal.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_The_Poop_icon.webp"
+    },
+    {
+        "id": "37",
+        "name": "Mr. Boom",
+        "description": "Places une bombe Mr. Méga qui inflige 185 dégâts.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Mr._Boom_icon.webp"
+    },
+    {
+        "id": "38",
+        "name": "Tammy's Head",
+        "description": "Tire 10 larmes en cercle autour d'Isaac, qui conservent les dégâts, la portée, la vitesse de tir et les effets spéciaux (comme le poison) des larmes d'Isaac. Les larmes de cet objet ont un bonus de dégâts plat de +25.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Tammys_Head_icon.webp"
+    },
+    {
+        "id": "39",
+        "name": "Mom's Bra",
+        "description": "Pétrifie tous les ennemis dans la salle actuelle pendant 4 secondes.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Moms_Bra_icon.webp"
+    },
+    {
+        "id": "40",
+        "name": "Kamikaze!",
+        "description": "Crée une explosion autour d'Isaac, le blessant ainsi que les ennemis à proximité et détruisant les obstacles.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Kamikaze_icon.webp"
+    },
+    {
+        "id": "41",
+        "name": "Mom's Pad",
+        "description": "Inflige la peur à tous les ennemis dans la salle pendant 4 secondes. Fait apparaître une mouche bleue.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Moms_Pad_icon.webp"
+    },
+    {
+        "id": "42",
+        "name": "Bob's Rotten Head",
+        "description": "À l'utilisation, Isaac tient une bombe empoisonnée qui peut être lancée dans les directions cardinales et explose à l'impact.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Bobs_Rotten_Head_icon.webp"
+    },
+    {
+        "id": "44",
+        "name": "Teleport!",
+        "description": "Téléporte Isaac dans une salle aléatoire de l'étage actuel.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Teleport_icon.webp"
+    },
+    {
+        "id": "45",
+        "name": "Yum Heart",
+        "description": "Restaure un cœur rouge complet.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Yum_Heart_icon.webp"
+    },
+    {
+        "id": "47",
+        "name": "Doctor's Remote",
+        "description": "Crée une cible au sol qui peut être visée avec les commandes de tir. Un missile frappe l'endroit après 2 secondes, créant une explosion de dégâts importants.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Doctors_Remote_icon.webp"
+    },
+    {
+        "id": "49",
+        "name": "Shoop Da Whoop!",
+        "description": "Tire un laser de la bouche d'Isaac.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Shoop_Da_Whoop_icon.webp"
+    },
+    {
+        "id": "56",
+        "name": "Lemon Mishap",
+        "description": "Crée une petite flaque de bave jaune, endommageant les ennemis qui la traversent.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Lemon_Mishap_icon.webp"
+    },
+    {
+        "id": "58",
+        "name": "Book of Shadows",
+        "description": "Crée un bouclier protecteur, annulant tous les types de dégâts dans la pièce actuelle pendant 10 secondes.",
+        "unlock": "De base",
+        "type": "Activable & Livre",
+        "image": "./img/items/Book_of_Shadows.webp"
+    },
+    {
+        "id": "65",
+        "name": "Anarchist Cookbook",
+        "description": "Fait apparaître six bombes de troll dans la pièce.",
+        "unlock": "De base",
+        "type": "Activable & Livre",
+        "image": "./img/items/Anarchist_Cookbook.webp"
+    },
+    {
+        "id": "66",
+        "name": "The Hourglass",
+        "description": "Tous les ennemis dans la salle sont ralentis pendant 8 secondes.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_The_Hourglass_icon.webp"
+    },
+    {
+        "id": "77",
+        "name": "My Little Unicorn",
+        "description": "Confère une invulnérabilité et +0,28 de vitesse pendant six secondes, supprimant la capacité de tirer des larmes et la remplaçant par la capacité d'infliger des dégâts au contact des ennemis.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_My_Little_Unicorn_icon.webp"
+    },
+    {
+        "id": "78",
+        "name": "Book of Revelations",
+        "description": "Augmente la chance qu'une salle du Diable / de l'Ange apparaisse tant qu'il est en possession. Lors de l'utilisation, accorde un cœur d'âme et remplace le boss de l'étage actuel par un Harbinger si possible.",
+        "unlock": "Débloquez cet objet en battant l'un des boss cavaliers pour la première fois.",
+        "type": "Activable & Livre",
+        "image": "./img/items/Book_of_Revelations.webp"
+    },
+    {
+        "id": "85",
+        "name": "Deck of Cards",
+        "description": "Donne à Isaac une carte aléatoire.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Deck_of_Cards_icon.webp"
+    },
+    {
+        "id": "86",
+        "name": "Monstro's Tooth",
+        "description": "Un Monstro amical saute sur un ennemi aléatoire, infligeant 120 dégâts de zone. Cible Isaac s'il est utilisé dans une salle sans ennemis.",
+        "unlock": "Finir le deuxieme niveau pour la première fois",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Monstros_Tooth_icon.webp"
+    },
+    {
+        "id": "93",
+        "name": "The Gamekid",
+        "description": "Transforme Isaac en une créature semblable à Pac-Man pendant 6,5 secondes, lui conférant une invulnérabilité, infligeant la peur à tous les ennemis, et a une chance de réapprovisionner un demi-cœur rouge à chaque fois qu'un ennemi est tué.",
+        "unlock": "Débloquez cet objet en visitant 10 fois la salle d'arcade.",
+        "type": "Activable",
+        "image": "./img/items/Collectible_The_Gamekid_icon.webp"
+    },
+    {
+        "id": "97",
+        "name": "The Book of Sin",
+        "description": "Génère un objet aléatoire ramassable, une pilule, une carte ou une rune.",
+        "unlock": "Débloquez cet objet en battant chacun des sept péchés une fois.",
+        "type": "Activable & Livre",
+        "image": "./img/items/The_Book_of_Sin.webp"
+    },
+    {
+        "id": "102",
+        "name": "Mom's Bottle of Pills",
+        "description": "À l'utilisation, donne à Isaac une pilule aléatoire.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Moms_Bottle_of_Pills_icon.webp"
+    },
+    {
+        "id": "105",
+        "name": "The D6",
+        "description": "Réinitialise tous les objets dans la salle actuelle en d'autres objets, en fonction du pool d'objets actuel de la salle.",
+        "unlock": "Débloquez cet objet en vainquant Isaac dans la cathédrale en tant que ??? (Blue Baby).",
+        "type": "Activable",
+        "image": "./img/items/Collectible_The_D6_icon.webp"
+    },
+    {
+        "id": "107",
+        "name": "The Pinking Shears",
+        "description": "Sépare la tête d'Isaac de son corps pour la salle actuelle, accordant le vol et transformant le corps en un familier qui poursuit les ennemis.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_The_Pinking_Shears_icon.webp"
+    },
+    {
+        "id": "111",
+        "name": "The Bean",
+        "description": "Isaac pète, empoisonnant tout ennemi à proximité.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_The_Bean_icon.webp"
+    },
+    {
+        "id": "123",
+        "name": "Monster Manual",
+        "description": "Fait apparaître un familier parmi une sélection spécifique pour l'étage actuel.",
+        "unlock": "De base",
+        "type": "Activable & Livre",
+        "image": "./img/items/Monster_Manual.webp"
+    },
+    {
+        "id": "124",
+        "name": "Dead Sea Scrolls",
+        "description": "Déclenche l'effet d'un objet activable aléatoire parmi une liste d'options possibles (tous les objets activables ne sont pas inclus).",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Dead_Sea_Scrolls_icon.webp"
+    },
+    {
+        "id": "126",
+        "name": "Razor Blade",
+        "description": "Perd un cœur de santé et accorde +1.2 de dégâts pour la pièce actuelle. Les utilisations répétées dans la même pièce ne coûtent qu'un demi-cœur.",
+        "unlock": "Débloquez cet objet en vainquant Satan en enfer en tant que Eve",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Razor_Blade_icon.webp"
+    },
+    {
+        "id": "127",
+        "name": "Forget Me Now",
+        "description": "Lorsqu'il est utilisé, il régénère le sol actuel avec une nouvelle disposition. Isaac perd Forget Me Now, mais conserve les autres objets et consommables ramassés sur le sol original.",
+        "unlock": "Débloquez cet objet en vainquant Satan en enfer en tant que ???.",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Forget_Me_Now_icon.webp"
+    },
+    {
+        "id": "136",
+        "name": "Best Friend",
+        "description": "Fait apparaître un Isaac factice qui explose après 5 secondes. Les ennemis ciblent toujours le leurre et ignorent Isaac.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Best_Friend_icon.webp"
+    },
+    {
+        "id": "137",
+        "name": "Remote Detonator",
+        "description": "Les bombes placées par Isaac n'explosent que lorsque le Détonateur à distance est utilisé. Donne 5 bombes.",
+        "unlock": "De base",
+        "type": "Activable & Bombes",
+        "image": "./img/items/Collectible_Remote_Detonator_icon.webp"
+    },
+    {
+        "id": "146",
+        "name": "Prayer Card",
+        "description": "Donne un Cœur Éternel par utilisation.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Prayer_Card_icon.webp"
+    },
+    {
+        "id": "147",
+        "name": "Notched Axe",
+        "description": "Alterne entre les larmes et la pioche, qui peut être utilisée pour attaquer et briser les obstacles. Son utilisation épuise la charge, et elle ne peut être réutilisée qu'au prochain étage une fois la charge épuisée.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Notched_Axe_icon.webp"
+    },
+    {
+        "id": "158",
+        "name": "Crystal Ball",
+        "description": "À l'utilisation, révèle la carte (à l'exception de la Super Salle Secrète) et laisse tomber un cœur d'âme ou une carte/rune aléatoire.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Crystal_Ball_icon.webp"
+    },
+    {
+        "id": "160",
+        "name": "Crack the Sky",
+        "description": "Invoque 5 faisceaux de lumière à des emplacements aléatoires sur le sol, infligeant de gros dégâts à tous les ennemis qui les touchent.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Crack_the_Sky_icon.webp"
+    },
+    {
+        "id": "166",
+        "name": "D20",
+        "description": "Re-roll tous les objets (pièces, bombes, coeurs, clés, ...) dans la pièce actuelle.",
+        "unlock": "Débloquez cet objet en vainquant ??? dans le coffre en tant que Isaac",
+        "type": "Activable & Dés",
+        "image": "./img/items/Collectible_D20_icon.webp"
+    },
+    {
+        "id": "171",
+        "name": "Spider Butt",
+        "description": "Inflige 10 dégâts à tous les ennemis dans la pièce et les ralentit pendant 4 secondes. Les ennemis tués par Spider Butt font apparaître des araignées bleues.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Spider_Butt_icon.webp"
+    },
+    {
+        "id": "175",
+        "name": "Dad's Key",
+        "description": "À l'activation, ouvre toutes les portes de la pièce actuelle dans presque toutes les circonstances, y compris les portes qui nécessitent une clé pour être ouvertes, les entrées aux Salles Secrètes et la porte de Méga Satan.",
+        "unlock": "Débloquez cet objet en obtenant pour la premiere fois les deux parties de la clé dans la salle des anges.",
+        "type": "Feature m soon",
+        "image": "./img/items/Collectible_Dads_Key_icon.webp"
+    },
+    {
+        "id": "186",
+        "name": "Blood Rights",
+        "description": "Lorsqu'il est utilisé, Isaac perd un cœur entier de santé et inflige 40 points de dégâts à tous les ennemis dans la pièce. Les utilisations répétées dans la même pièce ne coûtent qu'un demi-cœur de santé.",
+        "unlock": "Débloquez cet objet en vainquant Satan en enfer en tant que Samson.",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Blood_Rights_icon.webp"
+    },
+    {
+        "id": "192",
+        "name": "Telepathy for Dummies",
+        "description": "Donne des larmes chercheuses pour la pièce actuelle. Donne également +3 de portée.",
+        "unlock": "De base",
+        "type": "Activable & Livre",
+        "image": "./img/items/Telepathy_for_Dummies.webp"
+    },
+    {
+        "id": "282",
+        "name": "How to Jump",
+        "description": "Lors de son utilisation, Isaac saute dans la direction dans laquelle il se déplace actuellement, permettant de voyager au-dessus des obstacles et des ennemis.",
+        "unlock": "De base",
+        "type": "Activable & Livre",
+        "image": "./img/items/How_to_Jump.webp"
+    },
+    {
+        "id": "283",
+        "name": "D100",
+        "description": "Combine les effets de D1, D4, The D6, D7, D8, D10, D12 et D20.",
+        "unlock": "Débloquez cet objet en vainquant le boss rush en tant que The Lost.",
+        "type": "Activable & Dés",
+        "image": "./img/items/Collectible_D100_icon.webp"
+    },
+    {
+        "id": "284",
+        "name": "D4",
+        "description": "Re-roll tous les objets passifs d'Isaac.",
+        "unlock": "Débloquez cet objet en explosant 30 machines a sous.",
+        "type": "Activable & Dés",
+        "image": "./img/items/Collectible_D4_icon.webp"
+    },
+    {
+        "id": "285",
+        "name": "D10",
+        "description": "Remplace tous les monstres dans la pièce par des monstres plus faibles.",
+        "unlock": "De base",
+        "type": "Activable & Dés",
+        "image": "./img/items/Collectible_D10_icon.webp"
+    },
+    {
+        "id": "286",
+        "name": "Blank Card",
+        "description": "Copie l'effet de la carte actuellement détenue par Isaac. Le temps de charge est basé sur la puissance de la carte.",
+        "unlock": "Débloquez cet objet en battant Isaac dans la cathédrale avec Eden.",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Blank_Card_icon.webp"
+    },
+    {
+        "id": "287",
+        "name": "Book of Secrets",
+        "description": "Accorde l'effet de Carte au trésor, de la Boussole ou de la Carte bleue pour la durée de l'étage actuel. Si tous les effets sont actifs, la Vision X est fournie pour l'étage à la place. Met en évidence les rochers teintés et les rochers avec un passage secret dans la pièce.",
+        "unlock": "Débloquez cet objet en battant Satan avec Eden.",
+        "type": "Activable & Livre",
+        "image": "./img/items/Book_of_Secrets.webp"
+    },
+    {
+        "id": "288",
+        "name": "Box of Spiders",
+        "description": "Fait apparaître 4 à 8 araignées bleues qui infligent 2 fois les dégâts d'Isaac aux ennemis.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Box_of_Spiders_icon.webp"
+    },
+    {
+        "id": "291",
+        "name": "Flush!",
+        "description": "Transforme tous les monstres non-boss de la pièce en caca. Tue instantanément les boss de type caca.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Flush_icon.webp"
+    },
+    {
+        "id": "292",
+        "name": "Satanic Bible",
+        "description": "Elle donne un cœur noir et remplace l'objet de la salle du boss sur l'étage actuel par une offre du Diable.",
+        "unlock": "Débloquez cet objet en battant Isaac avec Azazel.",
+        "type": "Activable & Livre",
+        "image": "./img/items/Collectible_Satanic_Bible_icon.webp"
+    },
+    {
+        "id": "294",
+        "name": "Butter Bean",
+        "description": "À l'utilisation, Isaac pète et repousse les ennemis et les projectiles à proximité. Les ennemis poussés contre les murs ou les obstacles subissent 12 dégâts.",
+        "unlock": "Débloquez cet objet en cassant 100 cacas.",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Butter_Bean_icon.webp"
+    },
+    {
+        "id": "295",
+        "name": "Magic Fingers",
+        "description": "Utilise 1 Penny pour infliger des dégâts à tous les ennemis dans la pièce.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Magic_Fingers_icon.webp"
+    },
+    {
+        "id": "298",
+        "name": "Unicorn Stump",
+        "description": "Confère une invulnérabilité et une vitesse accrue pendant six secondes, mais supprime la capacité de tirer des larmes.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Unicorn_Stump_icon.webp"
+    },
+    {
+        "id": "323",
+        "name": "Isaac's Tears",
+        "description": "Tire 8 larmes autour d'Isaac, qui conservent les dégâts, la portée, la vitesse de tir et les effets spéciaux des larmes d'Isaac. Chaque larme tirée par Isaac augmente la charge de l'objet de un. Les larmes de cet objet ont un bonus de dégâts plat de +5.",
+        "unlock": "Débloquez cet objet en battant Isaac dans la cathédrale avec Isaac.",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Isaacs_Tears_icon.webp"
+    },
+    {
+        "id": "324",
+        "name": "Undefined",
+        "description": "Téléporte Isaac dans la salle secrète, la salle super secrète, la salle au trésor ou la glitch room.",
+        "unlock": "Débloquez cet objet en battant le boss rush avec Eden.",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Undefined_icon.webp"
+    },
+    {
+        "id": "325",
+        "name": "Scissors",
+        "description": "Transforme la tête d'Isaac en un familier stationnaire pour la pièce actuelle qui tire automatiquement des larmes. Le corps d'Isaac tire également un jet contrôlable de projectiles de sang pour la pièce.",
+        "unlock": "Débloquez cet objet en mourant 100 fois.",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Scissors_icon.webp"
+    },
+    {
+        "id": "351",
+        "name": "Mega Bean",
+        "description": "Pétrifie tous les ennemis dans la pièce actuelle pendant environ 1,5 seconde, empoisonne tous les ennemis près d'Isaac et envoie une onde de roche à travers la pièce dans la direction où Isaac fait face.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Mega_Bean_icon.webp"
+    },
+    {
+        "id": "352",
+        "name": "Glass Cannon",
+        "description": "Tire une larme spectral perçante à haut dégâts. Si Isaac prend des dégâts en tenant cet objet, il subit des dégâts supplémentaires et le Cannon se casse. ",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Glass_Cannon_icon.webp"
+    },
+    {
+        "id": "382",
+        "name": "Friendly Ball",
+        "description": "Lancer la balle sur un monstre le tue instantanément et le capture. L'ennemi capturé peut être relâché plus tard et sera amical, combattant pour Isaac et persistant entre les pièces.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Friendly_Ball_icon.webp"
+    },
+    {
+        "id": "386",
+        "name": "D12",
+        "description": "Re-roll la plupart des types d'obstacles dans la pièce actuelle en d'autres obstacles aléatoires.",
+        "unlock": "Débloquez cet objet en vainquant Hush en tant que Cain.",
+        "type": "Activable & Dés",
+        "image": "./img/items/Collectible_D12_icon.webp"
+    },
+    {
+        "id": "406",
+        "name": "D8",
+        "description": "Re-roll les dégâts, les larmes, la portée et la vitesse d'Isaac.",
+        "unlock": "Débloquez en accomplissant le challenge #28",
+        "type": "Activable & Dés",
+        "image": "./img/items/Collectible_D8_icon.webp"
+    },
+    {
+        "id": "419",
+        "name": "Teleport 2.0",
+        "description": "Téléporte Isaac dans une pièce qui n'a pas encore été explorée. Les pièces normales sont prioritaires par rapport aux pièces spéciales, et les pièces spéciales courantes ont la priorité sur les plus rares.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Teleport_2.0_icon.webp"
+    },
+    {
+        "id": "421",
+        "name": "Kidney Bean",
+        "description": "Isaac pète, charmant tous les ennemis à proximité.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Kidney_Bean_icon.webp"
+    },
+    {
+        "id": "422",
+        "name": "Glowing Hourglass",
+        "description": "Remonte le temps, ramenant Isaac dans la pièce précédente et annulant tout ce qui s'est passé dans la pièce actuelle. Ne peut être utilisé que trois fois par étage, après quoi il fonctionne comme The Hourglass jusqu'au prochain étage.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Glowing_Hourglass_icon.webp"
+    },
+    {
+        "id": "427",
+        "name": "Mine Crafter",
+        "description": "Place un baril de TNT mobile qui peut être poussé et utilisé pour détruire des rochers ou endommager des ennemis. S'il est utilisé à nouveau dans la même pièce alors que le précédent baril de TNT est encore intact, déclenche la TNT à distance.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Mine_Crafter_icon.webp"
+    },
+    {
+        "id": "437",
+        "name": "D7",
+        "description": "Redémarre la pièce actuelle et ramène tous les ennemis, permettant d'obtenir plus de récompenses en terminant la pièce.",
+        "unlock": "De base",
+        "type": "Activable & Dés",
+        "image": "./img/items/Collectible_D7_icon.webp"
+    },
+    {
+        "id": "476",
+        "name": "D1",
+        "description": "Duplique un ramassage (clés, pièces, bombes, ... ) aléatoire dans la pièce. Le nouvelle objet peut être différent de l'original (c'est-à-dire une carte différente, etc.).",
+        "unlock": "Débloquez cet objet en vainquant Greedier en tant que Isaac.",
+        "type": "Activable & Dés",
+        "image": "./img/items/Collectible_D1_icon.webp"
+    },
+    {
+        "id": "478",
+        "name": "Pause",
+        "description": "Gèle tous les ennemis jusqu'à ce qu'un bouton de tir soit pressé.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Pause_icon.webp"
+    },
+    {
+        "id": "481",
+        "name": "Dataminer",
+        "description": "Déplace les sprites ennemis pour la pièce actuelle, augmente aléatoirement une statistique et en diminue une autre.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Dataminer_icon.webp"
+    },
+    {
+        "id": "482",
+        "name": "Clicker",
+        "description": "Transforme Isaac en un personnage aléatoire et supprime le dernier objet collecté.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Clicker_icon.webp"
+    },
+    {
+        "id": "484",
+        "name": "Wait What?",
+        "description": "Isaac pète, envoyant des ondes de choc.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Wait_What_icon.webp"
+    },
+    {
+        "id": "485",
+        "name": "Crooked Penny",
+        "description": "Fait apparaître un penny et a une chance de 50% de doubler tous les objets et ramassages dans la pièce. Si l'effet échoue, les objets et ramassages disparaissent.",
+        "unlock": "Débloquez cet objet en vainquant Délirium dans le void en tant que Keeper.",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Crooked_Penny_icon.webp"
+    },
+    {
+        "id": "488",
+        "name": "Metronome",
+        "description": "Accorde un effet d'objet aléatoire pour la pièce actuelle.",
+        "unlock": "Débloquez cet objet en vainquant Greedier en tant que Eden.",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Metronome_icon.webp"
+    },
+    {
+        "id": "489",
+        "name": "D Infinity",
+        "description": "Agit comme n'importe quel objet de dé, et peut être changé en appuyant sur la touche de lâcher.",
+        "unlock": "Débloquez cet objet en vainquant Délirium dans le void en tant que Isaac.",
+        "type": "Activable & Dés",
+        "image": "./img/items/Collectible_D_Infinity_icon.webp"
+    },
+    {
+        "id": "504",
+        "name": "Brown Nugget",
+        "description": "Fait apparaître une tourelle de mouche stationnaire qui dure pour la pièce actuelle et tire des larmes sur les ennemis à proximité.",
+        "unlock": "Débloquez cet objet en vainquant Ultra Greed en tant que Apollyon.",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Brown_Nugget_icon.webp"
+    },
+    {
+        "id": "507",
+        "name": "Sharp Straw",
+        "description": "Endommage tous les ennemis dans la pièce. A une chance de laisser tomber un demi-cœur rouge si un ennemi est touché.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Sharp_Straw_icon.webp"
+    },
+    {
+        "id": "512",
+        "name": "Black Hole",
+        "description": "Lance un trou noir sur le sol qui aspire et endommage les ennemis.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Black_Hole_icon.webp"
+    },
+    {
+        "id": "516",
+        "name": "Sprinkler",
+        "description": "À l'utilisation, crée un arroseur stationnaire qui tourne et tire des larmes dans 8 directions. Les larmes copient les statistiques et la plupart des effets de larmes d'Isaac.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Sprinkler_icon.webp"
+    },
+    {
+        "id": "522",
+        "name": "Telekinesis",
+        "description": "À l'utilisation, pour les trois prochaines secondes, tous les tirs ennemis qui s'approchent d'Isaac sont maintenus en place puis réfléchis plus tard.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Telekinesis_icon.webp"
+    },
+    {
+        "id": "545",
+        "name": "Book of the Dead",
+        "description": "Crée un squelette amical, un Squelette Noir, une Mouche d'os, un Revenant, ou un os orbital pour chaque ennemi tué dans la pièce actuelle.",
+        "unlock": "Débloquez cet objet en vainquant Délirium en tant que L'Oublié.",
+        "type": "Activable & Livre",
+        "image": "./img/items/Book_of_the_Dead.webp"
+    },
+    {
+        "id": "555",
+        "name": "Golden Razor",
+        "description": "Dépense cinq Pennies pour augmenter les dégâts d'Isaac de 1,2 pour la pièce actuelle.",
+        "unlock": "Debloquez cet objet en collectant 99 pièces et en les dépensant dans la même partie.",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Golden_Razor_icon.webp"
+    },
+    {
         "id": "553",
         "name": "Mucormycosis",
         "description": "Donne à Isaac la chance de tirer des larmes de spores qui collent aux ennemis et explosent après quelques secondes, infligeant des dégâts et empoisonnant les ennemis à proximité et libérant plus de spores.",
         "unlock": "De base",
         "type": "Passif",
         "image": "./img/items/Mucormycosis.webp"
+    },
+    {
+        "id": "557",
+        "name": "Fortune Cookie",
+        "description": "Donne à Isaac une prédiction, un Cœur d'âme, une carte, une rune ou un bibelot, similaire à une Machine à Prédiction. Les prédictions sont beaucoup plus susceptibles d'être données que tout autre chose.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Fortune_Cookie_icon.webp"
+    },
+    {
+        "id": "558",
+        "name": "Eye Sore",
+        "description": "Permet à Isaac de tirer occasionnellement des larmes supplémentaires dans des directions aléatoires pendant qu'il tire.",
+        "unlock": "De base",
+        "type": "Passif",
+        "image": "./img/items/Eye_Sore.webp"
     },
     {
         "id": "559",
@@ -16,11 +672,163 @@
         "image": "./img/items/120_Volt.webp"
     },
     {
-        "id": "558",
-        "name": "Eye Sore",
-        "description": "Permet à Isaac de tirer occasionnellement des larmes supplémentaires dans des directions aléatoires pendant qu'il tire.",
+        "id": "578",
+        "name": "Free Lemonade",
+        "description": "Crée une grande flaque de traînée jaune sous Isaac.",
         "unlock": "De base",
-        "type": "Passif",
-        "image": "./img/items/Eye_Sore.webp"
+        "type": "Activable",
+        "image": "./img/items/Collectible_Free_Lemonade_icon.webp"
+    },
+    {
+        "id": "605",
+        "name": "The Scooper",
+        "description": "Invoque Le Peeper (l'oeil qui se balade) pour la pièce en cours, qui laisse une traînée de traînée rouge.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_The_Scooper_icon.webp"
+    },
+    {
+        "id": "609",
+        "name": "Eternal D6",
+        "description": "Reroll tous les objets dans la salle. Chaque objet a 25% de chances de disparaître à la place.",
+        "unlock": "Débloquez cet objet en vainquant Mother dans le Corpse II en tant que ??? (Blue Baby).",
+        "type": "Activable & Dés",
+        "image": "./img/items/Collectible_Eternal_D6_icon.webp"
+    },
+    {
+        "id": "611",
+        "name": "Larynx",
+        "description": "Isaac crie, endommageant et repoussant les ennemis à proximité. Le cri devient plus fort plus l'objet a de charges. Peut également être chargé en subissant des dégâts.",
+        "unlock": "Débloquez cet objet en vainquant The Beast en tant que Samson.",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Larynx_icon.webp"
+    },
+    {
+        "id": "625",
+        "name": "Mega Mush",
+        "description": "Rend Isaac gigantesque pendant 30 secondes, augmentant les dégâts et la portée tout en réduisant les larmes, accordant l'invulnérabilité et permettant à Isaac d'écraser les ennemis et les obstacles sur lesquels il marche. L'effet persiste entre les salles.",
+        "unlock": "Débloquez cet objet en finissant tous les objetifs en hard mode avec tous les personnages non tainted.",
+        "type": "Activable & Champignon",
+        "image": "./img/items/Collectible_Mega_Mush_icon.webp"
+    },
+    {
+        "id": "631",
+        "name": "Meat Cleaver",
+        "description": "Divise tous les ennemis dans la pièce en deux versions plus petites d'eux-mêmes avec beaucoup moins de santé.",
+        "unlock": "Débloquez cet objet en vainquant Mother dans le Corpse II en tant que Isaac.",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Meat_Cleaver_icon.webp"
+    },
+    {
+        "id": "635",
+        "name": "Stitches",
+        "description": "Fait apparaître passivement un familier qui se déplace dans la direction où Isaac tire. À l'utilisation, Isaac échange sa place avec le familier.",
+        "unlock": "De base",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Stitches_icon.webp"
+    },
+    {
+        "id": "639",
+        "name": "Yuck Heart",
+        "description": "Donne à Isaac un Cœur pourri.",
+        "unlock": "Feature coming soon",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Yuck_Heart_icon.webp"
+    },
+    {
+        "id": "650",
+        "name": "Plum Flute",
+        "description": "Invoque le boss Baby Plum (la mouche rouge) pour combattre pour Isaac dans la pièce actuelle.",
+        "unlock": "Feature m soon",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Plum_Flute_icon.webp"
+    },
+    {
+        "id": "655",
+        "name": "Spin to Win",
+        "description": "Lorsqu'il est utilisé, donne à Isaac +0,5 de vitesse et augmente considérablement la vitesse de rotation des orbitaux d'Isaac pendant 3 secondes. Donne à Isaac un orbital en forme de toupie qui bloque les tirs ennemis et inflige des dégâts au contact aux ennemis tant qu'il est maintenu.",
+        "unlock": "Feature coming soon",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Spin_to_Win_icon.webp"
+    },
+    {
+        "id": "687",
+        "name": "Friend Finder",
+        "description": "Fait apparaître un monstre amical aléatoire qui imite les mouvements et les attaques d'Isaac.",
+        "unlock": "Feature coming soon",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Friend_Finder_icon.webp"
+    },
+    {
+        "id": "703",
+        "name": "Esau Jr.",
+        "description": "Échange entre le personnage actuel et Esau Jr., qui a +2 de dégâts fixes et le vol. Les personnages ont des objets et des points de vie indépendants. Mourir en tant que l'un ou l'autre personnage met fin à la partie.",
+        "unlock": "Feature coming soon",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Esau_Jr._icon.webp"
+    },
+    {
+        "id": "709",
+        "name": "Suplex!",
+        "description": "Isaac se précipite vers l'avant et ramasse le premier ennemi touché. Après un moment, il les projette au sol pour leur infliger des dégâts et créer une onde de choc circulaire.",
+        "unlock": "Feature coming soon",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Suplex_icon.webp"
+    },
+    {
+        "id": "710",
+        "name": "Bag of Crafting",
+        "description": "Collecte et retient jusqu'à 8 ramassages, qui peuvent ensuite être utilisés pour fabriquer un objet. Le niveau de puissance de l'objet est basé sur la qualité des ramassages utilisés.",
+        "unlock": "Feature coming soon",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Bag_of_Crafting_icon.webp"
+    },
+    {
+        "id": "713",
+        "name": "Sumptorium",
+        "description": "Retire la moitié d'un cœur et crée un familier de Caillot qui imite les mouvements et les effets de larmes d'Isaac. En tant qu'Ève souillée, convertit passivement la santé en Caillots lors du tir. L'activation ramène tous les Caillots à la santé.",
+        "unlock": "Feature coming soon",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Sumptorium_icon.webp"
+    },
+    {
+        "id": "720",
+        "name": "Everything Jar",
+        "description": "Fait apparaître certains ramassages (clés, pièces, bombes, ...) en fonction du nombre de charges qu'il possède. S'il est entièrement chargé, a plutôt l'un des nombreux effets uniques.",
+        "unlock": "Feature coming soon",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Everything_Jar_icon.webp"
+    },
+    {
+        "id": "722",
+        "name": "Anima Sola",
+        "description": "Enchaîne l'ennemi le plus proche pendant 5 secondes, l'empêchant d'agir.",
+        "unlock": "Feature coming soon",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Anima_Sola_icon.webp"
+    },
+    {
+        "id": "723",
+        "name": "Spindown Dice",
+        "description": "Transforme tous les objets dans la salle en diminuant leur ID de 1.",
+        "unlock": "Feature coming soon",
+        "type": "Activable & Dés",
+        "image": "./img/items/Collectible_Spindown_Dice_icon.webp"
+    },
+    {
+        "id": "728",
+        "name": "Gello",
+        "description": "Fait apparaître un familier démon qui est attaché à Isaac et se déplace et tire dans la direction où Isaac tire, en utilisant les dégâts, les larmes, la portée, la vitesse de tir et les effets de larmes spéciaux d'Isaac.",
+        "unlock": "Feature coming soon",
+        "type": "Activable & Familier",
+        "image": "./img/items/Collectible_Gello_icon.webp"
+    },
+    {
+        "id": "729",
+        "name": "Decap Attack",
+        "description": "Lance la tête d'Isaac, qui peut toujours tirer des larmes à l'endroit où elle atterrit. Réactiver l'objet ou marcher sur la tête la réattache.",
+        "unlock": "Feature coming soon",
+        "type": "Activable",
+        "image": "./img/items/Collectible_Decap_Attack_icon.webp"
     }
 ]

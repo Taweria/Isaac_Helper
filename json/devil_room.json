@@ -155,7 +155,7 @@
         "id": "126",
         "name": "Razor Blade",
         "description": "Perd un cœur de santé et accorde +1.2 de dégâts pour la pièce actuelle. Les utilisations répétées dans la même pièce ne coûtent qu'un demi-cœur.",
-        "unlock": "Feature comming soon",
+        "unlock": "Débloquez cet objet en vainquant Satan en enfer en tant que Eve",
         "type": "Activable",
         "image": "./img/items/Collectible_Razor_Blade_icon.webp"
     },
@@ -163,7 +163,7 @@
         "id": "127",
         "name": "Forget Me Now",
         "description": "Lorsqu'il est utilisé, il régénère le sol actuel avec une nouvelle disposition. Isaac perd Forget Me Now, mais conserve les autres objets et consommables ramassés sur le sol original.",
-        "unlock": "",
+        "unlock": "Débloquez cet objet en vainquant Satan en enfer en tant que ???.",
         "type": "Activable",
         "image": "./img/items/Collectible_Forget_Me_Now_icon.webp"
     },
@@ -227,7 +227,7 @@
         "id": "186",
         "name": "Blood Rights",
         "description": "Lorsqu'il est utilisé, Isaac perd un cœur entier de santé et inflige 40 points de dégâts à tous les ennemis dans la pièce. Les utilisations répétées dans la même pièce ne coûtent qu'un demi-cœur de santé.",
-        "unlock": "",
+        "unlock": "Débloquez cet objet en vainquant Satan en enfer en tant que Samson.",
         "type": "Activable",
         "image": "./img/items/Collectible_Blood_Rights_icon.webp"
     },

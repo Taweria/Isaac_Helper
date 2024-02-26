@@ -67,7 +67,7 @@
         "id": "124",
         "name": "Dead Sea Scrolls",
         "description": "Déclenche l'effet d'un objet activable aléatoire parmi une liste d'options possibles (tous les objets activables ne sont pas inclus).",
-        "unlock": "Feature coming soon",
+        "unlock": "De base",
         "type": "Activable",
         "image": "./img/items/Collectible_Dead_Sea_Scrolls_icon.webp"
     },
@@ -91,7 +91,7 @@
         "id": "146",
         "name": "Prayer Card",
         "description": "Donne un Cœur Éternel par utilisation.",
-        "unlock": "Feature coming soon",
+        "unlock": "De base",
         "type": "Activable",
         "image": "./img/items/Collectible_Prayer_Card_icon.webp"
     },
