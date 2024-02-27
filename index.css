@@ -10,6 +10,7 @@ color: #001858;
 
 body{
     background-color: #fef6e4;
+    overflow-y: hidden; /* ici */
 }
 
 .buttons{
@@ -47,12 +48,14 @@ body{
     flex-wrap: wrap;
     justify-content: start;
     cursor: pointer;
+    overflow-y: auto; /* ici */
+    max-height: 90vh; /* ici */
 }
 
 #description{
     float: right;
     width: 30%;
-    height: 100vh;
+    height: 90vh; /* ici */
     background-color: #fbedcd;
 }
 
