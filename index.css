@@ -93,6 +93,24 @@ body{
     padding: 20px;
 }
 
+#modal-img{
+    width: 5rem;
+    height: 5rem;
+    image-rendering: pixelated;
+
+}
+
+#modal-title{
+    display: flex;
+    flex-direction: row;
+
+}
+
+#modal-text{
+    padding: 30px;
+
+}
+
 @media (max-width: 768px) {
     .buttons{
         flex-direction: row;
