@@ -11,6 +11,8 @@ const urlLibrary = './json/library_room.json';
 const urlRedChest = './json/red_chest.json';
 const urlGoldChest = './json/golden_chest.json';
 
+
+
 const angelButton = document.getElementById('angel');
     angelButton.addEventListener('click', () => {
         fetch(urlAngel)
@@ -53,6 +55,15 @@ const angelButton = document.getElementById('angel');
             img.addEventListener('mouseout', () => {
                 descDiv.style.display = 'none';
             });
+
+            img.addEventListener('click', () => {
+                const modal = document.getElementById('modal');
+                modal.style.display = 'block';
+                const modalContent = document.getElementById('content');
+                modalContent.innerHTML = `<h2>${item.name}</h2><p>Types : ${item.type}</p><p>${item.description}</p><p>Débloquer : ${item.unlock}</p>`;
+            });
+
+            
         });
 
 
@@ -104,6 +115,13 @@ const curseButton = document.getElementById('curse');
             img.addEventListener('mouseout', () => {
                 descDiv.style.display = 'none';
             });
+
+            img.addEventListener('click', () => {
+                const modal = document.getElementById('modal');
+                modal.style.display = 'block';
+                const modalContent = document.getElementById('content');
+                modalContent.innerHTML = `<h2>${item.name}</h2><p>Types : ${item.type}</p><p>${item.description}</p><p>Débloquer : ${item.unlock}</p>`;
+            });
         });
 
         })
@@ -153,6 +171,13 @@ const devilButton = document.getElementById('devil');
 
             img.addEventListener('mouseout', () => {
                 descDiv.style.display = 'none';
+            });
+
+            img.addEventListener('click', () => {
+                const modal = document.getElementById('modal');
+                modal.style.display = 'block';
+                const modalContent = document.getElementById('content');
+                modalContent.innerHTML = `<h2>${item.name}</h2><p>Types : ${item.type}</p><p>${item.description}</p><p>Débloquer : ${item.unlock}</p>`;
             });
         });
 
@@ -204,6 +229,13 @@ const itemButton = document.getElementById('item');
             img.addEventListener('mouseout', () => {
                 descDiv.style.display = 'none';
             });
+
+            img.addEventListener('click', () => {
+                const modal = document.getElementById('modal');
+                modal.style.display = 'block';
+                const modalContent = document.getElementById('content');
+                modalContent.innerHTML = `<h2>${item.name}</h2><p>Types : ${item.type}</p><p>${item.description}</p><p>Débloquer : ${item.unlock}</p>`;
+            });
         });
 
         })
@@ -253,6 +285,13 @@ const planetariumButton = document.getElementById('planet');
 
             img.addEventListener('mouseout', () => {
                 descDiv.style.display = 'none';
+            });
+
+            img.addEventListener('click', () => {
+                const modal = document.getElementById('modal');
+                modal.style.display = 'block';
+                const modalContent = document.getElementById('content');
+                modalContent.innerHTML = `<h2>${item.name}</h2><p>Types : ${item.type}</p><p>${item.description}</p><p>Débloquer : ${item.unlock}</p>`;
             });
         });
 
@@ -304,6 +343,13 @@ const trinketsButton = document.getElementById('trinkets');
             img.addEventListener('mouseout', () => {
                 descDiv.style.display = 'none';
             });
+
+            img.addEventListener('click', () => {
+                const modal = document.getElementById('modal');
+                modal.style.display = 'block';
+                const modalContent = document.getElementById('content');
+                modalContent.innerHTML = `<h2>${item.name}</h2><p>Types : ${item.type}</p><p>${item.description}</p><p>Débloquer : ${item.unlock}</p>`;
+            });
         });
 
         })
@@ -353,6 +399,13 @@ const shopButton = document.getElementById('shop');
 
             img.addEventListener('mouseout', () => {
                 descDiv.style.display = 'none';
+            });
+
+            img.addEventListener('click', () => {
+                const modal = document.getElementById('modal');
+                modal.style.display = 'block';
+                const modalContent = document.getElementById('content');
+                modalContent.innerHTML = `<h2>${item.name}</h2><p>Types : ${item.type}</p><p>${item.description}</p><p>Débloquer : ${item.unlock}</p>`;
             });
         });
 
@@ -404,6 +457,13 @@ const secretButton = document.getElementById('secret');
             img.addEventListener('mouseout', () => {
                 descDiv.style.display = 'none';
             });
+
+            img.addEventListener('click', () => {
+                const modal = document.getElementById('modal');
+                modal.style.display = 'block';
+                const modalContent = document.getElementById('content');
+                modalContent.innerHTML = `<h2>${item.name}</h2><p>Types : ${item.type}</p><p>${item.description}</p><p>Débloquer : ${item.unlock}</p>`;
+            });
         });
 
         })
@@ -453,6 +513,13 @@ const bossButton = document.getElementById('boss');
 
             img.addEventListener('mouseout', () => {
                 descDiv.style.display = 'none';
+            });
+
+            img.addEventListener('click', () => {
+                const modal = document.getElementById('modal');
+                modal.style.display = 'block';
+                const modalContent = document.getElementById('content');
+                modalContent.innerHTML = `<h2>${item.name}</h2><p>Types : ${item.type}</p><p>${item.description}</p><p>Débloquer : ${item.unlock}</p>`;
             });
         });
 
@@ -504,6 +571,13 @@ const libButton = document.getElementById('library');
             img.addEventListener('mouseout', () => {
                 descDiv.style.display = 'none';
             });
+
+            img.addEventListener('click', () => {
+                const modal = document.getElementById('modal');
+                modal.style.display = 'block';
+                const modalContent = document.getElementById('content');
+                modalContent.innerHTML = `<h2>${item.name}</h2><p>Types : ${item.type}</p><p>${item.description}</p><p>Débloquer : ${item.unlock}</p>`;
+            });
         });
 
         })
@@ -553,6 +627,13 @@ const red_chestButton = document.getElementById('red_chest');
 
             img.addEventListener('mouseout', () => {
                 descDiv.style.display = 'none';
+            });
+
+            img.addEventListener('click', () => {
+                const modal = document.getElementById('modal');
+                modal.style.display = 'block';
+                const modalContent = document.getElementById('content');
+                modalContent.innerHTML = `<h2>${item.name}</h2><p>Types : ${item.type}</p><p>${item.description}</p><p>Débloquer : ${item.unlock}</p>`;
             });
         });
 
@@ -605,6 +686,13 @@ const golden_chestButton = document.getElementById('golden_chest');
             img.addEventListener('mouseout', () => {
                 descDiv.style.display = 'none';
             });
+
+            img.addEventListener('click', () => {
+                const modal = document.getElementById('modal');
+                modal.style.display = 'block';
+                const modalContent = document.getElementById('content');
+                modalContent.innerHTML = `<h2>${item.name}</h2><p>Types : ${item.type}</p><p>${item.description}</p><p>Débloquer : ${item.unlock}</p>`;
+            });
         });
 
 
@@ -612,4 +700,12 @@ const golden_chestButton = document.getElementById('golden_chest');
         .catch(error => {
             console.error('There was a problem with the fetch operation:', error);
         });
+});
+
+///////////////////////////////////////////
+
+const close = document.getElementById('close');
+
+close.addEventListener('click', () => {
+    modal.style.display = 'none';
 });

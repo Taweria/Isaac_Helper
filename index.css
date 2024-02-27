@@ -64,6 +64,31 @@ body{
     padding: 0 20px;
 }
 
+#modal{
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+    overflow: auto;
+    background-color: #fbedcd;
+}
+
+#close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#content{
+    padding: 20px;
+}
+
 @media (max-width: 768px) {
     .buttons{
         flex-direction: row;
@@ -72,13 +97,9 @@ body{
 
     #items {
         width: 100vw;
-        height: 70%;
-        float: top;
     }
 
     #description {
-        width: 100vw;
-        height: 30%;
-        float: bottom;
+        display: none;
     }
 }
