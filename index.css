@@ -126,6 +126,7 @@ body{
 
     #items {
         width: 100vw;
+        margin-top: 14rem;
     }
 
     #description {
