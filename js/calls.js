@@ -60,7 +60,15 @@ const angelButton = document.getElementById('angel');
                 const modal = document.getElementById('modal');
                 modal.style.display = 'block';
                 const modalContent = document.getElementById('content');
-                modalContent.innerHTML = `<h2>${item.name}</h2><p>Types : ${item.type}</p><p>${item.description}</p><p>Débloquer : ${item.unlock}</p>`;
+                modalContent.innerHTML = `
+                <div id="modal-title">
+                    <img id="modal-img" src="${item.image}" alt="${item.name}"> 
+                    <h2>${item.name}</h2>
+                </div> 
+                <div id="modal-text">
+                    <p>Types : ${item.type}</p>
+                    <p>${item.description}</p><p>Débloquer : ${item.unlock}</p>
+                </div>`;
             });
 
             
@@ -120,7 +128,15 @@ const curseButton = document.getElementById('curse');
                 const modal = document.getElementById('modal');
                 modal.style.display = 'block';
                 const modalContent = document.getElementById('content');
-                modalContent.innerHTML = `<h2>${item.name}</h2><p>Types : ${item.type}</p><p>${item.description}</p><p>Débloquer : ${item.unlock}</p>`;
+                modalContent.innerHTML = `
+                <div id="modal-title">
+                    <img id="modal-img" src="${item.image}" alt="${item.name}"> 
+                    <h2>${item.name}</h2>
+                </div> 
+                <div id="modal-text">
+                    <p>Types : ${item.type}</p>
+                    <p>${item.description}</p><p>Débloquer : ${item.unlock}</p>
+                </div>`;
             });
         });
 
@@ -177,7 +193,15 @@ const devilButton = document.getElementById('devil');
                 const modal = document.getElementById('modal');
                 modal.style.display = 'block';
                 const modalContent = document.getElementById('content');
-                modalContent.innerHTML = `<h2>${item.name}</h2><p>Types : ${item.type}</p><p>${item.description}</p><p>Débloquer : ${item.unlock}</p>`;
+                modalContent.innerHTML = `
+                <div id="modal-title">
+                    <img id="modal-img" src="${item.image}" alt="${item.name}"> 
+                    <h2>${item.name}</h2>
+                </div> 
+                <div id="modal-text">
+                    <p>Types : ${item.type}</p>
+                    <p>${item.description}</p><p>Débloquer : ${item.unlock}</p>
+                </div>`;
             });
         });
 
@@ -234,7 +258,15 @@ const itemButton = document.getElementById('item');
                 const modal = document.getElementById('modal');
                 modal.style.display = 'block';
                 const modalContent = document.getElementById('content');
-                modalContent.innerHTML = `<h2>${item.name}</h2><p>Types : ${item.type}</p><p>${item.description}</p><p>Débloquer : ${item.unlock}</p>`;
+                modalContent.innerHTML = `
+                <div id="modal-title">
+                    <img id="modal-img" src="${item.image}" alt="${item.name}"> 
+                    <h2>${item.name}</h2>
+                </div> 
+                <div id="modal-text">
+                    <p>Types : ${item.type}</p>
+                    <p>${item.description}</p><p>Débloquer : ${item.unlock}</p>
+                </div>`;
             });
         });
 
@@ -291,7 +323,15 @@ const planetariumButton = document.getElementById('planet');
                 const modal = document.getElementById('modal');
                 modal.style.display = 'block';
                 const modalContent = document.getElementById('content');
-                modalContent.innerHTML = `<h2>${item.name}</h2><p>Types : ${item.type}</p><p>${item.description}</p><p>Débloquer : ${item.unlock}</p>`;
+                modalContent.innerHTML = `
+                <div id="modal-title">
+                    <img id="modal-img" src="${item.image}" alt="${item.name}"> 
+                    <h2>${item.name}</h2>
+                </div> 
+                <div id="modal-text">
+                    <p>Types : ${item.type}</p>
+                    <p>${item.description}</p><p>Débloquer : ${item.unlock}</p>
+                </div>`;
             });
         });
 
@@ -348,7 +388,15 @@ const trinketsButton = document.getElementById('trinkets');
                 const modal = document.getElementById('modal');
                 modal.style.display = 'block';
                 const modalContent = document.getElementById('content');
-                modalContent.innerHTML = `<h2>${item.name}</h2><p>Types : ${item.type}</p><p>${item.description}</p><p>Débloquer : ${item.unlock}</p>`;
+                modalContent.innerHTML = `
+                <div id="modal-title">
+                    <img id="modal-img" src="${item.image}" alt="${item.name}"> 
+                    <h2>${item.name}</h2>
+                </div> 
+                <div id="modal-text">
+                    <p>Types : ${item.type}</p>
+                    <p>${item.description}</p><p>Débloquer : ${item.unlock}</p>
+                </div>`;
             });
         });
 
@@ -405,7 +453,15 @@ const shopButton = document.getElementById('shop');
                 const modal = document.getElementById('modal');
                 modal.style.display = 'block';
                 const modalContent = document.getElementById('content');
-                modalContent.innerHTML = `<h2>${item.name}</h2><p>Types : ${item.type}</p><p>${item.description}</p><p>Débloquer : ${item.unlock}</p>`;
+                modalContent.innerHTML = `
+                <div id="modal-title">
+                    <img id="modal-img" src="${item.image}" alt="${item.name}"> 
+                    <h2>${item.name}</h2>
+                </div> 
+                <div id="modal-text">
+                    <p>Types : ${item.type}</p>
+                    <p>${item.description}</p><p>Débloquer : ${item.unlock}</p>
+                </div>`;
             });
         });
 
@@ -462,7 +518,15 @@ const secretButton = document.getElementById('secret');
                 const modal = document.getElementById('modal');
                 modal.style.display = 'block';
                 const modalContent = document.getElementById('content');
-                modalContent.innerHTML = `<h2>${item.name}</h2><p>Types : ${item.type}</p><p>${item.description}</p><p>Débloquer : ${item.unlock}</p>`;
+                modalContent.innerHTML = `
+                <div id="modal-title">
+                    <img id="modal-img" src="${item.image}" alt="${item.name}"> 
+                    <h2>${item.name}</h2>
+                </div> 
+                <div id="modal-text">
+                    <p>Types : ${item.type}</p>
+                    <p>${item.description}</p><p>Débloquer : ${item.unlock}</p>
+                </div>`;
             });
         });
 
@@ -519,7 +583,15 @@ const bossButton = document.getElementById('boss');
                 const modal = document.getElementById('modal');
                 modal.style.display = 'block';
                 const modalContent = document.getElementById('content');
-                modalContent.innerHTML = `<h2>${item.name}</h2><p>Types : ${item.type}</p><p>${item.description}</p><p>Débloquer : ${item.unlock}</p>`;
+                modalContent.innerHTML = `
+                <div id="modal-title">
+                    <img id="modal-img" src="${item.image}" alt="${item.name}"> 
+                    <h2>${item.name}</h2>
+                </div> 
+                <div id="modal-text">
+                    <p>Types : ${item.type}</p>
+                    <p>${item.description}</p><p>Débloquer : ${item.unlock}</p>
+                </div>`;
             });
         });
 
@@ -576,7 +648,15 @@ const libButton = document.getElementById('library');
                 const modal = document.getElementById('modal');
                 modal.style.display = 'block';
                 const modalContent = document.getElementById('content');
-                modalContent.innerHTML = `<h2>${item.name}</h2><p>Types : ${item.type}</p><p>${item.description}</p><p>Débloquer : ${item.unlock}</p>`;
+                modalContent.innerHTML = `
+                <div id="modal-title">
+                    <img id="modal-img" src="${item.image}" alt="${item.name}"> 
+                    <h2>${item.name}</h2>
+                </div> 
+                <div id="modal-text">
+                    <p>Types : ${item.type}</p>
+                    <p>${item.description}</p><p>Débloquer : ${item.unlock}</p>
+                </div>`;
             });
         });
 
@@ -633,7 +713,15 @@ const red_chestButton = document.getElementById('red_chest');
                 const modal = document.getElementById('modal');
                 modal.style.display = 'block';
                 const modalContent = document.getElementById('content');
-                modalContent.innerHTML = `<h2>${item.name}</h2><p>Types : ${item.type}</p><p>${item.description}</p><p>Débloquer : ${item.unlock}</p>`;
+                modalContent.innerHTML = `
+                <div id="modal-title">
+                    <img id="modal-img" src="${item.image}" alt="${item.name}"> 
+                    <h2>${item.name}</h2>
+                </div> 
+                <div id="modal-text">
+                    <p>Types : ${item.type}</p>
+                    <p>${item.description}</p><p>Débloquer : ${item.unlock}</p>
+                </div>`;
             });
         });
 
@@ -691,7 +779,15 @@ const golden_chestButton = document.getElementById('golden_chest');
                 const modal = document.getElementById('modal');
                 modal.style.display = 'block';
                 const modalContent = document.getElementById('content');
-                modalContent.innerHTML = `<h2>${item.name}</h2><p>Types : ${item.type}</p><p>${item.description}</p><p>Débloquer : ${item.unlock}</p>`;
+                modalContent.innerHTML = `
+                <div id="modal-title">
+                    <img id="modal-img" src="${item.image}" alt="${item.name}"> 
+                    <h2>${item.name}</h2>
+                </div> 
+                <div id="modal-text">
+                    <p>Types : ${item.type}</p>
+                    <p>${item.description}</p><p>Débloquer : ${item.unlock}</p>
+                </div>`;
             });
         });
 
