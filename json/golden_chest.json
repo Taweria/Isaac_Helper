@@ -56,6 +56,14 @@
         "image": "./img/items/Collectible_Steven_icon.webp"
     },
     {
+        "id": "74",
+        "name": "A Quarter",
+        "description": "Donne a Isaac 25 pièces.",
+        "unlock": "Débloquez cet objet en battant le Cœur de Maman 8 fois.",
+        "type": "Passif",
+        "image": "./img/items/Collectible_A_Quarter_icon.webp"
+    },
+    {
         "id": "94",
         "name": "Sack of Pennies",
         "description": "Fait apparaître un familier qui laisse tomber une pièce toutes les 2 salles.",
@@ -78,14 +86,6 @@
         "unlock": "Feature coming soon",
         "type": "Passif & Familier",
         "image": "./img/items/Collectible_Bomb_Bag_icon.webp"
-    },
-    {
-        "id": "74",
-        "name": "A Quarter",
-        "description": "Donne a Isaac 25 pièces.",
-        "unlock": "Débloquez cet objet en battant le Cœur de Maman 8 fois.",
-        "type": "Passif",
-        "image": "./img/items/Collectible_A_Quarter_icon.webp"
     },
     {
         "id": "135",

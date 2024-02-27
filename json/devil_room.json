@@ -104,6 +104,14 @@
         "image": "./img/items/The_Book_of_Sin.webp"
     },
     {
+        "id": "109",
+        "name": "Money = Power",
+        "description": "Pour chaque pièce de monnaie que possède Isaac, il obtient +0,04 de dégâts.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Money_Power_icon.webp"
+    },
+    {
         "id": "113",
         "name": "Demon Baby",
         "description": "Crée un familier qui suit Isaac et tire automatiquement sur les ennemis à sa portée.",
