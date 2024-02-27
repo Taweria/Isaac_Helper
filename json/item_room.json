@@ -872,12 +872,52 @@
         "image": "./img/items/Collectible_Celtic_Cross_icon.webp"
     },
     {
+        "id": "163",
+        "name": "Ghost Baby",
+        "description": "Crée un familier qui suit Isaac et tire des larmes spectrales.",
+        "unlock": "De base",
+        "type": "Passif & Familier",
+        "image": "./img/items/Collectible_Ghost_Baby_icon.webp"
+    },
+    {
         "id": "166",
         "name": "D20",
         "description": "Re-roll tous les objets (pièces, bombes, coeurs, clés, ...) dans la pièce actuelle.",
         "unlock": "Débloquez cet objet en vainquant ??? dans le coffre en tant que Isaac",
         "type": "Activable & Dés",
         "image": "./img/items/Collectible_D20_icon.webp"
+    },
+    {
+        "id": "167",
+        "name": "Ghost Baby",
+        "description": "Fait apparaître un familier qui suit Isaac et tire deux larmes à la fois en forme de V.",
+        "unlock": "De base",
+        "type": "Passif & Familier",
+        "image": "./img/items/Collectible_Harlequin_Baby_icon.webp"
+    },
+    {
+        "id": "168",
+        "name": "Epic Fetus",
+        "description": "Les larmes d'Isaac sont remplacées par des missiles guidés.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Epic_Fetus_icon.webp"
+    },
+    {
+        "id": "169",
+        "name": "Polyphemus",
+        "description": "Isaac tire d'énormes larmes qui infligent des dégâts massifs, mais le taux de tir est considérablement réduit. Si une larme tue un ennemi, elle continue son chemin avec les dégâts restants.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Polyphemus_icon.webp"
+    },
+    {
+        "id": "170",
+        "name": "Daddy Longlegs",
+        "description": "L'ombre de Daddy Long Legs suit Isaac et écrase occasionnellement les ennemis pour un total de 40 points de dégâts.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Daddy_Longlegs_icon.webp"
     },
     {
         "id": "171",
@@ -888,12 +928,52 @@
         "image": "./img/items/Collectible_Spider_Butt_icon.webp"
     },
     {
+        "id": "172",
+        "name": "Sacrificial Dagger",
+        "description": "Crée un familier sous forme de dague orbitale, bloquant les tirs ennemis et infligeant beaucoup de dégâts aux ennemis au contact.",
+        "unlock": "De base",
+        "type": "Passif & Familier",
+        "image": "./img/items/Collectible_Sacrificial_Dagger_icon.webp"
+    },
+    {
+        "id": "173",
+        "name": "Mitre",
+        "description": "Accorde une chance de convertir tout ramassage de Cœur Rouge en Cœurs d'Âme à la place.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Mitre_icon.webp"
+    },
+    {
         "id": "175",
         "name": "Dad's Key",
         "description": "À l'activation, ouvre toutes les portes de la pièce actuelle dans presque toutes les circonstances, y compris les portes qui nécessitent une clé pour être ouvertes, les entrées aux Salles Secrètes et la porte de Méga Satan.",
         "unlock": "Débloquez cet objet en obtenant pour la premiere fois les deux parties de la clé dans la salle des anges.",
         "type": "Feature m soon",
         "image": "./img/items/Collectible_Dads_Key_icon.webp"
+    },
+    {
+        "id": "176",
+        "name": "Stem Cells",
+        "description": "Accorde un conteneur complet de Cœur Rouge et +0,16 de vitesse de tir. Soigne 1 Cœur Rouge supplémentaire.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Stem_Cells_icon.webp"
+    },
+    {
+        "id": "178",
+        "name": "Holy Water",
+        "description": "Un familier en bouteille qui vole vers l'avant lorsque Isaac tire. Il se brise lorsqu'il touche un ennemi, laissant une flaque de liquide bleu qui pétrifie les ennemis.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Familier",
+        "image": "./img/items/Collectible_Holy_Water_icon.webp"
+    },
+    {
+        "id": "180",
+        "name": "The Black Bean",
+        "description": "Lorsqu'il prend des dégâts, Isaac lâche cinq pets, empoisonnant et repoussant les ennemis proches tout en laissant des nuages de poison persistants.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_The_Black_Bean_icon.webp"
     },
     {
         "id": "186",
@@ -904,12 +984,76 @@
         "image": "./img/items/Collectible_Blood_Rights_icon.webp"
     },
     {
+        "id": "188",
+        "name": "Abel",
+        "description": "Fait apparaître un familier qui reproduit les mouvements d'Isaac et tire vers lui",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Familier",
+        "image": "./img/items/Collectible_Abel_icon.webp"
+    },
+    {
+        "id": "190",
+        "name": "Pyro",
+        "description": "Accorde 99 bombes.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Bombe",
+        "image": "./img/items/Collectible_Pyro_icon.webp"
+    },
+    {
         "id": "192",
         "name": "Telepathy for Dummies",
         "description": "Donne des larmes chercheuses pour la pièce actuelle. Donne également +3 de portée.",
         "unlock": "De base",
         "type": "Activable & Livre",
         "image": "./img/items/Telepathy_for_Dummies.webp"
+    },
+    {
+        "id": "191",
+        "name": "3 Dollar Bill",
+        "description": "Donne à Isaac un effet de larme aléatoire toutes les quelques secondes.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_3_Dollar_Bill_icon.webp"
+    },
+    {
+        "id": "200",
+        "name": "Mom's Eyeshadow",
+        "description": "Les larmes ont une chance de charmer les ennemis.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Moms_Eyeshadow_icon.webp"
+    },
+    {
+        "id": "201",
+        "name": "Iron Bar",
+        "description": "+0,3 de dégâts. Ajoute une chance de tirer des larmes concussives, faisant en sorte que les ennemis se déplacent de manière aléatoire.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Iron_Bar_icon.webp"
+    },
+    {
+        "id": "202",
+        "name": "Midas' Touch",
+        "description": "Lorsqu'un ennemi est touché, il se transforme en or et devient immobile pendant quelques secondes. Toucher un ennemi doré le fait exploser en pièces.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Midas_Touch_icon.webp"
+    },
+    {
+        "id": "206",
+        "name": "Guillotine",
+        "description": "La tête d'Isaac est retirée de son corps et flotte autour de lui comme un orbital. Donne +1 de dégâts et accorde +0,5 de cadence de tir.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Guillotine_icon.webp"
+    },
+    {
+        "id": "209",
+        "name": "Butt Bombs",
+        "description": "+5 Bombes. Les bombes obscurcissent maintenant l'écran, endommageant brièvement et désorientant tous les ennemis.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Bombe",
+        "image": "./img/items/Collectible_Butt_Bombs_icon.webp"
     },
     {
         "id": "282",

@@ -114,10 +114,18 @@
     {
         "id": "188",
         "name": "Abel",
-        "description": "Fait apparaître un familier qui reproduit les mouvements d'Isaac et tire vers lui",
+        "description": "Fait apparaître un familier qui reproduit les mouvements d'Isaac et tire vers lui.",
         "unlock": "Feature coming soon",
         "type": "Passif & Familier",
         "image": "./img/items/Collectible_Abel_icon.webp"
+    },
+    {
+        "id": "189",
+        "name": "SMB Super Fan",
+        "description": "+1 conteneur de cœur rouge, +0,3 de dégâts, +0,2 de larmes, +0,2 de vitesse, +2,5 de portée. Restaure complètement tous les cœurs rouges.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Familier",
+        "image": "./img/items/Collectible_SMB_Super_Fan_icon.webp"
     },
     {
         "id": "194",
