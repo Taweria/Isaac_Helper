@@ -1504,6 +1504,110 @@
         "image": "./img/items/Collectible_Unicorn_Stump_icon.webp"
     },
     {
+        "id": "299",
+        "name": "",
+        "description": "",
+        "unlock": "Feature coming soon",
+        "type": "",
+        "image": "./"
+    },
+    {
+        "id": "300",
+        "name": "",
+        "description": "",
+        "unlock": "Feature coming soon",
+        "type": "",
+        "image": "./"
+    },
+    {
+        "id": "301",
+        "name": "",
+        "description": "",
+        "unlock": "Feature coming soon",
+        "type": "",
+        "image": "./"
+    },
+    {
+        "id": "302",
+        "name": "",
+        "description": "",
+        "unlock": "Feature coming soon",
+        "type": "",
+        "image": "./"
+    },
+    {
+        "id": "303",
+        "name": "",
+        "description": "",
+        "unlock": "Feature coming soon",
+        "type": "",
+        "image": "./"
+    },
+    {
+        "id": "304",
+        "name": "",
+        "description": "",
+        "unlock": "Feature coming soon",
+        "type": "",
+        "image": "./"
+    },
+    {
+        "id": "305",
+        "name": "",
+        "description": "",
+        "unlock": "Feature coming soon",
+        "type": "",
+        "image": "./"
+    },
+    {
+        "id": "306",
+        "name": "",
+        "description": "",
+        "unlock": "Feature coming soon",
+        "type": "",
+        "image": "./"
+    },
+    {
+        "id": "307",
+        "name": "",
+        "description": "",
+        "unlock": "Feature coming soon",
+        "type": "",
+        "image": "./"
+    },
+    {
+        "id": "308",
+        "name": "",
+        "description": "",
+        "unlock": "Feature coming soon",
+        "type": "",
+        "image": "./"
+    },
+    {
+        "id": "309",
+        "name": "",
+        "description": "",
+        "unlock": "Feature coming soon",
+        "type": "",
+        "image": "./"
+    },
+    {
+        "id": "310",
+        "name": "",
+        "description": "",
+        "unlock": "Feature coming soon",
+        "type": "",
+        "image": "./"
+    },
+    {
+        "id": "311",
+        "name": "Judas' Shadow",
+        "description": "À la mort, réapparaît Isaac en tant que Dark Judas avec deux Cœurs Noirs dans la salle précédente.",
+        "unlock": "Feature comming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Judas_Shadow_icon.webp"
+    },
+    {
         "id": "323",
         "name": "Isaac's Tears",
         "description": "Tire 8 larmes autour d'Isaac, qui conservent les dégâts, la portée, la vitesse de tir et les effets spéciaux des larmes d'Isaac. Chaque larme tirée par Isaac augmente la charge de l'objet de un. Les larmes de cet objet ont un bonus de dégâts plat de +5.",
