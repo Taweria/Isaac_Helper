@@ -49,6 +49,7 @@ body{
     flex-wrap: wrap;
     justify-content: start;
     cursor: pointer;
+    margin-top: 5.5rem;
 }
 
 #description{
