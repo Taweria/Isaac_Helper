@@ -19,7 +19,9 @@ body{
     border-radius: 5px;
     padding: 15px;
     background-color: #ffdf93;
-
+    position: fixed;
+    width: 97.5%;
+    top: 0rem;
 }
 
 .roomBtn {
@@ -53,10 +55,14 @@ body{
 }
 
 #description{
-    float: right;
+    /* float: right; */
     width: 30%;
     height: 90vh; /* ici */
     background-color: #fbedcd;
+    position: fixed;
+    top: 6rem;
+    right: 1rem;
+    border-radius: 5px;
 }
 
 #description h2{
