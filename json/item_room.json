@@ -2304,6 +2304,110 @@
         "image": "./img/items/Collectible_Polydactyly_icon.webp"
     },
     {
+        "id": "457",
+        "name": "Cone Head",
+        "description": "Accorde un cœur d'âme. Donne à Isaac une chance d'ignorer tout dégât subi.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Cone_Head_icon.webp"
+    },
+    {
+        "id": "458",
+        "name": "Belly Button",
+        "description": "fait apparraitre une breloque aléatoire. Accorde un deuxième emplacement de breloque.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Belly_Button_icon.webp"
+    },
+    {
+        "id": "459",
+        "name": "Sinus Infection",
+        "description": "Ajoute une chance de tirer un morve qui colle aux ennemis et leur inflige des dégâts sur la durée.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Sinus_Infection_icon.webp"
+    },
+    {
+        "id": "460",
+        "name": "Glaucoma",
+        "description": "Ajoute une chance de tirer des larmes qui rend confus les ennemis pendant un temps extrêmement long.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Glaucoma_icon.webp"
+    },
+    {
+        "id": "461",
+        "name": "Parasitoid",
+        "description": "Ajoute une chance de tirer un sac d'œuf qui crée une traînée de substance gluante ralentissante et fait apparaître une mouche bleue ou une araignée bleue lorsqu'il touche un ennemi.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Parasitoid_icon.webp"
+    },
+    {
+        "id": "463",
+        "name": "Sulfuric Acid",
+        "description": "+0,3 de dégâts. Ajoute une chance de tirer des larmes acides qui peuvent détruire les obstacles et ouvrir les portes.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Sulfuric_Acid_icon.webp"
+    },
+    {
+        "id": "465",
+        "name": "Analog Stick",
+        "description": "+0,35 de cadence de tir. Permet à Isaac de tirer des larmes en diagonale.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Analog_Stick_icon.webp"
+    },
+    {
+        "id": "466",
+        "name": "Contagion",
+        "description": "Le premier ennemi tué dans une salle explose et empoisonne les ennemis à proximité. Les ennemis empoisonnés exploseront également à leur mort.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Contagion_icon.webp"
+    },
+    {
+        "id": "467",
+        "name": "Finger!",
+        "description": "Crée un familier doigt qui pointe les ennemis, infligeant des dégâts évolutifs.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Finger_icon.webp"
+    },
+    {
+        "id": "469",
+        "name": "Depression",
+        "description": "Crée un familier qui laisse une traînée de substance gluante qui inflige des dégâts aux ennemis à 6 points par seconde. Il a une chance de faire apparaître des faisceaux de lumière endommageants sur les ennemis qui touchent le nuage.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Familier",
+        "image": "./img/items/Collectible_Depression_icon.webp"
+    },
+    {
+        "id": "470",
+        "name": "",
+        "description": "",
+        "unlock": "Feature coming soon",
+        "type": "",
+        "image": "./"
+    },
+    {
+        "id": "471",
+        "name": "",
+        "description": "",
+        "unlock": "Feature coming soon",
+        "type": "",
+        "image": "./"
+    },
+    {
+        "id": "473",
+        "name": "",
+        "description": "",
+        "unlock": "Feature coming soon",
+        "type": "",
+        "image": "./"
+    },
+    {
         "id": "476",
         "name": "D1",
         "description": "Duplique un ramassage (clés, pièces, bombes, ... ) aléatoire dans la pièce. Le nouvelle objet peut être différent de l'original (c'est-à-dire une carte différente, etc.).",
