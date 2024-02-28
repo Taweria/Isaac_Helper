@@ -1608,6 +1608,94 @@
         "image": "./img/items/Collectible_Judas_Shadow_icon.webp"
     },
     {
+        "id": "312",
+        "name": "Maggy's Bow",
+        "description": "Donne un conteneur de cœur rouge et double la guérison fournie par les cœurs rouges. Guérit également 1 cœur rouge lorsqu'il est obtenu.",
+        "unlock": "Feature comming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Maggys_Bow_icon.webp"
+    },
+    {
+        "id": "313",
+        "name": "Holy Mantle",
+        "description": "Accorde un bouclier qui annule la première instance de dégâts subis, une fois par salle. Ne s'applique pas ou ne nie pas les dégâts auto-infligés (machines de don de sang, etc.).",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Holy_Mantle_icon.webp"
+    },
+    {
+        "id": "314",
+        "name": "Thunder Thighs",
+        "description": "Détruit les rochers au contact avec Isaac. Ajoute un conteneur de cœur rouge et diminue la vitesse.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Thunder_Thighs_icon.webp"
+    },
+    {
+        "id": "315",
+        "name": "Strange Attractor",
+        "description": "Les objets ramassables, les trinkets et les monstres sont attirés magnétiquement par les larmes d'Isaac.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Strange_Attractor_icon.webp"
+    },
+    {
+        "id": "316",
+        "name": "Cursed Eye",
+        "description": "Accorde des larmes chargées pouvant être tirées en rafale serrée. Se faire toucher en chargeant téléportera Isaac dans une autre pièce.",
+        "unlock": "De base",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Cursed_Eye_icon.webp"
+    },
+    {
+        "id": "317",
+        "name": "Mysterious Liquid",
+        "description": "Les larmes laissent une petite traînée de substance gluante qui dure peu de temps à l'impact ou lorsque leur portée est épuisée.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Mysterious_Liquid_icon.webp"
+    },
+    {
+        "id": "318",
+        "name": "Gemini",
+        "description": "Crée un familier conjoigné qui poursuit les ennemis proches d'Isaac, infligeant environ 8 points de dégâts par seconde.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Familier",
+        "image": "./img/items/Collectible_Gemini_icon.webp"
+    }, 
+    {
+        "id": "319",
+        "name": "Cain's Other Eye",
+        "description": "Crée un familier qui suit Isaac et tire des larmes dans des directions cardinales aléatoires, qui copient les larmes et les effets de larmes d'Isaac et qui augmentent avec les dégâts.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Familier",
+        "image": "./img/items/Collectible_Cains_Other_Eye_icon.webp"
+    },
+    {
+        "id": "320",
+        "name": "???'s Only Friend",
+        "description": "Crée un familier contrôlable qui inflige 37,5 points de dégâts par seconde au contact. Il peut être déplacé en utilisant les touches directionnelles de tir.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Familier",
+        "image": "./img/items/Collectible_Blue_Babys_Only_Friend_icon.webp"
+    }, 
+    {
+        "id": "321",
+        "name": "Samson's Chains",
+        "description": "Attache une boule et une chaîne à Isaac qui le suit et endommage les ennemis, bloque les tirs et détruit la plupart des obstacles.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Familier",
+        "image": "./img/items/Collectible_Samsons_Chains_icon.webp"
+    },
+    {
+        "id": "322",
+        "name": "Mongo Baby",
+        "description": "Crée un familier qui suit Isaac et tire des larmes dans la même direction que lui.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Familier",
+        "image": "./img/items/Collectible_Mongo_Baby_icon.webp"
+    },
+    {
         "id": "323",
         "name": "Isaac's Tears",
         "description": "Tire 8 larmes autour d'Isaac, qui conservent les dégâts, la portée, la vitesse de tir et les effets spéciaux des larmes d'Isaac. Chaque larme tirée par Isaac augmente la charge de l'objet de un. Les larmes de cet objet ont un bonus de dégâts plat de +5.",
@@ -1632,6 +1720,70 @@
         "image": "./img/items/Collectible_Scissors_icon.webp"
     },
     {
+        "id": "329",
+        "name": "The Ludovico Technique",
+        "description": "Au lieu de tirer des larmes, Isaac contrôle une larme flottante qui plane au-dessus des obstacles. Cette larme inflige des dégâts constants lorsqu'elle est maintenue en place au-dessus d'un ennemi.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_The_Ludovico_Technique_icon.webp"
+    },
+    {
+        "id": "330",
+        "name": "Soy Milk",
+        "description": "Les larmes sont plus petites et infligent beaucoup moins de dégâts, mais elles sont tirées très rapidement et en succession.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Soy_Milk_icon.webp"
+    },
+    {
+        "id": "332",
+        "name": "Lazarus' Rags",
+        "description": "À la mort, ressuscite en tant que Lazare ressuscité dans la salle actuelle avec un conteneur de Cœur Rouge en moins, Anémique et +0,5 de dégâts. Se transforme en Lazare en atteignant l'étage suivant.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Lazarus_Rags_icon.webp"
+    },
+    {
+        "id": "333",
+        "name": "The Mind",
+        "description": "Révèle la carte entière, y compris toutes les salles spéciales et les Salles Secrètes.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_The_Mind_icon.webp"
+    },
+    {
+        "id": "334",
+        "name": "The Body",
+        "description": "Ajoute 3 Conteneurs de Cœurs Rouges.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_The_Body_icon.webp"
+    },
+    {
+        "id": "335",
+        "name": "The Soul",
+        "description": "Accorde deux Cœurs d'Âme. Isaac obtient une aura pulsante qui repousse les ennemis et les projectiles.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_The_Soul_icon.webp"
+    },
+    {
+        "id": "336",
+        "name": "Dead Onion",
+        "description": "Accorde des larmes perçantes et spectrales. Augmente la taille des larmes (sans augmenter les dégâts) tout en réduisant considérablement la portée et la vitesse de tir.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Dead_Onion_icon.webp"
+    },
+    {
+        "id": "350",
+        "name": "Toxic Shock",
+        "description": "En entrant dans une salle, empoisonne tous les ennemis, infligeant deux fois les dégâts des larmes d'Isaac. Tuer les ennemis laisse une petite traînée de substance gluante verte qui dure peu de temps sur le sol.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Toxic_Shock_icon.webp"
+    },
+    {
         "id": "351",
         "name": "Mega Bean",
         "description": "Pétrifie tous les ennemis dans la pièce actuelle pendant environ 1,5 seconde, empoisonne tous les ennemis près d'Isaac et envoie une onde de roche à travers la pièce dans la direction où Isaac fait face.",
@@ -1646,6 +1798,38 @@
         "unlock": "De base",
         "type": "Activable",
         "image": "./img/items/Collectible_Glass_Cannon_icon.webp"
+    },
+    {
+        "id": "353",
+        "name": "Bomber Boy",
+        "description": "+5 Bombes. Les bombes d'Isaac exploseront désormais selon un large motif en forme de croix (environ 5 explosions de bombes de large). Cela affecte également les Troll Bombs invoquées par le joueur.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Bombe",
+        "image": "./img/items/Collectible_Bomber_Boy_icon.webp"
+    },
+    {
+        "id": "358",
+        "name": "The Wiz",
+        "description": "Accorde des larmes spectrales. Les larmes sont tirées simultanément des deux yeux en diagonale",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_The_Wiz_icon.webp"
+    },
+    {
+        "id": "359",
+        "name": "8 Inch Nails",
+        "description": "+1,5 de dégâts. Remplace les larmes d'Isaac par des clous, qui ont un recul accru.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_8_Inch_Nails_icon.webp"
+    },
+    {
+        "id": "361",
+        "name": "Fate's Reward",
+        "description": "Un familier à tête bleue qui suivra Isaac et tirera des larmes en copiant ses effets de larmes et ses dégâts.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Fates_Reward_icon.webp"
     },
     {
         "id": "382",
