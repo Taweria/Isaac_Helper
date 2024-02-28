@@ -1832,6 +1832,126 @@
         "image": "./img/items/Collectible_Fates_Reward_icon.webp"
     },
     {
+        "id": "362",
+        "name": "Lil Chest",
+        "description": "Crée un familier coffre qui fait apparaître un objet ramassable au hasard (25% de chance) ou une breloque (10% de chance) après avoir nettoyé une salle.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Familier",
+        "image": "./img/items/Collectible_Lil_Chest_icon.webp"
+    },
+    {
+        "id": "364",
+        "name": "Friend Zone",
+        "description": "Crée une mouche d'attaque blanche qui orbite quelque part entre Distant Admiration et Forever Alone (deux autres mouches), infligeant 45 points de dégâts par seconde.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Mouche",
+        "image": "./img/items/Collectible_Friend_Zone_icon.webp"
+    },
+    {
+        "id": "365",
+        "name": "Lost Fly",
+        "description": "Crée un familier mouche qui se déplace en ligne droite et tourne autour du premier mur ou obstacle qu'il touche, infligeant 56 points de dégâts par seconde et forçant les ennemis proches à l'attaquer.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Familier",
+        "image": "./img/items/Collectible_Lost_Fly_icon.webp"
+    },
+    {
+        "id": "366",
+        "name": "Scatter Bombs",
+        "description": "+5 Bombes. Les bombes d'Isaac explosent en 2-4 petites bombes.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Bombe",
+        "image": "./img/items/Collectible_Scatter_Bombs_icon.webp"
+    },
+    {
+        "id": "367",
+        "name": "Sticky Bombs",
+        "description": "+5 Bombes. Les bombes collent aux ennemis et font apparaître 2-4 araignées bleues si elles tuent un ennemi. Elles laissent également une traînée de substance gluante blanche qui ralentit et qui dure longtemps.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Bombe",
+        "image": "./img/items/Collectible_Sticky_Bombs_icon.webp"
+    },
+    {
+        "id": "368",
+        "name": "Epiphora",
+        "description": "Tirer dans une direction augmente la cadence de tir d'Isaac jusqu'à ce que le maximum soit atteint. Dès qu'Isaac change de direction ou cesse de tirer, la cadence de tir est réinitialisée à sa valeur normale.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Epiphora_icon.webp"
+    },
+    {
+        "id": "369",
+        "name": "Continuum",
+        "description": "Accorde des larmes spectrales et augmente la portée. Les larmes traversent les murs et apparaissent du côté opposé de la salle.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Continuum_icon.webp"
+    },
+    {
+        "id": "371",
+        "name": "Curse of the Tower",
+        "description": "En prenant des dégâts, fait apparaître six bombes de troll autour de la pièce, similaire à l'effet de XVI - La Tour.",
+        "unlock": "De base",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Curse_of_the_Tower_icon.webp"
+    },
+    {
+        "id": "373",
+        "name": "Dead Eye",
+        "description": "Les dégâts d'Isaac augmentent à chaque fois qu'un ennemi est touché. Les dégâts sont réinitialisés en cas de raté d'un tir.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Dead_Eye_icon.webp"
+    },
+    {
+        "id": "374",
+        "name": "Holy Light",
+        "description": "Ajoute une chance de tirer des larmes sacrées, qui créent un faisceau de lumière endommageant dans la zone si elles touchent un ennemi.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Holy_Light_icon.webp"
+    },
+    {
+        "id": "375",
+        "name": "Host Hat",
+        "description": "Un familier hôte qui se pose sur la tête d'Isaac et a une chance aléatoire de bloquer les tirs ennemis et de riposter avec 3 larmes. Accorde une immunité aux explosions.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Host_Hat_icon.webp"
+    },
+    {
+        "id": "377",
+        "name": "Bursting Sack",
+        "description": "Les ennemis araignées ne ciblent plus Isaac et ne lui infligent plus de dégâts au contact.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Bursting_Sack_icon.webp"
+    },
+    {
+        "id": "378",
+        "name": "Number Two",
+        "description": "Tirer continuellement des larmes pendant trois secondes fait tomber une bombe-caca à derrière Isaac, qui endommage et désoriente tous les ennemis dans la salle lorsqu'elle explose.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Number_Two_icon.webp"
+    },
+    {
+        "id": "379",
+        "name": "Pupula Duplex",
+        "description": "Accorde à Isaac des larmes spectrales et donne à ses larmes une forme d'arc large, augmentant leur taille.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Pupula_Duplex_icon.webp"
+    },
+    {
+        "id": "381",
+        "name": "Eden's Blessing",
+        "description": "+0,7 d'augmentation de cadence de tir. Accorde un objet aléatoire au début de la prochaine partie.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Edens_Blessing_icon.webp"
+    },
+    {
         "id": "382",
         "name": "Friendly Ball",
         "description": "Lancer la balle sur un monstre le tue instantanément et le capture. L'ennemi capturé peut être relâché plus tard et sera amical, combattant pour Isaac et persistant entre les pièces.",
@@ -1840,12 +1960,60 @@
         "image": "./img/items/Collectible_Friendly_Ball_icon.webp"
     },
     {
+        "id": "384",
+        "name": "Lil Gurdy",
+        "description": "Un familier Gurdy Jr. qui se charge pendant qu'Isaac tire, rebondissant dans la salle lorsqu'il est relâché et infligeant des dégâts au contact en fonction de sa vitesse.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Familier",
+        "image": "./img/items/Collectible_Lil_Gurdy_icon.webp"
+    },
+    {
+        "id": "385",
+        "name": "Bumbo",
+        "description": "Crée un familier mendiant qui ramasse toutes les pièces à proximité, évoluant après avoir collecté plusieurs pièces. Au niveau 2, Bumbo obtient un corps. Au niveau 3, il commence à tirer des larmes. Au niveau 4, Bumbo suit les ennemis et inflige des dégâts au contact.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Familier",
+        "image": "./img/items/Collectible_Bumbo_icon.webp"
+    },
+    {
         "id": "386",
         "name": "D12",
         "description": "Re-roll la plupart des types d'obstacles dans la pièce actuelle en d'autres obstacles aléatoires.",
         "unlock": "Débloquez cet objet en vainquant Hush en tant que Cain.",
         "type": "Activable & Dés",
         "image": "./img/items/Collectible_D12_icon.webp"
+    },
+    {
+        "id": "388",
+        "name": "Key Bum",
+        "description": "Crée un familier qui suit Isaac et collecte des clés pour lui-même, donnant en retour des coffres aléatoires.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Familier",
+        "image": "./img/items/Collectible_Key_Bum_icon.webp"
+    },
+    {
+        "id": "389",
+        "name": "Rune Bag",
+        "description": "Fait apparaître un familier qui laisse tomber une rune aléatoire après avoir nettoyé suffisamment de salles.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Familier",
+        "image": "./img/items/Collectible_Rune_Bag_icon.webp"
+    },
+    {
+        "id": "390",
+        "name": "Seraphim",
+        "description": "Fait apparaître un familier d'ange qui suit Isaac et tire des larmes homing qui infligent 10 dégâts et ont 75% de vitesse de tir.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Familier",
+        "image": "./img/items/Collectible_Seraphim_icon.webp"
+    },
+    {
+        "id": "391",
+        "name": "Betrayal",
+        "description": "Enchante tous les ennemis dans la salle lorsque Isaac subit des dégâts. Les ennemis peuvent se blesser entre eux. Si un ennemi est blessé par un autre ennemi, il attaquera cet ennemi au lieu d'Isaac.",
+        "unlock": "Feature comming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Betrayal_icon.webp"
     },
     {
         "id": "406",
