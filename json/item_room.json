@@ -2016,12 +2016,116 @@
         "image": "./img/items/Collectible_Betrayal_icon.webp"
     },
     {
+        "id": "392",
+        "name": "Zodiac",
+        "description": "Accorde à Isaac un effet d'objet zodiacal aléatoire qui change à chaque étage.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Zodiac_icon.webp"
+    },
+    {
+        "id": "393",
+        "name": "Serpent's Kiss",
+        "description": "Les larmes ont une chance d'appliquer un effet de poison aux ennemis. Isaac empoisonne les ennemis au contact. Les ennemis empoisonnés ont une chance de laisser tomber un cœur noir lorsqu'ils sont tués.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Serpents_Kiss_icon.webp"
+    },
+    {
+        "id": "394",
+        "name": "Marked",
+        "description": "Isaac tirera automatiquement des larmes dirigées vers une cible rouge au sol. La cible peut être déplacée avec les contrôles des larmes. +0,7 de cadence de tir, augmente la portée.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Marked_icon.webp"
+    },
+    {
+        "id": "395",
+        "name": "Tech X",
+        "description": "Les larmes sont remplacées par des anneaux laser qui traversent les ennemis et infligent des dégâts aux ennemis à l'intérieur. Peut être chargé pour augmenter l'efficacité de l'anneau.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Tech_X_icon.webp"
+    },
+    {
+        "id": "397",
+        "name": "Tractor Beam",
+        "description": "Isaac émet un rayon depuis son visage auquel ses larmes sont liées. Augmente la cadence de tir, la portée et la vitesse de tir.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Tractor_Beam_icon.webp"
+    },
+    {
+        "id": "398",
+        "name": "God's Flesh",
+        "description": "Les larmes ont une chance de rétrécir les ennemis, les faisant fuir Isaac. Les ennemis rétrécis peuvent être écrasés et tués en marchant dessus.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Champignon",
+        "image": "./img/items/Collectible_Gods_Flesh_icon.webp"
+    },
+    {
+        "id": "401",
+        "name": "Explosivo",
+        "description": "Les larmes d'Isaac ont une chance de coller aux ennemis et d'exploser.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Explosivo_icon.webp"
+    },
+    {
+        "id": "404",
+        "name": "Farting Baby",
+        "description": "Crée un familier qui suit Isaac et bloque les tirs ennemis. Si un tir touche le Bébé Péteur, il a une chance de péter, ce qui charme, empoisonne ou repousse les ennemis à proximité.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Familier",
+        "image": "./img/items/Collectible_Farting_Baby_icon.webp"
+    },
+    {
+        "id": "405",
+        "name": "GB Bug",
+        "description": "Crée un familier qui suit Isaac. En appuyant deux fois sur le bouton de tir, il le lance vers l'avant, ce qui fait qu'il reroll le premier monstre ou objet ramassé qu'il touche.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Familier",
+        "image": "./img/items/Collectible_GB_Bug_icon.webp"
+    },
+    {
         "id": "406",
         "name": "D8",
         "description": "Re-roll les dégâts, les larmes, la portée et la vitesse d'Isaac.",
         "unlock": "Débloquez en accomplissant le challenge #28",
         "type": "Activable & Dés",
         "image": "./img/items/Collectible_D8_icon.webp"
+    },
+    {
+        "id": "407",
+        "name": "Purity",
+        "description": "Améliore l'une des statistiques d'Isaac en fonction de la couleur de l'aura autour de lui. L'aura disparaît lorsqu'il subit des dégâts et réapparaît avec une couleur aléatoire en entrant dans une nouvelle salle. Le rouge augmente les dégâts, le bleu augmente les larmes, le jaune augmente la vitesse et l'orange augmente la portée.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Purity_icon.webp"
+    },
+    {
+        "id": "410",
+        "name": "Evil Eye",
+        "description": "Accorde une chance de tirer un œil en mouvement lent qui tire des larmes dans la même direction qu'Isaac. L'œil est détruit lorsqu'il touche un ennemi ou un obstacle.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Evil_Eye_icon.webp"
+    },
+    {
+        "id": "411",
+        "name": "Lusty Blood",
+        "description": "Les dégâts d'Isaac augmentent pour la salle actuelle chaque fois qu'il tue un ennemi.",
+        "unlock": "Feature comming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Lusty_Blood_icon.webp"
+    },
+    {
+        "id": "418",
+        "name": "Fruit Cake",
+        "description": "Les larmes d'Isaac obtiennent un effet aléatoire qui change à chaque tir.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Fruit_Cake_icon.webp"
     },
     {
         "id": "419",
@@ -2048,6 +2152,14 @@
         "image": "./img/items/Collectible_Glowing_Hourglass_icon.webp"
     },
     {
+        "id": "426",
+        "name": "Obsessed Fan",
+        "description": "Crée un familier qui suit les mouvements d'Isaac avec un léger délai et inflige 30 points de dégâts par seconde au contact avec les ennemis.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Familier",
+        "image": "./img/items/Collectible_Obsessed_Fan_icon.webp"
+    },
+    {
         "id": "427",
         "name": "Mine Crafter",
         "description": "Place un baril de TNT mobile qui peut être poussé et utilisé pour détruire des rochers ou endommager des ennemis. S'il est utilisé à nouveau dans la même pièce alors que le précédent baril de TNT est encore intact, déclenche la TNT à distance.",
@@ -2056,12 +2168,140 @@
         "image": "./img/items/Collectible_Mine_Crafter_icon.webp"
     },
     {
+        "id": "430",
+        "name": "Papa Fly",
+        "description": "Crée un familier qui suit les mouvements d'Isaac avec un délai de 3 secondes, tirant des larmes sur les ennemis à proximité.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Familier",
+        "image": "./img/items/Collectible_Papa_Fly_icon.webp"
+    },
+    {
+        "id": "431",
+        "name": "Multidimensional Baby",
+        "description": "Crée un familier qui suivra les mouvements d'Isaac avec un délai de 2,5 secondes. Les larmes qui passent à travers le bébé seront doublées et augmenteront en vitesse.",
+        "unlock": "Feature comming soon",
+        "type": "Passif & Familier",
+        "image": "./img/items/Collectible_Multidimensional_Baby_icon.webp"
+    },
+    {
+        "id": "432",
+        "name": "Glitter Bombs",
+        "description": "+5 Bombes. Les bombes ont une chance de laisser tomber des ramassages aléatoires ou de charmer les ennemis lorsqu'elles explosent.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Bombe",
+        "image": "./img/items/Collectible_Glitter_Bombs_icon.webp"
+    },
+    {
+        "id": "435",
+        "name": "Lil Loki",
+        "description": "Crée un familier Loki qui suit Isaac et tire 4 larmes selon un motif en croix.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Familier",
+        "image": "./img/items/Collectible_Lil_Loki_icon.webp"
+    },
+    {
+        "id": "436",
+        "name": "Milk!",
+        "description": "Crée un familier en verre qui se renverse sur le sol lorsqu'il est endommagé. Après que le lait se soit renversé, la cadence de tir d'Isaac est augmentée de 1 pour la salle actuelle.",
+        "unlock": "Feature coming soon",
+        "type": "Passif & Familier",
+        "image": "./img/items/Collectible_Milk_icon.webp"
+    },
+    {
         "id": "437",
         "name": "D7",
         "description": "Redémarre la pièce actuelle et ramène tous les ennemis, permettant d'obtenir plus de récompenses en terminant la pièce.",
         "unlock": "De base",
         "type": "Activable & Dés",
         "image": "./img/items/Collectible_D7_icon.webp"
+    },
+    {
+        "id": "440",
+        "name": "Kidney Stone",
+        "description": "De façon aléatoire lorsqu'il tire des larmes, Isaac cessera de tirer et deviendra rouge, où il chargera et relâchera beaucoup de larmes en une seule fois. Le déluge de larmes inclut également un calcul rénal, qui inflige beaucoup de dégâts.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Kidney_Stone_icon.webp"
+    },
+    {
+        "id": "443",
+        "name": "Apple!",
+        "description": "+0,3 de cadence de tir. Ajoute une chance de tirer une lame de rasoir qui inflige 4 fois les dégâts d'Isaac.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Apple_icon.webp"
+    },
+    {
+        "id": "444",
+        "name": "Lead Pencil",
+        "description": "Après chaque 15 larmes tirées, Isaac tirera un groupe de larmes à haut dégât.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Lead_Pencil_icon.webp"
+    },
+    {
+        "id": "445",
+        "name": "Dog Tooth",
+        "description": "+0,3 de dégâts, +0,1 de vitesse. Joue un son de hurlement ou d'aboiement lors de l'entrée dans une salle avec des Salles Secrètes ou des trappes avec échelles non découverts.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Dog_Tooth_icon.webp"
+    },
+    {
+        "id": "446",
+        "name": "Dead Tooth",
+        "description": "Lorsqu'il tire, Isaac gagne une aura verte qui empoisonne les ennemis à proximité.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Dead_Tooth_icon.webp"
+    },
+    {
+        "id": "447",
+        "name": "Linger Bean",
+        "description": "Tirer constamment provoque chez Isaac la libération de nuages de gaz qui peuvent être poussés par ses larmes et endommager les ennemis à proximité.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Linger_Bean_icon.webp"
+    },
+    {
+        "id": "448",
+        "name": "Shard of Glass",
+        "description": "Lorsqu'il subit des dégâts, Isaac saigne, projetant un volée de sang dans la direction où il tire. Le saignement finira par lui infliger des dégâts, mais il peut être arrêté en ramassant un cœur rouge.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Shard_of_Glass_icon.webp"
+    },
+    {
+        "id": "449",
+        "name": "Metal Plate",
+        "description": "Accorde un cœur d'âme. Les tirs ennemis ont une chance d'être renvoyés vers le tireur sous forme de larmes confuses.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Metal_Plate_icon.webp"
+    },
+    {
+        "id": "452",
+        "name": "Varicose Veins",
+        "description": "Lorsqu'il subit des dégâts, Isaac libère un anneau de 10 larmes à hauts dégâts.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Varicose_Veins_icon.webp"
+    },
+    {
+        "id": "453",
+        "name": "Compound Fracture",
+        "description": "Augmente la portée. Les larmes se transforment en os, qui se brisent en 1 à 3 éclats d'os lorsqu'ils touchent un ennemi ou un obstacle.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Compound_Fracture_icon.webp"
+    },
+    {
+        "id": "454",
+        "name": "Polydactyly",
+        "description": "Permet à Isaac de transporter deux cartes, pilules ou une combinaison des deux. Fait apparaître une carte, rune ou pilule aléatoire.",
+        "unlock": "Feature coming soon",
+        "type": "Passif",
+        "image": "./img/items/Collectible_Polydactyly_icon.webp"
     },
     {
         "id": "476",
