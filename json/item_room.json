@@ -1505,99 +1505,99 @@
     },
     {
         "id": "299",
-        "name": "",
-        "description": "",
+        "name": "Taurus",
+        "description": "-0,3 Vitesse. Isaac gagne en vitesse lorsqu'il se trouve dans une salle avec des ennemis. À vitesse maximale, il devient invincible et tue les ennemis au contact pendant 5 secondes.",
         "unlock": "Feature coming soon",
-        "type": "",
-        "image": "./"
+        "type": "Passif",
+        "image": "./img/items/Collectible_Taurus_icon.webp"
     },
     {
         "id": "300",
-        "name": "",
-        "description": "",
+        "name": "Aries",
+        "description": "+0,25 Vitesse. En heurtant des ennemis à grande vitesse, Isaac leur inflige des dégâts. Empêche Isaac de subir des dégâts au contact lorsqu'il se déplace à grande vitesse.",
         "unlock": "Feature coming soon",
-        "type": "",
-        "image": "./"
+        "type": "Passif",
+        "image": "./img/items/Collectible_Aries_icon.webp"
     },
     {
         "id": "301",
-        "name": "",
-        "description": "",
+        "name": "Cancer",
+        "description": "Ajoute 3 cœurs d'âme. Si un dégats devrait enlever un coeur a isaac, il n'en perd que un demi pour la salle actuelle après avoir subi des dégâts.",
         "unlock": "Feature coming soon",
-        "type": "",
-        "image": "./"
+        "type": "Passif",
+        "image": "./img/items/Collectible_Cancer_icon.webp"
     },
     {
         "id": "302",
-        "name": "",
-        "description": "",
+        "name": "Leo",
+        "description": "Isaac peut détruire les rochers en marchant dessus.",
         "unlock": "Feature coming soon",
-        "type": "",
-        "image": "./"
+        "type": "Passif",
+        "image": "./img/items/Collectible_Leo_icon.webp"
     },
     {
         "id": "303",
-        "name": "",
-        "description": "",
+        "name": "Virgo",
+        "description": "Ajoute une chance de donner un bouclier qui annule tous les dégâts entrants pendant 10 secondes après avoir subi des dégâts. Convertit également les mauvaises pilules en bonnes pilules.",
         "unlock": "Feature coming soon",
-        "type": "",
-        "image": "./"
+        "type": "Passif",
+        "image": "./img/items/Collectible_Virgo_icon.webp"
     },
     {
         "id": "304",
-        "name": "",
-        "description": "",
+        "name": "Libra",
+        "description": "Donne 6 pièces, 6 bombes et 6 clés et équilibre tous les statistiques.",
         "unlock": "Feature coming soon",
-        "type": "",
-        "image": "./"
+        "type": "Passif",
+        "image": "./img/items/Collectible_Libra_icon.webp"
     },
     {
         "id": "305",
-        "name": "",
-        "description": "",
+        "name": "Scorpio",
+        "description": "Accorde des larmes empoisonnées, qui infligent des dégâts sur la durée lorsqu'elles sont infligées.",
         "unlock": "Feature coming soon",
-        "type": "",
-        "image": "./"
+        "type": "Passif",
+        "image": "./img/items/Collectible_Scorpio_icon.webp"
     },
     {
         "id": "306",
-        "name": "",
-        "description": "",
+        "name": "Sagittarius",
+        "description": "Augmente la vitesse de +0,2 et accorde des larmes perforantes.",
         "unlock": "Feature coming soon",
-        "type": "",
-        "image": "./"
+        "type": "Passif",
+        "image": "./img/items/Collectible_Sagittarius_icon.webp"
     },
     {
         "id": "307",
-        "name": "",
-        "description": "",
+        "name": "Capricorn",
+        "description": "Ajoute 1 conteneur de cœur rouge, donne +0,5 de dégâts, +0,1 de vitesse, +0,75 de portée et +0,5 de cadence de tir, et donne 1 bombe, une pièce et une clé.",
         "unlock": "Feature coming soon",
-        "type": "",
-        "image": "./"
+        "type": "Passif",
+        "image": "./img/items/Collectible_Capricorn_icon.webp"
     },
     {
         "id": "308",
-        "name": "",
-        "description": "",
+        "name": "Aquarius",
+        "description": "Une traînée de substance gluante bleue est laissée derrière Isaac, infligeant des dégâts aux ennemis. La substance gluante hérite de la plupart des effets des larmes d'Isaac, comme le suivi, etc.",
         "unlock": "Feature coming soon",
-        "type": "",
-        "image": "./"
+        "type": "Passif",
+        "image": "./img/items/Collectible_Aquarius_icon.webp"
     },
     {
         "id": "309",
-        "name": "",
-        "description": "",
+        "name": "Pisces",
+        "description": "+0,5 de cadence de tir, ajoute des tirs repoussants et augmente la taille des larmes.",
         "unlock": "Feature coming soon",
-        "type": "",
-        "image": "./"
+        "type": "Passif",
+        "image": "./img/items/Collectible_Pisces_icon.webp"
     },
     {
         "id": "310",
-        "name": "",
-        "description": "",
+        "name": "Eve's Mascara",
+        "description": "Double les dégâts, le multiplicateur de larmes est de 0,66 fois, et réduit considérablement la vitesse des tirs.",
         "unlock": "Feature coming soon",
-        "type": "",
-        "image": "./"
+        "type": "Passif",
+        "image": "./img/items/Collectible_Eves_Mascara_icon.webp"
     },
     {
         "id": "311",
