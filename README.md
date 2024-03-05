@@ -21,16 +21,5 @@ Il est également adapté aux personnes dyslexiques, avec une police de caractè
 
 ## Contributeurs
 
-[Alexandre Vandewiele](https://github.com/AlexandreVDW)
+[Alexandre Vandewiele](https://github.com/AlexandreVDW) <br>
 [Elodie Ali](https://github.com/Taweria)
-
-## Pour Suivre l'avancement : 
-
-Nombre de ligne de json encoder :
-
-```
-21/02/2024 -> 436
-22/02/2024 -> 1015
-23/02/2024-> 2049
-26/02/2024 -> 1170
-```
